@@ -1,0 +1,30 @@
+# Shopify Theme Gitignore
+
+# Ignore theme binaries
+/theme/*
+
+# Ignore theme settings
+/config/settings_data.json
+
+# Ignore theme cache
+/cache/*
+!cache/.gitkeep
+
+# Ignore theme compiled assets
+/assets/*
+!assets/.gitkeep
+
+# Ignore theme compiled config
+/config/settings_data.json
+/config/settings_schema.json
+
+# Ignore theme editor files
+/editorconfig
+/eslintrc.json
+/prettier.config.js
+
+# Ignore theme node modules
+/node_modules
+
+# Ignore build scripts
+/build

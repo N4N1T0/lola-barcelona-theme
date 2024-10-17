@@ -1,0 +1,34 @@
+{
+  "name": "lola-barcelona-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*/*.liquid": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.5.2",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
+  },
+  "keywords": [
+    "tema",
+    "Shopify",
+    "cosméticos",
+    "belleza",
+    "maquillaje",
+    "perfumes",
+    "productos",
+    "cuidado",
+    "piel",
+    "uñas"
+  ],
+  "author": "Adrian Alvarez Alonso",
+  "license": "ISC"
+}
