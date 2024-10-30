@@ -2,7 +2,7 @@
   --space: 2.4rem;
   position: relative;
   z-index: 1;
-  border-radius: 0.8rem;
+  border-radius: 0.1rem;
   overflow: hidden;
   display: flex;
   height: 100%;
@@ -48,7 +48,7 @@
   margin-top: var(--margin-top);
   height: 100%;
   padding: var(--space);
-  border-radius: 0.8rem;
+  border-radius: 0.1rem;
   background: rgba(var(--color-background), var(--bg-alpha));
   transition: all var(--duration-long) linear;
 }
@@ -89,7 +89,7 @@
 .collection-card .collection-card__img {
   position: relative;
   pointer-events: all;
-  border-radius: 0.8rem;
+  border-radius: 0.1rem;
   overflow: hidden;
 }
 .collection-card .collection-card__img.collection-card__img-overlay,
@@ -118,7 +118,7 @@
 }
 .collection-card .collection-card__img img,
 .collection-card .collection-card__img svg {
-  border-radius: 0.8rem;
+  border-radius: 0.1rem;
 }
 .collection-card .collection-card__tags-list {
   margin: 0;
@@ -149,14 +149,14 @@
   }
 }
 .collection-card:hover .collection-card__tags-list li span {
-  animation: show 0.8s forwards;
+  animation: show 0.5s forwards;
   animation-delay: calc(var(--animation-delay) / 4);
 }
 .collection-card:hover .collection-card__tags-list li a {
   transition: all var(--duration-default) ease;
 }
 .collection-card:hover .collection-card__tags-list li a:hover {
-  opacity: 0.6;
+  color: #ff28ab;
 }
 .collection-card-default .collection-card__img > img {
   transition: transform var(--duration-long) ease;

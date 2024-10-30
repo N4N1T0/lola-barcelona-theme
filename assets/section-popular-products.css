@@ -32,3 +32,31 @@
   flex: 0 0 25%;
   max-width: 25%;
 }
+
+.popular-products .button--primary {
+  background-color: var(--lola-accent);
+}
+
+.popular-products
+  .button--secondary:not([disabled]):not([aria-disabled="true"]) {
+  background-color: black;
+  color: white;
+}
+
+.popular-products
+  .button--secondary:not([disabled]):not([aria-disabled="true"])
+  > span {
+  font-weight: 400;
+}
+
+.popular-products
+  .button--secondary:not([disabled]):not([aria-disabled="true"]):hover {
+  background-color: var(--lola-accent);
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+.popular-products .unstyled-link:hover {
+  text-decoration: underline;
+  color: var(--lola-accent);
+}

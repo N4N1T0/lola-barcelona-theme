@@ -49,8 +49,7 @@ localization-form {
   text-align: left;
 }
 .localization-form__select:hover {
-  border-color: rgb(var(--color-border-input-hover));
-  background-color: rgb(var(--color-background-input-hover));
+  opacity: 0.8;
 }
 
 .localization-form__select .icon-caret {
@@ -65,7 +64,7 @@ localization-form {
   padding: 1.2rem 2.4rem;
   width: 100%;
   height: auto;
-  background-color: rgb(var(--color-background-input));
+  background-color: var(--lola-accent);
   text-decoration: none;
   appearance: none;
   -webkit-appearance: none;
@@ -85,7 +84,7 @@ localization-form {
   transition: all var(--duration-long) ease;
 }
 
-.localization-form__select[aria-expanded=true] svg {
+.localization-form__select[aria-expanded="true"] svg {
   transform: rotate(180deg);
 }
 

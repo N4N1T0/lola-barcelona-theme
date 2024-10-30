@@ -67,20 +67,25 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 8px;
+  border-radius: 3px;
 }
 .image-with-text .image-with-text__text {
   text-transform: inherit;
   margin-bottom: 0;
 }
-.image-with-text .image-with-text__text.image-with-text__text-big:not(:first-child) {
+.image-with-text
+  .image-with-text__text.image-with-text__text-big:not(:first-child) {
   margin-top: 2.4rem;
 }
-.image-with-text .image-with-text__text.image-with-text__text-big p:not(:last-child) {
+.image-with-text
+  .image-with-text__text.image-with-text__text-big
+  p:not(:last-child) {
   margin-bottom: 2.4rem;
 }
 @media screen and (min-width: 990px) {
-  .image-with-text .image-with-text__text.image-with-text__text-big p:not(:last-child) {
+  .image-with-text
+    .image-with-text__text.image-with-text__text-big
+    p:not(:last-child) {
     margin-bottom: 4.8rem;
   }
 }
@@ -111,7 +116,8 @@
   max-width: unset;
 }
 @media screen and (min-width: 1200px) {
-  .image-with-text .image-with-text__content:not(.image-with-text__content-full) {
+  .image-with-text
+    .image-with-text__content:not(.image-with-text__content-full) {
     max-width: 600px;
   }
 }

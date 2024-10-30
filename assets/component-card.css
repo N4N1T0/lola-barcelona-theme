@@ -141,7 +141,9 @@
   transform: translateX(-50%);
   z-index: 3;
   pointer-events: all;
-  transition: transform var(--duration-default), opacity var(--duration-default);
+  transition:
+    transform var(--duration-default),
+    opacity var(--duration-default);
   padding: 1rem 2rem;
   font-size: 1.5rem;
   text-transform: capitalize;
@@ -170,9 +172,11 @@
   opacity: 0.5;
   transform: translateX(-50%) translateY(0);
   pointer-events: none;
+  background-color: var(--lola-accent);
 }
 .card__link.loading span {
   opacity: 0;
+  color: white;
 }
 .card__link.card__link--static {
   position: relative;
@@ -233,10 +237,10 @@
 
 .card--product {
   position: relative;
-  border-radius: 0.8rem;
+  border-radius: 0.3rem;
 }
 .card--product img {
-  border-radius: 0.8rem;
+  border-radius: 0.3rem;
 }
 .card--product svg:not(.icon) {
   background-color: rgba(var(--color-foreground), 0.04);
@@ -338,7 +342,7 @@
 
 .card-wrapper .media {
   padding: 0;
-  border-radius: 0.8rem;
+  border-radius: 0.3rem;
 }
 
 .card-wrapper .media > img {
@@ -406,7 +410,10 @@
   width: 100%;
 }
 
-.cart__footer-wrapper + .collection-products-section .collection-product-card:hover .card__link {
+.cart__footer-wrapper
+  + .collection-products-section
+  .collection-product-card:hover
+  .card__link {
   opacity: 0;
 }
 
@@ -452,13 +459,19 @@
 @media screen and (min-width: 1200px) {
   .card .media.media--hover-effect > img,
   .card-wrapper .media.media--hover-effect > img {
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition:
+      transform var(--duration-long) ease,
+      opacity var(--duration-long) ease;
   }
   .card__inner .media.media--hover-effect {
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition:
+      transform var(--duration-long) ease,
+      opacity var(--duration-long) ease;
   }
   .card--search img {
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition:
+      transform var(--duration-long) ease,
+      opacity var(--duration-long) ease;
   }
   .card-wrapper:hover .card__heading {
     text-decoration: underline;
@@ -499,19 +512,27 @@
   .quickview--hover:hover .placeholder-svg {
     transform: scale(1.05);
   }
-  .quickview--hover:hover .media.media--hover-effect > img:first-child:not(:only-of-type) {
+  .quickview--hover:hover
+    .media.media--hover-effect
+    > img:first-child:not(:only-of-type) {
     opacity: 0;
     transform: scale(1.12);
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition:
+      transform var(--duration-long) ease,
+      opacity var(--duration-long) ease;
   }
   .quickview--hover:hover .media.media--hover-effect > img + img {
     opacity: 1;
     transform: scale(1.1);
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition:
+      transform var(--duration-long) ease,
+      opacity var(--duration-long) ease;
   }
   .quickview--hover:hover .media.media--hover-effect > img {
     transform: scale(1.12);
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition:
+      transform var(--duration-long) ease,
+      opacity var(--duration-long) ease;
   }
   .quickview--hover:hover .card__badge {
     opacity: 0;

@@ -59,7 +59,7 @@
 }
 .collection-grid .collection-grid__cards {
   position: relative;
-  border-radius: 0.8rem;
+  border-radius: 0.1rem;
   overflow: hidden;
 }
 .collection-grid .collection-grid__card-box .collection-grid__image-block {
