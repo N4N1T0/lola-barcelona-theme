@@ -67,6 +67,7 @@
           "type": "categories",
           "settings": {
             "collection": "manicura",
+            "collection_image": "shopify://shop_images/optimized_lola_barcrlona12817_1-min.jpg",
             "column_start": 2,
             "column_end": 3,
             "row_start": "unset",
