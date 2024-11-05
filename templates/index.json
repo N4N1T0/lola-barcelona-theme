@@ -1,1 +1,303 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slideshow_item_XtdbGN":{"type":"slideshow_item","settings":{"image":"shopify:\/\/shop_images\/Crazy_Neon_Collection_1.png","color_scheme":"background-1","heading":"","text":"","button_label":"","button_link":"","button_style":"primary","button_arrow":true,"overlay_opacity":20}}},"block_order":["slideshow_item_XtdbGN"],"settings":{"section_layout":"full","section_alignment":"left","vertical_alignment":"center","text_animation":true,"image_size":"adapt","is_autoplay":true,"is_hover_stop_autoplay":false,"show_bullets":true,"parallax":false,"slideshow_speed":1.1,"slideshow_delay":3,"slide_effects":"slide","additional_text":"<p>Descubre<\/p>","enable_additional_text":true,"margin_top":"no-indent","margin_bottom":"no-indent"}},"collection_grid_A7Jbr4":{"type":"collection-grid","blocks":{"categories_mGjhEt":{"type":"categories","settings":{"collection":"pintalabios","column_start":1,"column_end":2,"row_start":"unset","row_end":"unset"}},"categories_AaKw7x":{"type":"categories","settings":{"collection":"manicura","column_start":2,"column_end":3,"row_start":"unset","row_end":"unset"}},"categories_nxp8AV":{"type":"categories","settings":{"collection":"rostro","column_start":3,"column_end":4,"row_start":"unset","row_end":"unset"}}},"block_order":["categories_mGjhEt","categories_AaKw7x","categories_nxp8AV"],"settings":{"columns":3,"image_ratio":"portrait","card_type":"text-overlay","text_bg_opacity":100,"show_collection_desc":true,"show_collection_tags":true,"margin_top":"xs","margin_bottom":"xs"}},"popular-products":{"type":"popular-products","custom_css":[],"settings":{"collection":"","product_list":["aceite-labial-reparador","lip-glow-balsamo-labial","lipgloss-light-up","ridge-filler-cotton"],"heading":"Best-sellers","description":"<p>Vegano \/ Made in Barcelona<\/p>","autoplay":true,"stop_autoplay":true,"show_arrows":true,"slideshow_speed":1.1,"slideshow_delay":3,"button_label":"Comprar todo","button_link":"","button_style":"primary","button_arrow":true,"image_ratio":"portrait","image_fit":"cover","show_collection_name":true,"show_secondary_image":true,"show_sku":false,"show_vendor":false,"show_color_swatch":false,"show_desc":false,"margin_top":"xs","margin_bottom":"xs"}},"collection-carousel":{"type":"collection-carousel","settings":{"image_size":"auto","color_scheme":"","overlay_opacity":20,"collection":"pintalabios","image":"shopify:\/\/shop_images\/Diseno_sin_titulo_84aa13f9-abb0-4cd7-a28a-e66e4b64f9f2.jpg","show_image":true,"icon_item":"none","icon_size":"medium","button_style":"primary","button_arrow":true,"slide_per_view":"3","autoplay":true,"stop_autoplay":true,"show_arrows":true,"slideshow_speed":1.1,"slideshow_delay":3,"image_ratio":"portrait","show_collection_name":true,"show_secondary_image":true,"show_sku":false,"show_vendor":false,"show_color_swatch":false,"show_desc":false,"margin_top":"no-indent","margin_bottom":"no-indent","padding_top":"s","padding_bottom":"s"}},"product_markers_9jVGbR":{"type":"product-markers","blocks":{"marker_3jU9R9":{"type":"marker","settings":{"position_x":20,"position_y":30,"product":"lengthening-mascara"}},"marker_hTfxtG":{"type":"marker","settings":{"position_x":73,"position_y":61,"product":"velvet-touch-creamy-blush"}}},"block_order":["marker_3jU9R9","marker_hTfxtG"],"settings":{"image":"shopify:\/\/shop_images\/lola_barcrlona12329.jpg","overlay_opacity":30,"heading":"Colección Clean Look","description":"<p>Maquillaje natural para un rostro natural.<\/p>","show_secondary_image":true,"show_sku":false,"show_vendor":true,"show_collection_name":true,"letter_spacing":-0.3,"button_label":"Comprar","button_link":"","button_style":"primary","button_arrow":true,"margin_top":"xs","margin_bottom":"xs"}},"popular_products_jAEiEc":{"type":"popular-products","settings":{"collection":"","product_list":["aceite-labial-reparador","lengthening-mascara","pack-clean-nails","iluminador-luminizing-powder-golden"],"heading":"Clean Look","description":"","autoplay":true,"stop_autoplay":true,"show_arrows":true,"slideshow_speed":1.1,"slideshow_delay":3,"button_label":"Descubrir","button_link":"","button_style":"primary","button_arrow":true,"image_ratio":"portrait","image_fit":"cover","show_collection_name":true,"show_secondary_image":true,"show_sku":false,"show_vendor":false,"show_color_swatch":false,"show_desc":false,"margin_top":"xs","margin_bottom":"xs"}},"image_with_text_LUV3xm":{"type":"image-with-text","settings":{"color_scheme":"","image":"shopify:\/\/shop_images\/lola_barcrlona12329.jpg","image_size":"medium","layout":"image_first","icon_size":"medium","heading":"La Ciencia Detrás de la Belleza","text":"<p>Nuestros productos no solo te ayudan a lucir bien, sino que también se integran a la perfección en la salud de tu piel gracias a la <strong>utilización de principios activos de la cosmética <\/strong>para mejorar la textura, hidratación y luminosidad de tu piel. La combinación de tecnología avanzada y nuestra pasión por la belleza culmina en un maquillaje en el que puedes confiar para cualquier ocasión, desde una jornada laboral hasta una noche especial.<\/p><p>Descubre nuestra línea de <strong>cosméticos naturales<\/strong>, diseñada para ofrecerte una belleza consciente y responsable. Todos nuestros productos <strong>son veganos y libres de crueldad animal<\/strong>, garantizando que cada elección que haces contribuye a un mundo más ético.<\/p>","big_text":false,"desktop_content_position":"flex-start","desktop_content_alignment":"left","button_label":"","button_link":"","button_style":"primary","button_arrow":true,"margin_top":"no-indent","margin_bottom":"no-indent","padding_top":"s","padding_bottom":"s"}},"image_with_text_qVqQmh":{"type":"image-with-text","settings":{"color_scheme":"","image":"shopify:\/\/shop_images\/lola_barcrlona13036.jpg","image_size":"medium","layout":"image_first","icon_size":"medium","heading":"Compromiso con la Excelencia","text":"<p>Somos un<strong>laboratorio de Barcelona <\/strong>dedicados a crear maquillaje de alta calidad. Desde la selección de ingredientes hasta el proceso de fabricación, cada paso es meticulosamente controlado para garantizar que obtengas lo mejor. Nuestra experiencia y dedicación nos permiten ofrecerte productos que realzan tu belleza natural y cuidan de tu piel.<\/p>","big_text":false,"desktop_content_position":"flex-start","desktop_content_alignment":"left","button_label":"","button_link":"","button_style":"primary","button_arrow":true,"margin_top":"no-indent","margin_bottom":"no-indent","padding_top":"s","padding_bottom":"s"}}},"order":["slideshow","collection_grid_A7Jbr4","popular-products","collection-carousel","product_markers_9jVGbR","popular_products_jAEiEc","image_with_text_LUV3xm","image_with_text_qVqQmh"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_XtdbGN": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify://shop_images/Crazy_Neon_Collection_1.png",
+            "color_scheme": "background-1",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_arrow": true,
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_XtdbGN"
+      ],
+      "settings": {
+        "section_layout": "full",
+        "section_alignment": "left",
+        "vertical_alignment": "center",
+        "text_animation": true,
+        "image_size": "adapt",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_bullets": true,
+        "parallax": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "additional_text": "<p>Descubre</p>",
+        "enable_additional_text": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "collection_grid_A7Jbr4": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories_mGjhEt": {
+          "type": "categories",
+          "settings": {
+            "collection": "pintalabios",
+            "collection_image": "shopify://shop_images/lola-barcelona-12056.jpg",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_AaKw7x": {
+          "type": "categories",
+          "settings": {
+            "collection": "manicura",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_nxp8AV": {
+          "type": "categories",
+          "settings": {
+            "collection": "rostro",
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories_mGjhEt",
+        "categories_AaKw7x",
+        "categories_nxp8AV"
+      ],
+      "settings": {
+        "columns": 3,
+        "image_ratio": "portrait",
+        "card_type": "text-overlay",
+        "text_bg_opacity": 100,
+        "show_collection_desc": true,
+        "show_collection_tags": true,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "collection": "",
+        "product_list": [
+          "aceite-labial-reparador",
+          "lip-glow-balsamo-labial",
+          "lipgloss-light-up",
+          "ridge-filler-cotton"
+        ],
+        "heading": "Best-sellers",
+        "description": "<p>Vegano / Made in Barcelona</p>",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "Comprar todo",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "image_size": "auto",
+        "color_scheme": "",
+        "overlay_opacity": 20,
+        "collection": "pintalabios",
+        "image": "shopify://shop_images/Diseno_sin_titulo_84aa13f9-abb0-4cd7-a28a-e66e4b64f9f2.jpg",
+        "show_image": true,
+        "icon_item": "none",
+        "icon_size": "medium",
+        "button_style": "primary",
+        "button_arrow": true,
+        "slide_per_view": "3",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "product_markers_9jVGbR": {
+      "type": "product-markers",
+      "blocks": {
+        "marker_3jU9R9": {
+          "type": "marker",
+          "settings": {
+            "position_x": 20,
+            "position_y": 30,
+            "product": "lengthening-mascara"
+          }
+        },
+        "marker_hTfxtG": {
+          "type": "marker",
+          "settings": {
+            "position_x": 73,
+            "position_y": 61,
+            "product": "velvet-touch-creamy-blush"
+          }
+        }
+      },
+      "block_order": [
+        "marker_3jU9R9",
+        "marker_hTfxtG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
+        "overlay_opacity": 30,
+        "heading": "Colección Clean Look",
+        "description": "<p>Maquillaje natural para un rostro natural.</p>",
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "show_collection_name": true,
+        "letter_spacing": -0.3,
+        "button_label": "Comprar",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "popular_products_jAEiEc": {
+      "type": "popular-products",
+      "settings": {
+        "collection": "",
+        "product_list": [
+          "aceite-labial-reparador",
+          "lengthening-mascara",
+          "pack-clean-nails",
+          "iluminador-luminizing-powder-golden"
+        ],
+        "heading": "Clean Look",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "Descubrir",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "image_with_text_LUV3xm": {
+      "type": "image-with-text",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
+        "image_size": "medium",
+        "layout": "image_first",
+        "icon_size": "medium",
+        "heading": "La Ciencia Detrás de la Belleza",
+        "text": "<p>Nuestros productos no solo te ayudan a lucir bien, sino que también se integran a la perfección en la salud de tu piel gracias a la <strong>utilización de principios activos de la cosmética </strong>para mejorar la textura, hidratación y luminosidad de tu piel. La combinación de tecnología avanzada y nuestra pasión por la belleza culmina en un maquillaje en el que puedes confiar para cualquier ocasión, desde una jornada laboral hasta una noche especial.</p><p>Descubre nuestra línea de <strong>cosméticos naturales</strong>, diseñada para ofrecerte una belleza consciente y responsable. Todos nuestros productos <strong>son veganos y libres de crueldad animal</strong>, garantizando que cada elección que haces contribuye a un mundo más ético.</p>",
+        "big_text": false,
+        "desktop_content_position": "flex-start",
+        "desktop_content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "image_with_text_qVqQmh": {
+      "type": "image-with-text",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/lola_barcrlona13036.jpg",
+        "image_size": "medium",
+        "layout": "image_first",
+        "icon_size": "medium",
+        "heading": "Compromiso con la Excelencia",
+        "text": "<p>Somos un<strong>laboratorio de Barcelona </strong>dedicados a crear maquillaje de alta calidad. Desde la selección de ingredientes hasta el proceso de fabricación, cada paso es meticulosamente controlado para garantizar que obtengas lo mejor. Nuestra experiencia y dedicación nos permiten ofrecerte productos que realzan tu belleza natural y cuidan de tu piel.</p>",
+        "big_text": false,
+        "desktop_content_position": "flex-start",
+        "desktop_content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection_grid_A7Jbr4",
+    "popular-products",
+    "collection-carousel",
+    "product_markers_9jVGbR",
+    "popular_products_jAEiEc",
+    "image_with_text_LUV3xm",
+    "image_with_text_qVqQmh"
+  ]
+}
