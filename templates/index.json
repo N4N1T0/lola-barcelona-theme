@@ -138,113 +138,6 @@
         "margin_bottom": "xs"
       }
     },
-    "collection-carousel": {
-      "type": "collection-carousel",
-      "settings": {
-        "image_size": "auto",
-        "color_scheme": "",
-        "overlay_opacity": 20,
-        "collection": "cofre-glamour",
-        "image": "shopify://shop_images/lola-barcelona-12277.jpg",
-        "show_image": true,
-        "icon_item": "none",
-        "icon_size": "small",
-        "button_style": "primary",
-        "button_arrow": true,
-        "slide_per_view": "3",
-        "autoplay": true,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "image_ratio": "portrait",
-        "show_collection_name": false,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
-      }
-    },
-    "product_markers_9jVGbR": {
-      "type": "product-markers",
-      "blocks": {
-        "marker_3jU9R9": {
-          "type": "marker",
-          "settings": {
-            "position_x": 20,
-            "position_y": 30,
-            "product": "lengthening-mascara"
-          }
-        },
-        "marker_hTfxtG": {
-          "type": "marker",
-          "settings": {
-            "position_x": 73,
-            "position_y": 61,
-            "product": "velvet-touch-creamy-blush"
-          }
-        }
-      },
-      "block_order": [
-        "marker_3jU9R9",
-        "marker_hTfxtG"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
-        "overlay_opacity": 30,
-        "heading": "Colección Clean Look",
-        "description": "<p>Maquillaje natural para un rostro natural.</p>",
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": true,
-        "show_collection_name": true,
-        "letter_spacing": -0.3,
-        "button_label": "Comprar",
-        "button_link": "shopify://collections/rostro",
-        "button_style": "primary",
-        "button_arrow": true,
-        "margin_top": "xs",
-        "margin_bottom": "xs"
-      }
-    },
-    "popular_products_jAEiEc": {
-      "type": "popular-products",
-      "settings": {
-        "collection": "",
-        "product_list": [
-          "aceite-labial-reparador",
-          "lengthening-mascara",
-          "pack-clean-nails",
-          "iluminador-luminizing-powder-golden"
-        ],
-        "heading": "Clean Look",
-        "description": "",
-        "autoplay": true,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "button_label": "Descubrir",
-        "button_link": "",
-        "button_style": "primary",
-        "button_arrow": true,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "show_collection_name": true,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "xs",
-        "margin_bottom": "xs"
-      }
-    },
     "image_with_text_yp8E79": {
       "type": "image-with-text",
       "blocks": {
@@ -307,15 +200,224 @@
         "padding_top": "s",
         "padding_bottom": "s"
       }
+    },
+    "popular_products_jAEiEc": {
+      "type": "popular-products",
+      "settings": {
+        "collection": "",
+        "product_list": [
+          "aceite-labial-reparador",
+          "lengthening-mascara",
+          "pack-clean-nails",
+          "iluminador-luminizing-powder-golden"
+        ],
+        "heading": "Clean Look",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "Descubrir",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "image_size": "auto",
+        "color_scheme": "",
+        "overlay_opacity": 20,
+        "collection": "cofre-glamour",
+        "image": "shopify://shop_images/lola-barcelona-12277.jpg",
+        "show_image": true,
+        "icon_item": "none",
+        "icon_size": "small",
+        "button_style": "primary",
+        "button_arrow": true,
+        "slide_per_view": "3",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "testimonials_gYARwU": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials_slide_6qHU33": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify://shop_images/pack_valentine_500x500_b05ea622-e2ca-4b10-bc7c-8cd7acc7ba86.jpg",
+            "object_fit": "cover",
+            "text": "<p>Me encanta, no me reseca los labios es súper duradero y queda precioso el color Sandy!</p>",
+            "author_name": "Isa M.",
+            "author_data": "04/02/24",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_GTxdh8": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify://shop_images/1_97cf4eca-ac3b-4fb4-b57f-b0429d5e5194.jpg",
+            "object_fit": "cover",
+            "text": "<p>Era la primera vez que usaba un colorete en crema. Me encanta. Fácil de aplicar y duradero. El color es precioso con un poco de brillo.</p>",
+            "author_name": "Arancha S.",
+            "author_data": "17/04/24",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_D3qimz": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify://shop_images/MTBADHABBITcopia.jpg",
+            "object_fit": "cover",
+            "text": "<p>Color precioso. Textura suave que hidrata mucho. Me encanta</p>",
+            "author_name": "Author name",
+            "author_data": "04/12/23",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_aYhNHL": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify://shop_images/25_2048x_277f0828-776c-432d-a00d-e14595061667.webp",
+            "object_fit": "cover",
+            "text": "<p>Si buscas un gloss que se mantenga en tus labios , te lo recomiendo</p>",
+            "author_name": "Nuria F.",
+            "author_data": "13/04/24",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_GLTyNg": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify://shop_images/LIP_GLOW_BELLE_BLP605004_1_copia.jpg",
+            "object_fit": "cover",
+            "text": "<p>Productos maravillosos con un packaging estupendo, volver a comprar más productos sin duda</p>",
+            "author_name": "Marta C.",
+            "author_data": "07/12/23",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "testimonials_slide_tUGqYU": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify://shop_images/ADSQUEFUNCIONAN_1.jpg",
+            "object_fit": "cover",
+            "text": "<p>Me ha gustado mucho el color del fortalecerdor de uñas, es muy sutil y a la vez tiene tratamiento. Y el top coap está muy bien.</p>",
+            "author_name": "Jennifer",
+            "author_data": "21/05/24",
+            "enable_stars": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonials_slide_6qHU33",
+        "testimonials_slide_GTxdh8",
+        "testimonials_slide_D3qimz",
+        "testimonials_slide_aYhNHL",
+        "testimonials_slide_GLTyNg",
+        "testimonials_slide_tUGqYU"
+      ],
+      "settings": {
+        "color_scheme": "background-6",
+        "heading": "Testimonios que Inspiran",
+        "description": "<p>Lo que nuestras clientas aman de Lola Barcelona</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "product_markers_9jVGbR": {
+      "type": "product-markers",
+      "blocks": {
+        "marker_3jU9R9": {
+          "type": "marker",
+          "settings": {
+            "position_x": 20,
+            "position_y": 30,
+            "product": "lengthening-mascara"
+          }
+        },
+        "marker_hTfxtG": {
+          "type": "marker",
+          "settings": {
+            "position_x": 73,
+            "position_y": 61,
+            "product": "velvet-touch-creamy-blush"
+          }
+        }
+      },
+      "block_order": [
+        "marker_3jU9R9",
+        "marker_hTfxtG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
+        "overlay_opacity": 30,
+        "heading": "Colección Clean Look",
+        "description": "<p>Maquillaje natural para un rostro natural.</p>",
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "show_collection_name": true,
+        "letter_spacing": -0.3,
+        "button_label": "Comprar",
+        "button_link": "shopify://collections/rostro",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
     }
   },
   "order": [
     "slideshow",
     "collection_grid_A7Jbr4",
     "popular-products",
-    "collection-carousel",
-    "product_markers_9jVGbR",
+    "image_with_text_yp8E79",
     "popular_products_jAEiEc",
-    "image_with_text_yp8E79"
+    "collection-carousel",
+    "testimonials_gYARwU",
+    "product_markers_9jVGbR"
   ]
 }
