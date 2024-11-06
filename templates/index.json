@@ -97,7 +97,7 @@
         "card_type": "text-overlay",
         "text_bg_opacity": 100,
         "show_collection_desc": true,
-        "show_collection_tags": true,
+        "show_collection_tags": false,
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
