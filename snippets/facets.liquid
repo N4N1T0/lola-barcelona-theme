@@ -165,7 +165,7 @@
                   {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
                   <select
                     name="sort_by"
-                    class="select__select"
+                    class="select__select buttons_radius"
                     id="SortBy"
                     aria-describedby="a11y-refresh-page-message"
                   >
@@ -539,7 +539,7 @@
                                 {{- cart.currency.symbol -}}
                               </span>
                               <input
-                                class="field__input"
+                                class="buttons_radius field__input"
                                 name="{{ filter.min_value.param_name }}"
                                 id="Filter-{{ filter.label | escape }}-GTE"
                                 {%- if filter.min_value.value -%}
@@ -574,7 +574,7 @@
                                 {{- cart.currency.symbol -}}
                               </span>
                               <input
-                                class="field__input"
+                                class="buttons_radius field__input"
                                 name="{{ filter.max_value.param_name }}"
                                 id="Filter-{{ filter.label | escape }}-LTE"
                                 {%- if filter.max_value.value -%}
@@ -957,7 +957,7 @@
                             <div class="facets__price-wrapper">
                               <div class="field">
                                 <input
-                                  class="field__input"
+                                  class="buttons_radius field__input"
                                   name="{{ filter.min_value.param_name }}"
                                   id="Mobile-Filter-{{ filter.label | escape }}-GTE"
                                   {%- if filter.min_value.value -%}
@@ -977,7 +977,7 @@
                               </div>
                               <div class="field">
                                 <input
-                                  class="field__input"
+                                  class="buttons_radius field__input"
                                   name="{{ filter.max_value.param_name }}"
                                   id="Mobile-Filter-{{ filter.label | escape }}-LTE"
                                   {%- if filter.max_value.value -%}

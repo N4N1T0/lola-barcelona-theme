@@ -192,7 +192,7 @@
               id="{{ product_form_id }}-submit"
               type="submit"
               name="add"
-              class="buttons_radius card__link button button--{{ settings.quickview_button_style }} card__link--{{ settings.quickview_button_layout }} {%- if settings.show_on_mobile == false -%}mobile-hide{%- endif -%} card-focused{% if settings.quickview_button_style == 'link' %} button--primary{% endif %}"
+              class="buttons_radius button_pink-color_white-letters card__quickview-text card__link button button--{{ settings.quickview_button_style }} card__link--{{ settings.quickview_button_layout }} {%- if settings.show_on_mobile == false -%}mobile-hide{%- endif -%} card-focused{% if settings.quickview_button_style == 'link' %} button--primary{% endif %}"
               aria-haspopup="dialog"
               aria-label="quick-view-button"
               aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ product_card_product.id }}"
@@ -244,9 +244,11 @@
                   class="quick-add-modal__content-info"
                 ></div>
               </div>
-              <div class="quick-add-modal__announcement-bar{% if product_card_product.media.size == 0 %} quick-add-modal__announcement-bar___full{% endif %} background color-{{ settings.quickview_announcement_color_scheme }}">
-                {{ settings.quickview_announcement }}
-              </div>
+              {% comment %}
+                <div class="quick-add-modal__announcement-bar{% if product_card_product.media.size == 0 %} quick-add-modal__announcement-bar___full{% endif %} background color-{{ settings.quickview_announcement_color_scheme }}">
+                  {{ settings.quickview_announcement }}
+                </div>
+              {% endcomment %}
             </div>
           </quick-add-modal>
         </div>
@@ -255,7 +257,7 @@
     <div class="card__badge">
       {%- if product_card_product.available == false -%}
         <span
-          class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
+          class="buttons_radius badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
           aria-hidden="true"
         >
           {{- 'products.product.sold_out' | t -}}
@@ -264,7 +266,7 @@
         and product_card_product.available
       -%}
         <span
-          class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+          class="buttons_radius badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
           aria-hidden="true"
         >
           {{- 'products.product.on_sale' | t -}}

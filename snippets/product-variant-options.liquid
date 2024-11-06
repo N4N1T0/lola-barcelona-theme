@@ -141,7 +141,7 @@
       title="{{ value }}"
       style="--swatch-color: {{ color_value_custom | remove: '-' }}; --swatch-bg: {{ swatch_bg }};--disable-color:{{ disable_color }};--checkbox-bg: {{ checkbox_bg }}; border-radius: {{ settings.swatch_border_radius }}%"
     >
-      <span class="visually-hidden white_letter_color">{{- value -}}</span>
+      <span class="visually-hidden">{{- value -}}</span>
       {% comment %}
         <span class="color-swatch__disabled-icon">
         	{% render 'icon-color-deactivate' %}

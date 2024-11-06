@@ -1,1 +1,63 @@
-{"sections":{"main":{"type":"main-account","settings":{}},"popular-products":{"type":"popular-products","settings":{"collection":"arabica","heading":"You May be Interested","image_ratio":"landscape","image_fit":"cover","show_secondary_image":true,"show_vendor":true,"show_desc":false}}},"order":["main","popular-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "settings": {
+        "collection": "arabica",
+        "product_list": [
+          "aceite-labial-reparador",
+          "aceite-reparador-lilly",
+          "lipgloss-calm",
+          "lip-glow-balsamo-labial",
+          "bohemian-glam-collection",
+          "amour-glamour",
+          "dragon-fruit-lip-oil",
+          "crazy-neon-collection-1",
+          "duo-over-lip",
+          "duo-aceite-labial-ultra-shine",
+          "esmalte-de-unas-jolly-edicion-limitada",
+          "copia-de-esmalte-de-unas-wolf"
+        ],
+        "heading": "PRODUCTOS POPULARES",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "landscape",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "popular-products"
+  ]
+}
