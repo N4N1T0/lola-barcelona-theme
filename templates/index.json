@@ -245,52 +245,6 @@
         "margin_bottom": "xs"
       }
     },
-    "image_with_text_LUV3xm": {
-      "type": "image-with-text",
-      "settings": {
-        "color_scheme": "",
-        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
-        "image_size": "medium",
-        "layout": "image_first",
-        "icon_size": "medium",
-        "heading": "La Ciencia Detrás de la Belleza",
-        "text": "<p>Nuestros productos no solo te ayudan a lucir bien, sino que también se integran a la perfección en la salud de tu piel gracias a la <strong>utilización de principios activos de la cosmética </strong>para mejorar la textura, hidratación y luminosidad de tu piel. La combinación de tecnología avanzada y nuestra pasión por la belleza culmina en un maquillaje en el que puedes confiar para cualquier ocasión, desde una jornada laboral hasta una noche especial.</p><p>Descubre nuestra línea de <strong>cosméticos naturales</strong>, diseñada para ofrecerte una belleza consciente y responsable. Todos nuestros productos <strong>son veganos y libres de crueldad animal</strong>, garantizando que cada elección que haces contribuye a un mundo más ético.</p>",
-        "big_text": false,
-        "desktop_content_position": "flex-start",
-        "desktop_content_alignment": "left",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "button_arrow": true,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
-      }
-    },
-    "image_with_text_qVqQmh": {
-      "type": "image-with-text",
-      "settings": {
-        "color_scheme": "",
-        "image": "shopify://shop_images/lola_barcrlona13036.jpg",
-        "image_size": "medium",
-        "layout": "image_first",
-        "icon_size": "medium",
-        "heading": "Compromiso con la Excelencia",
-        "text": "<p>Somos un <strong>laboratorio de Barcelona </strong>dedicados a crear maquillaje de alta calidad. Desde la selección de ingredientes hasta el proceso de fabricación, cada paso es meticulosamente controlado para garantizar que obtengas lo mejor. Nuestra experiencia y dedicación nos permiten ofrecerte productos que realzan tu belleza natural y cuidan de tu piel.</p>",
-        "big_text": false,
-        "desktop_content_position": "flex-start",
-        "desktop_content_alignment": "left",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "button_arrow": true,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
-      }
-    },
     "image_with_text_yp8E79": {
       "type": "image-with-text",
       "blocks": {
@@ -307,7 +261,7 @@
           "settings": {
             "icon_item": "icon_5",
             "subheading": "",
-            "text": "<p>Productos son veganos y libres de crueldad animal, garantizando que cada elección que haces contribuye a un mundo más ético.</p>"
+            "text": "<p>Productos veganos y libres de crueldad animal, garantizando que cada elección que haces contribuye a un mundo más ético.</p>"
           }
         },
         "column_WXHjhH": {
@@ -323,7 +277,7 @@
           "settings": {
             "icon_item": "icon_4",
             "subheading": "",
-            "text": "<p>Comprometidas con la elección de ingredientes y el proceso de fabricación, cada paso es meticulosamente controlado.</p>"
+            "text": "<p>Comprometidas con la elección de ingredientes y el proceso de fabricación, cada paso está meticulosamente controlado.</p>"
           }
         }
       },
@@ -335,7 +289,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "image": "shopify://shop_images/lola_barcrlona13036.jpg",
+        "image": "shopify://shop_images/lola_barcrlona12489.jpg",
         "image_size": "large",
         "layout": "image_first",
         "icon_size": "medium",
@@ -362,8 +316,6 @@
     "collection-carousel",
     "product_markers_9jVGbR",
     "popular_products_jAEiEc",
-    "image_with_text_LUV3xm",
-    "image_with_text_qVqQmh",
     "image_with_text_yp8E79"
   ]
 }
