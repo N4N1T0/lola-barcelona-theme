@@ -204,7 +204,7 @@
     "popular_products_jAEiEc": {
       "type": "popular-products",
       "settings": {
-        "collection": "",
+        "collection": "rebajas",
         "product_list": [
           "aceite-labial-reparador",
           "lengthening-mascara",
