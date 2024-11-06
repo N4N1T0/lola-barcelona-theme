@@ -205,7 +205,7 @@
         "show_collection_name": true,
         "letter_spacing": -0.3,
         "button_label": "Comprar",
-        "button_link": "",
+        "button_link": "shopify://collections/rostro",
         "button_style": "primary",
         "button_arrow": true,
         "margin_top": "xs",
