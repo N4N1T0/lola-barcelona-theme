@@ -15,7 +15,7 @@
         "slideshow_item_XtdbGN": {
           "type": "slideshow_item",
           "settings": {
-            "image": "shopify://shop_images/Crazy_Neon_Collection_1.png",
+            "image": "shopify://shop_images/Imagen_de_WhatsApp_2024-11-06_a_las_18.27.23_c08fd8f5.jpg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
@@ -36,7 +36,7 @@
         "vertical_alignment": "center",
         "text_animation": true,
         "image_size": "adapt",
-        "is_autoplay": true,
+        "is_autoplay": false,
         "is_hover_stop_autoplay": false,
         "show_bullets": true,
         "parallax": false,
@@ -44,7 +44,7 @@
         "slideshow_delay": 3,
         "slide_effects": "slide",
         "additional_text": "<p>Descubre</p>",
-        "enable_additional_text": true,
+        "enable_additional_text": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
