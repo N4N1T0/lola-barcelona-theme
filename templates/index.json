@@ -63,24 +63,24 @@
             "row_end": "unset"
           }
         },
-        "categories_nxp8AV": {
+        "categories_AaKw7x": {
           "type": "categories",
           "settings": {
-            "collection": "rostro",
-            "collection_image": "shopify://shop_images/lola-barcelona-13224_1.jpg",
+            "collection": "manicura",
+            "collection_image": "shopify://shop_images/lola-bcn-unas_247209e1-057a-4641-8e5e-428a52e124ee.png",
             "column_start": 2,
             "column_end": 3,
             "row_start": "unset",
             "row_end": "unset"
           }
         },
-        "categories_AaKw7x": {
+        "categories_nxp8AV": {
           "type": "categories",
           "settings": {
-            "collection": "manicura",
-            "collection_image": "shopify://shop_images/lola-barcelona-unas.jpg",
+            "collection": "rostro",
+            "collection_image": "shopify://shop_images/lola-barcelona-13224_1.jpg",
             "column_start": 3,
-            "column_end": 3,
+            "column_end": 4,
             "row_start": "unset",
             "row_end": "unset"
           }
@@ -88,8 +88,8 @@
       },
       "block_order": [
         "categories_mGjhEt",
-        "categories_nxp8AV",
-        "categories_AaKw7x"
+        "categories_AaKw7x",
+        "categories_nxp8AV"
       ],
       "settings": {
         "columns": 3,
