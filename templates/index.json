@@ -56,7 +56,7 @@
           "type": "categories",
           "settings": {
             "collection": "pintalabios",
-            "collection_image": "shopify://shop_images/lola-barcelona-12056.jpg",
+            "collection_image": "shopify://shop_images/lola-barcrlona-13187.jpg",
             "column_start": 1,
             "column_end": 2,
             "row_start": "unset",
@@ -420,7 +420,7 @@
       "type": "newsletter",
       "settings": {
         "color_scheme": "",
-        "position": "left",
+        "position": "center",
         "icon_item": "none",
         "icon_size": "medium",
         "heading": "Únete a nuestra Newsletter",
