@@ -385,11 +385,20 @@
             "position_y": 61,
             "product": "velvet-touch-creamy-blush"
           }
+        },
+        "marker_JFN4U7": {
+          "type": "marker",
+          "settings": {
+            "position_x": 58,
+            "position_y": 99,
+            "product": "matte-liquid-lipstick-sandy"
+          }
         }
       },
       "block_order": [
         "marker_3jU9R9",
-        "marker_hTfxtG"
+        "marker_hTfxtG",
+        "marker_JFN4U7"
       ],
       "settings": {
         "image": "shopify://shop_images/lola_barcrlona12329.jpg",
