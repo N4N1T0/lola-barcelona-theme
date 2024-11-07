@@ -617,7 +617,7 @@
         "button_arrow": false,
         "color_contacts": "",
         "contact_heading": "¿Sigues buscando una respuesta?",
-        "contact_description": "<p>Envía un correo electrónico a info@lola-barcelona.com y nos comunicaremos contigo lo antes posible.</p>",
+        "contact_description": "<p>Envía un correo electrónico a</p><p> info@lola-barcelona.com y nos comunicaremos contigo lo antes posible.</p>",
         "box_button_label": "",
         "box_button_link": "",
         "box_button_style": "primary",
