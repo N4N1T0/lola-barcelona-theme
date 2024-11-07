@@ -56,7 +56,7 @@
           "type": "categories",
           "settings": {
             "collection": "pintalabios",
-            "collection_image": "shopify://shop_images/lola-barcrlona-13187.jpg",
+            "collection_image": "shopify://shop_images/lola-barcelona-12101.jpg",
             "column_start": 1,
             "column_end": 2,
             "row_start": "unset",
@@ -199,72 +199,6 @@
         "padding_bottom": "s"
       }
     },
-    "popular_products_jAEiEc": {
-      "type": "popular-products",
-      "disabled": true,
-      "settings": {
-        "collection": "rebajas",
-        "product_list": [
-          "aceite-labial-reparador",
-          "lengthening-mascara",
-          "pack-clean-nails",
-          "iluminador-luminizing-powder-golden"
-        ],
-        "heading": "Clean Look",
-        "description": "",
-        "autoplay": true,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "button_label": "Descubrir",
-        "button_link": "",
-        "button_style": "primary",
-        "button_arrow": true,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "show_collection_name": true,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "xs",
-        "margin_bottom": "xs"
-      }
-    },
-    "collection-carousel": {
-      "type": "collection-carousel",
-      "settings": {
-        "image_size": "auto",
-        "color_scheme": "",
-        "overlay_opacity": 20,
-        "collection": "cofre-glamour",
-        "image": "shopify://shop_images/lola-barcelona-12277.jpg",
-        "show_image": true,
-        "icon_item": "none",
-        "icon_size": "small",
-        "button_style": "primary",
-        "button_arrow": true,
-        "slide_per_view": "3",
-        "autoplay": true,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "image_ratio": "portrait",
-        "show_collection_name": false,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
-      }
-    },
     "testimonials_gYARwU": {
       "type": "testimonials",
       "blocks": {
@@ -364,6 +298,72 @@
         "slideshow_delay": 3,
         "margin_top": "s",
         "margin_bottom": "s"
+      }
+    },
+    "popular_products_jAEiEc": {
+      "type": "popular-products",
+      "disabled": true,
+      "settings": {
+        "collection": "rebajas",
+        "product_list": [
+          "aceite-labial-reparador",
+          "lengthening-mascara",
+          "pack-clean-nails",
+          "iluminador-luminizing-powder-golden"
+        ],
+        "heading": "Clean Look",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "Descubrir",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "image_size": "auto",
+        "color_scheme": "",
+        "overlay_opacity": 20,
+        "collection": "cofre-glamour",
+        "image": "shopify://shop_images/lola-barcelona-12277.jpg",
+        "show_image": true,
+        "icon_item": "none",
+        "icon_size": "small",
+        "button_style": "primary",
+        "button_arrow": true,
+        "slide_per_view": "3",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
       }
     },
     "product_markers_9jVGbR": {
