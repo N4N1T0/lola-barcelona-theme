@@ -60,9 +60,9 @@
       },
       "background-2": {
         "settings": {
-          "colors_text": "#0e283c",
-          "colors_secondary_text": "#0e283c",
-          "colors_text_title": "#0e283c",
+          "colors_text": "#000000",
+          "colors_secondary_text": "#000000",
+          "colors_text_title": "#000000",
           "colors_background_1": "#faf5f2",
           "colors_background_2": "#f4f4f4",
           "background_gradient": "",
