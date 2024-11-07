@@ -10,6 +10,7 @@
 {
   "current": {
     "color_scheme": "light",
+    "dark_mode_toggle": false,
     "type_header_font": "futura_n5",
     "type_header_letter_spacing": -0.3,
     "type_header_line_height": 1.2,
@@ -23,9 +24,7 @@
     "type_popups_heading_font": "futura_n5",
     "type_popups_text_font": "itc_caslon_no_224_n4",
     "quickview_announcement": "",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -456,9 +455,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Pastel": {
       "color_schemes": {
@@ -669,9 +666,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Chrome": {
       "color_schemes": {
@@ -882,9 +877,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Natural": {
       "color_schemes": {
@@ -1095,9 +1088,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Airy": {
       "color_schemes": {
@@ -1308,9 +1299,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   }
 }
