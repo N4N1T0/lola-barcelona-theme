@@ -124,7 +124,7 @@
         "button_link": "shopify://collections/top-ventas",
         "button_style": "primary",
         "button_arrow": true,
-        "image_ratio": "portrait",
+        "image_ratio": "landscape",
         "image_fit": "cover",
         "show_collection_name": true,
         "show_secondary_image": true,
