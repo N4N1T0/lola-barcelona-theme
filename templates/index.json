@@ -15,7 +15,7 @@
         "slideshow_item_XtdbGN": {
           "type": "slideshow_item",
           "settings": {
-            "image": "shopify://shop_images/Imagen_de_WhatsApp_2024-11-06_a_las_18.27.23_c08fd8f5.jpg",
+            "image": "shopify://shop_images/lola_banner_black_friday.jpg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
@@ -104,9 +104,7 @@
     },
     "popular-products": {
       "type": "popular-products",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "",
         "product_list": [
