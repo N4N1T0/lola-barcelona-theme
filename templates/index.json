@@ -474,8 +474,8 @@
           "type": "column",
           "settings": {
             "icon_item": "icon_1",
-            "subheading": "Heading",
-            "text": "<p>Some description</p>",
+            "subheading": "Made in Barcelona",
+            "text": "<p>Fabricado en Barcelona</p>",
             "button_label": "Button label",
             "button_link": "",
             "button_arrow": true
