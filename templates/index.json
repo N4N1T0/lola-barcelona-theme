@@ -512,14 +512,14 @@
             "min_height": "large",
             "image_id": "shopify://shop_images/Lola-barcelona-12790.jpg",
             "overlay_opacity": 20,
-            "color_scheme": "",
+            "color_scheme": "background-6",
             "heading": "Nuestra inspiración: capturar los momentos de la vida",
             "button_label": "Button label",
-            "button_link": "",
+            "button_link": "https://www.instagram.com/lola_bcn/",
             "button_style": "primary",
             "button_arrow": false,
             "icon_social": "instagram",
-            "gradient": "linear-gradient(132.88deg, rgba(120, 49, 250, 1) 8.28%, rgba(244, 1, 143, 1) 36.86%, rgba(252, 195, 0, 1) 96.43%)",
+            "gradient": "linear-gradient(132.88deg, rgba(17, 17, 18, 1) 8.28%, rgba(244, 1, 143, 1) 36.86%, rgba(252, 195, 0, 1) 96.43%)",
             "instagram_name": "<p>@lola_bcn</p>",
             "description": "<p>Maquillaje para mujeres extraordinarias</p>"
           }
