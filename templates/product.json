@@ -7,20 +7,18 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -74,7 +72,7 @@
         "about"
       ],
       "settings": {
-        "image_gallery_collage": "thumbnail_carousel",
+        "image_gallery_collage": "thumbnail",
         "desktop_alignment": "left",
         "mobile_alignment": "after",
         "image_fit": "cover",
