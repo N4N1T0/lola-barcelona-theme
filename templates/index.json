@@ -201,6 +201,7 @@
     },
     "popular_products_jAEiEc": {
       "type": "popular-products",
+      "disabled": true,
       "settings": {
         "collection": "rebajas",
         "product_list": [
@@ -631,9 +632,9 @@
     "collection_grid_A7Jbr4",
     "popular-products",
     "image_with_text_yp8E79",
+    "testimonials_gYARwU",
     "popular_products_jAEiEc",
     "collection-carousel",
-    "testimonials_gYARwU",
     "product_markers_9jVGbR",
     "newsletter_pPKEQ7",
     "multicolumn_qN8QRt",
