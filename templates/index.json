@@ -106,7 +106,7 @@
       "type": "popular-products",
       "custom_css": [],
       "settings": {
-        "collection": "",
+        "collection": "test",
         "product_list": [
           "aceite-labial-reparador",
           "lip-glow-balsamo-labial",
@@ -124,7 +124,7 @@
         "button_link": "shopify://collections/top-ventas",
         "button_style": "primary",
         "button_arrow": true,
-        "image_ratio": "landscape",
+        "image_ratio": "portrait",
         "image_fit": "cover",
         "show_collection_name": true,
         "show_secondary_image": true,
