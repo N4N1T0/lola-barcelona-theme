@@ -107,7 +107,7 @@
       "type": "popular-products",
       "custom_css": [],
       "settings": {
-        "collection": "test",
+        "collection": "top-ventas",
         "product_list": [
           "aceite-labial-reparador",
           "lip-glow-balsamo-labial",
