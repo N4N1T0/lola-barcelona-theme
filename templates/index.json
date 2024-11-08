@@ -434,7 +434,7 @@
         "horizontal_alignment": "center",
         "object_fit": "cover",
         "img_size": "large",
-        "img_ratio": "landscape",
+        "img_ratio": "adapt",
         "icon_size": "large",
         "swipe_on_mobile": true,
         "margin_top": "no-indent",
