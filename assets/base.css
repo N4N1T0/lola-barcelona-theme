@@ -1415,7 +1415,7 @@ details > * {
   text-transform: var(--font-button-text-transform);
   letter-spacing: var(--font-subtitle-letter-spacing);
   word-break: break-word;
-  color: rgb(var(--color-badge-text));
+  color: black;
   background: rgba(var(--color-badge-background), 0.7);
   transition: all var(--duration-default) ease;
   border-radius: 3rem;
