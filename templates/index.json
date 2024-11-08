@@ -435,7 +435,7 @@
         "object_fit": "cover",
         "img_size": "large",
         "img_ratio": "portrait",
-        "icon_size": "large",
+        "icon_size": "small",
         "swipe_on_mobile": true,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
