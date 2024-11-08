@@ -481,7 +481,7 @@
             "icon_item": "icon_1",
             "subheading": "Made in Barcelona",
             "text": "<p>Fabricado en Barcelona</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_arrow": true
           }
