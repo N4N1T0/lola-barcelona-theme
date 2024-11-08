@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "slideshow": {
       "type": "slideshow",
@@ -155,7 +155,7 @@
             "icon_item": "icon_5",
             "custom_icon": "shopify://shop_images/Lola_pictos_vegan.png",
             "subheading": "",
-            "text": "<p>Productos veganos y libres de crueldad animal, garantizando que cada elección que haces contribuye a un mundo más ético.</p>"
+            "text": "<p>Productos veganos y \"pet friendly\", garantizando que cada elección que haces contribuye a un mundo más ético.</p>"
           }
         },
         "column_WXHjhH": {
