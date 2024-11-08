@@ -148,6 +148,14 @@
             "text": "<p>Utilizamos principios activos de la cosmética para mejorar la textura, hidratación y luminosidad de tu piel.</p>"
           }
         },
+        "column_DiPf9D": {
+          "type": "column",
+          "settings": {
+            "icon_item": "icon_1",
+            "subheading": "Heading",
+            "text": "<p>Some description</p>"
+          }
+        },
         "column_DVfePG": {
           "type": "column",
           "settings": {
@@ -178,6 +186,7 @@
       },
       "block_order": [
         "column_E7J36i",
+        "column_DiPf9D",
         "column_DVfePG",
         "column_WXHjhH",
         "column_pheWNR"
