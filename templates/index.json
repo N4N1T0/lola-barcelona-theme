@@ -660,10 +660,11 @@
         "column_aVFdgz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ELLE.png",
             "icon_item": "icon_1",
-            "subheading": "Heading",
-            "text": "<p>Some description</p>",
-            "button_label": "Button label",
+            "subheading": "",
+            "text": "",
+            "button_label": "",
             "button_link": "",
             "button_arrow": true
           }
