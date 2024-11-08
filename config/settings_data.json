@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "current": {
     "color_scheme": "light",
     "type_header_font": "futura_n5",
@@ -23,9 +23,16 @@
     "type_popups_heading_font": "futura_n5",
     "type_popups_text_font": "itc_caslon_no_224_n4",
     "quickview_announcement": "",
-    "content_for_index": [
-
-    ],
+    "sections": {
+      "collection-carousel": {
+        "type": "collection-carousel",
+        "settings": {
+          "button_text": "Shop Now",
+          "button_link": "/collections/all"
+        }
+      }
+    },
+    "content_for_index": [],
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -456,9 +463,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Pastel": {
       "color_schemes": {
@@ -669,9 +674,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Chrome": {
       "color_schemes": {
@@ -882,9 +885,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Natural": {
       "color_schemes": {
@@ -1095,9 +1096,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Airy": {
       "color_schemes": {
@@ -1308,9 +1307,7 @@
       "type_button_font": "dm_sans_n7",
       "type_header_menu_font": "dm_sans_n5",
       "type_footer_menu_font": "dm_sans_n4",
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   }
 }
