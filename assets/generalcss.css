@@ -43,17 +43,18 @@
   max-width: 100%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 550px) {
   .image_hero_desktop{
     display: inline;
   }
   .image_hero_mobile{
     display: none;
   }
-}
-
-@media (min-width: 500px) {
   .image_mobile_hero_class{
-    object-fit: contain!important;
+    object-fit: cover!important;
   }
 }
+
+/* @media (min-width: 500px) {
+  
+} */

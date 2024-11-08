@@ -3018,7 +3018,7 @@ cart-remove-button a:hover {
   z-index: -1;
   pointer-events: none;
   transition: all 0.4s ease;
-  background: rgba(var(--color-overlay), var(--overlay-alpha));
+  /* background: rgba(var(--color-overlay), var(--overlay-alpha)); */
 }
 
 /* Announcement-bar */
