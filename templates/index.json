@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "slideshow": {
       "type": "slideshow",
@@ -28,9 +28,7 @@
           }
         }
       },
-      "block_order": [
-        "slideshow_item_XtdbGN"
-      ],
+      "block_order": ["slideshow_item_XtdbGN"],
       "settings": {
         "section_layout": "full",
         "section_alignment": "left",
@@ -352,6 +350,8 @@
         "icon_size": "small",
         "button_style": "primary",
         "button_arrow": true,
+        "cta_text": "Ver más",
+        "cta_url": "shopify://products/looks-de-maquillaje-express-para-navidad",
         "slide_per_view": "3",
         "autoplay": true,
         "stop_autoplay": true,
@@ -474,11 +474,7 @@
           }
         }
       },
-      "block_order": [
-        "marker_3jU9R9",
-        "marker_hTfxtG",
-        "marker_JFN4U7"
-      ],
+      "block_order": ["marker_3jU9R9", "marker_hTfxtG", "marker_JFN4U7"],
       "settings": {
         "image": "shopify://shop_images/lola_barcrlona12329.jpg",
         "overlay_opacity": 30,

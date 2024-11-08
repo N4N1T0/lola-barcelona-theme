@@ -52,8 +52,8 @@
   class="collection-carousel color-{{ section.settings.color_scheme }} background"
   data-id="shopify-section-{{ section.id }}"
 >
-  {% assign button_text = section.settings.button_text %}
-  {% assign button_link = section.settings.button_link %}
+  {% assign button_text = section.settings.cta_text %}
+  {% assign button_link = section.settings.cta_url %}
 
   {%- if section.settings.image_id != blank or section.settings.video_id != blank -%}
     <div class="collection-carousel-image have-overlay">
@@ -489,15 +489,14 @@
     },
     {
       "type": "text",
-      "id": "button_text",
+      "id": "cta_text",
       "label": "Button text",
-      "default": "Shop Now"
+      "default": "Ver más"
     },
     {
       "type": "url",
-      "id": "button_link",
-      "label": "Button link",
-      "default": "/products/looks-de-maquillaje-express-para-navidad"
+      "id": "cta_url",
+      "label": "Button link"
     },
     {
       "type": "header",
