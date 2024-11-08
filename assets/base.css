@@ -3006,7 +3006,7 @@ cart-remove-button a:hover {
 .have-overlay {
   position: relative;
   z-index: 1;
-  --overlay-alpha: 40%;
+  /* --overlay-alpha: 40%; */
 }
 .have-overlay::before {
   content: "";
