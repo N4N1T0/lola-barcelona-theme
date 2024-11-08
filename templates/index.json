@@ -28,7 +28,9 @@
           }
         }
       },
-      "block_order": ["slideshow_item_XtdbGN"],
+      "block_order": [
+        "slideshow_item_XtdbGN"
+      ],
       "settings": {
         "section_layout": "full",
         "section_alignment": "left",
@@ -105,7 +107,7 @@
       "type": "popular-products",
       "custom_css": [],
       "settings": {
-        "collection": "test",
+        "collection": "top-ventas",
         "product_list": [
           "aceite-labial-reparador",
           "lip-glow-balsamo-labial",
@@ -474,7 +476,11 @@
           }
         }
       },
-      "block_order": ["marker_3jU9R9", "marker_hTfxtG", "marker_JFN4U7"],
+      "block_order": [
+        "marker_3jU9R9",
+        "marker_hTfxtG",
+        "marker_JFN4U7"
+      ],
       "settings": {
         "image": "shopify://shop_images/lola_barcrlona12329.jpg",
         "overlay_opacity": 30,
