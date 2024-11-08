@@ -10,10 +10,6 @@
 /cache/*
 !cache/.gitkeep
 
-# Ignore theme compiled assets
-/assets/*
-!assets/.gitkeep
-
 # Ignore theme compiled config
 /config/settings_data.json
 /config/settings_schema.json

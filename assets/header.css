@@ -1,0 +1,7 @@
+.header_list_complete:hover{
+	color: #ff28ab;
+	transition: color .3s ease-out 0s;
+}
+.header_list_complete_active{
+	color: #ff28ab;
+}

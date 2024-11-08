@@ -1,0 +1,21 @@
+.h1_collection-banner_title{
+  width: 100%;
+  max-width: 100%!important;
+  text-align: center;
+  color: white;
+}
+.container-title_banner-collection{
+  margin-bottom: 200px;
+}
+
+.white_letter_color-banner_hover-pink{
+  color: white!important;
+}
+
+.white_letter_color-banner_hover-pink:hover{
+  color: #ff28ab!important;
+  opacity: 1!important;
+}
+.bradcrumb-text-color{
+  color: #ff28ab!important;
+}

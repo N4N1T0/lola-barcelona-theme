@@ -1,0 +1,23 @@
+.description_top_product{
+  border-top: none!important;
+  margin-top: 0px!important;
+}
+
+.card__quickview-text{
+  color: white!important;
+  font-weight: var(--font-button-weight)!important;
+}
+
+@media (min-width: 1200px) {
+  .swiper-wrapper-overflow{
+    overflow-x: auto;
+  }
+  .product-images-swiper-little{
+    width: 90%!important;
+    margin-left: 5%!important;
+  }
+  .swiper-wrapper-container-big{
+    height: 500px;
+    /* width: 128.8px!important; */
+  }
+}
