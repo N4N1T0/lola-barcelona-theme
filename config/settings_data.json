@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "current": {
     "color_scheme": "light",
     "dark_mode_toggle": false,
@@ -24,6 +24,15 @@
     "type_popups_heading_font": "futura_n5",
     "type_popups_text_font": "itc_caslon_no_224_n4",
     "quickview_announcement": "",
+    "sections": {
+      "collection-carousel": {
+        "type": "collection-carousel",
+        "settings": {
+          "button_text": "Shop Now",
+          "button_link": "/collections/all"
+        }
+      }
+    },
     "content_for_index": [],
     "color_schemes": {
       "background-1": {
