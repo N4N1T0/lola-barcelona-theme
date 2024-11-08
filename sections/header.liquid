@@ -271,7 +271,10 @@
                             <div class="menu-drawer__utility-account">
                               <div class="menu-drawer__utility-account-header">
                                 <span class="menu-drawer__utility-name">{{ customer.name | capitalize_words }}</span>
-                                <a class="menu-drawer__utility-logout" href="{{ routes.account_logout_url }}">
+                                <a
+                                  class="buttons_radius menu-drawer__utility-logout"
+                                  href="{{ routes.account_logout_url }}"
+                                >
                                   {{- 'customer.log_out' | t -}}
                                 </a>
                               </div>
@@ -281,8 +284,10 @@
                                     {{ 'customer.account.title' | t }}
                                   </a>
                                 </li>
-                                <li class="header__account__address">
-                                  <a href="{{ routes.account_addresses_url }}">{{ 'customer.addresses.book' | t }}</a>
+                                <li class="buttons_radius header__account__address">
+                                  <a href="buttons_radius {{ routes.account_addresses_url }}">
+                                    {{- 'customer.addresses.book' | t -}}
+                                  </a>
                                 </li>
                               </ul>
                             </div>
@@ -290,7 +295,7 @@
                           {%- else -%}
                             <a
                               href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-                              class="button button--primary menu-drawer__account focus-inset"
+                              class="buttons_radius button button--primary menu-drawer__account focus-inset"
                             >
                               <span class="button-label">
                                 {%- liquid

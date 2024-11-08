@@ -659,7 +659,7 @@
   <menu-drawer class="mobile-facets__wrapper" data-breakpoint="mobile">
     <details class="disclosure-has-popup medium-hide large-up-hide">
       <summary>
-        <span class="mobile-facets__open button button--primary focus-inset">
+        <span class="buttons_radius mobile-facets__open button button--primary focus-inset">
           {% render 'icon-filter' %}
           <span>
             {%- if enable_filtering and enable_sorting -%}
@@ -910,7 +910,7 @@
                             </facet-remove>
                             <button
                               type="button"
-                              class="no-js-hidden button button--primary focus-inset"
+                              class="buttons_radius no-js-hidden button button--primary focus-inset"
                               onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click()"
                             >
                               {{ 'products.facets.apply' | t }}
@@ -1029,7 +1029,7 @@
                             </facet-remove>
                             <button
                               type="button"
-                              class="no-js-hidden button button--primary focus-inset"
+                              class="buttons_radius no-js-hidden button button--primary focus-inset"
                               onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click()"
                             >
                               {{ 'products.facets.apply' | t }}
@@ -1059,7 +1059,7 @@
                       <div class="select field">
                         <select
                           name="sort_by"
-                          class="select__select"
+                          class="buttons_radius select__select"
                           id="SortBy-mobile"
                           aria-describedby="a11y-refresh-page-message"
                         >
@@ -1092,7 +1092,7 @@
                 </facet-remove>
                 <button
                   type="button"
-                  class="no-js-hidden button button--primary focus-inset"
+                  class="buttons_radius no-js-hidden button button--primary focus-inset"
                   onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click()"
                 >
                   {{ 'products.facets.apply' | t }}

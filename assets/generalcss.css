@@ -39,6 +39,10 @@
   height: 470px;
 }
 
+.article-template__content-box img{
+  max-width: 100%;
+}
+
 @media (min-width: 1024px) {
   .image_hero_desktop{
     display: inline;
