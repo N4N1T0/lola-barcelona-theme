@@ -6,55 +6,53 @@
   }
 </style>
 {% assign block_count = section.blocks | size %}
-{% comment %}
-  {% if block_count > 0 %}
-  	<div
-  		class="announcement-bar color-{{ section.settings.color_scheme }} background"
-  		role="region"
-  		aria-label="{{ 'sections.header.announcement' | t }}"
-  		{{ block.shopify_attributes }}
-  	>
-  		<div
-  			class="announcement-bar__slide"
-  			data-announcement-id="{{ section.id }}"
-  		>
-  			<div class="swiper announcement-js-{{ section.id }}">
-  				<div class="swiper-wrapper announcement-bar__slide-box">
-  					{% for block in section.blocks %}
-  						{%- if block.settings.text != blank -%}
-  							<div class="announcement-bar__message swiper-slide">
-  								{%- if block.settings.image != blank -%}
-  									<figure class="announcement-bar__image">
-  										{{
-  											block.settings.image
-  											| image_url: width: 375
-  											| image_tag:
-  												loading: 'lazy',
-  												widths: '25, 75, 150, 275, 375'
-  										}}
-  									</figure>
-  								{%- endif -%}
-  								<div class="announcement-bar__text">
-  									{{ block.settings.text }}
-  									{% render 'button', layout: block, btn_style: 'simple' %}
-  								</div>
-  							</div>
-  						{%- endif -%}
-  					{% endfor %}
-  				</div>
-  			</div>
-  			{% if section.settings.show_arrows and block_count > 1 %}
-  				<button class="swiper-button swiper-button-prev announcement-btn-prev">
-  					<span>{% render 'icon-announcement-arrow' %}</span>
-  				</button>
-  				<button class="swiper-button swiper-button-next announcement-btn-next">
-  					<span>{% render 'icon-announcement-arrow' %}</span>
-  				</button>
-  			{% endif %}
-  		</div>
-  	</div>
-  {% endif %}
-{% endcomment %}
+
+{% if block_count > 0 %}
+  <div
+    class="announcement-bar color-{{ section.settings.color_scheme }} background"
+    role="region"
+    aria-label="{{ 'sections.header.announcement' | t }}"
+    {{ block.shopify_attributes }}
+  >
+    <div
+      class="announcement-bar__slide"
+      data-announcement-id="{{ section.id }}"
+    >
+      <div class="swiper announcement-js-{{ section.id }}">
+        <div class="swiper-wrapper announcement-bar__slide-box">
+          {% for block in section.blocks %}
+            {%- if block.settings.text != blank -%}
+              <div class="announcement-bar__message swiper-slide">
+                {%- if block.settings.image != blank -%}
+                  <figure class="announcement-bar__image">
+                    {{
+                      block.settings.image
+                      | image_url: width: 375
+                      | image_tag: loading: 'lazy', widths: '25, 75, 150, 275, 375'
+                    }}
+                  </figure>
+                {%- endif -%}
+                <div class="announcement-bar__text">
+                  {{ block.settings.text }}
+                  {% render 'button', layout: block, btn_style: 'simple' %}
+                </div>
+              </div>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+      </div>
+      {% if section.settings.show_arrows and block_count > 1 %}
+        <button class="swiper-button swiper-button-prev announcement-btn-prev">
+          <span>{% render 'icon-announcement-arrow' %}</span>
+        </button>
+        <button class="swiper-button swiper-button-next announcement-btn-next">
+          <span>{% render 'icon-announcement-arrow' %}</span>
+        </button>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
 {% schema %}
 {
   "name": "t:sections.announcement-bar.name",

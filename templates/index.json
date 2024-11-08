@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "slideshow": {
       "type": "slideshow",
@@ -16,6 +16,7 @@
           "type": "slideshow_item",
           "settings": {
             "image": "shopify://shop_images/lola_banner_black_friday.jpg",
+            "imagemobile": "shopify://shop_images/hero-mobile-lolabarcelona.jpg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
