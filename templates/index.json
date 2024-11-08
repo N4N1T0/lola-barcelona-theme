@@ -94,7 +94,7 @@
       "settings": {
         "columns": 3,
         "image_ratio": "portrait",
-        "card_type": "image-overlay",
+        "card_type": "text-overlay",
         "text_bg_opacity": 30,
         "show_collection_desc": true,
         "show_collection_tags": false,
