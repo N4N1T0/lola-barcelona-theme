@@ -1,242 +1,236 @@
 <!doctype html>
 <html
-	class="no-js"
-	data-scheme="{{ settings.color_scheme }}"
-	lang="{{ request.locale.iso_code }}"
+  class="no-js"
+  data-scheme="{{ settings.color_scheme }}"
+  lang="{{ request.locale.iso_code }}"
 >
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta name="theme-color" content="">
-		<link rel="canonical" href="{{ canonical_url }}">
-		<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="stylesheet" href="{{ 'generalcss.css' | asset_url }}" media="all">
 
-		{%- if settings.favicon != blank -%}
-			<link
-				rel="icon"
-				type="image/png"
-				href="{{ settings.favicon | img_url: '32x32' }}"
-			>
-		{%- endif -%}
+    {%- if settings.favicon != blank -%}
+      <link
+        rel="icon"
+        type="image/png"
+        href="{{ settings.favicon | img_url: '32x32' }}"
+      >
+    {%- endif -%}
 
-		{%- unless settings.type_header_font.system? -%}
-			<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-		{%- endunless -%}
+    {%- unless settings.type_header_font.system? -%}
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- endunless -%}
 
-		<title>{{ page_title }}</title>
+    <title>{{ page_title }}</title>
 
-		{% if page_description %}
-			<meta name="description" content="{{ page_description | escape }}">
-		{% endif %}
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
 
-		{% render 'meta-tags' %}
+    {% render 'meta-tags' %}
 
-		<script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
-		<script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
-		<script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-		{%- if settings.quickview_button_type != 'none' -%}
-			<script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
-			<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-		{% endif %}
+    <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    {%- if settings.quickview_button_type != 'none' -%}
+      <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
 
-		{{ content_for_header }}
-		
-		{% render 'vars' %}
-		
-		{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-		{{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
 
-		{%- if settings.predictive_search_enabled -%}
-			<link
-				rel="stylesheet"
-				href="{{ 'component-predictive-search.css' | asset_url }}"
-				media="print"
-				onload="this.media='all'"
-			>
-		{%- endif -%}
+    {% render 'vars' %}
 
-		{%- unless settings.type_body_font.system? -%}
-			<link
-				rel="preload"
-				as="font"
-				href="{{ settings.type_body_font | font_url }}"
-				type="font/woff2"
-				crossorigin
-			>
-		{%- endunless -%}
-		{%- unless settings.type_header_font.system? -%}
-			<link
-				rel="preload"
-				as="font"
-				href="{{ settings.type_header_font | font_url }}"
-				type="font/woff2"
-				crossorigin
-			>
-		{%- endunless -%}
+    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | stylesheet_tag }}
 
-		<script>
-			document.documentElement.className =
-				document.documentElement.className.replace('no-js', 'js');
-			if (Shopify.designMode) {
-				document.documentElement.classList.add('shopify-design-mode');
-			}
-		</script>
+    {%- if settings.predictive_search_enabled -%}
+      <link
+        rel="stylesheet"
+        href="{{ 'component-predictive-search.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
+    {%- endif -%}
 
-		<script src="{{ 'jquery-3.6.0.js' | asset_url }}" defer="defer"></script>
-		<script
-			src="{{ 'swiper-bundle.min.js' | asset_url }}"
-			defer="defer"
-		></script>
-		<script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
-		<script
-			src="{{ 'ScrollTrigger.min.js' | asset_url }}"
-			defer="defer"
-		></script>
-		{%- if request.page_type != 'search' and settings.enable_search_modal -%}
-			<script src="{{ 'search-modal.js' | asset_url }}" defer="defer"></script>
-		{%- endif -%}
-		<script src="{{ 'popup.js' | asset_url }}" defer="defer"></script>
-		{% if settings.show_back_to_top %}
-			<script src="{{ 'scroll-top.js' | asset_url }}" defer="defer"></script>
-		{% endif %}
-		{% comment %}{% if settings.show_color_swatch %}{% endcomment %}
-			<script src="{{ 'product-card.js' | asset_url }}" defer="defer"></script>
-		{% comment %}{% endif %}{% endcomment %}
+    {%- unless settings.type_body_font.system? -%}
+      <link
+        rel="preload"
+        as="font"
+        href="{{ settings.type_body_font | font_url }}"
+        type="font/woff2"
+        crossorigin
+      >
+    {%- endunless -%}
+    {%- unless settings.type_header_font.system? -%}
+      <link
+        rel="preload"
+        as="font"
+        href="{{ settings.type_header_font | font_url }}"
+        type="font/woff2"
+        crossorigin
+      >
+    {%- endunless -%}
 
-		<script>
-			let cscoDarkMode = {};
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      if (Shopify.designMode) {
+        document.documentElement.classList.add('shopify-design-mode');
+      }
+    </script>
 
-			(function () {
-				const body = document.querySelector('html[data-scheme]');
+    <script src="{{ 'jquery-3.6.0.js' | asset_url }}" defer="defer"></script>
+    <script
+      src="{{ 'swiper-bundle.min.js' | asset_url }}"
+      defer="defer"
+    ></script>
+    <script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
+    <script
+      src="{{ 'ScrollTrigger.min.js' | asset_url }}"
+      defer="defer"
+    ></script>
+    {%- if request.page_type != 'search' and settings.enable_search_modal -%}
+      <script src="{{ 'search-modal.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    <script src="{{ 'popup.js' | asset_url }}" defer="defer"></script>
+    {% if settings.show_back_to_top %}
+      <script src="{{ 'scroll-top.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
+    {% comment %}{% if settings.show_color_swatch %}{% endcomment %}
+    <script src="{{ 'product-card.js' | asset_url }}" defer="defer"></script>
+    {% comment %}{% endif %}{% endcomment %}
 
-				cscoDarkMode = {
-					init: function (e) {
-						this.initMode(e);
-						window
-							.matchMedia('(prefers-color-scheme: dark)')
-							.addListener((e) => {
-								this.initMode(e);
-							});
+    <script>
+      let cscoDarkMode = {};
 
-						window.addEventListener('load', () => {
-							document.querySelectorAll('.header__toggle-scheme').forEach(el => {
-								el.addEventListener('click', (e) => {
-									e.preventDefault();
-									if ('auto' === body.getAttribute('data-scheme')) {
-										if (
-											window.matchMedia('(prefers-color-scheme: dark)').matches
-										) {
-											cscoDarkMode.changeScheme('light', true);
-										} else if (
-											window.matchMedia('(prefers-color-scheme: light)').matches
-										) {
-											cscoDarkMode.changeScheme('dark', true);
-										}
-									} else {
-										if ('dark' === body.getAttribute('data-scheme')) {
-											cscoDarkMode.changeScheme('light', true);
-										} else {
-											cscoDarkMode.changeScheme('dark', true);
-										}
-									}
-								});
-							})
-						});
-					},
-					initMode: function (e) {
-						let siteScheme = false;
-						switch (
-							'{{ settings.color_scheme }}' // Field. User’s system preference.
-						) {
-							case 'dark':
-								siteScheme = 'dark';
-								break;
-							case 'light':
-								siteScheme = 'light';
-								break;
-							case 'system':
-								siteScheme = 'auto';
-								break;
-						}
-						if ('{{ settings.dark_mode_toggle }}') {
-							// Field. Enable dark/light mode toggle.
-							if ('light' === localStorage.getItem('_color_schema')) {
-								siteScheme = 'light';
-							}
-							if ('dark' === localStorage.getItem('_color_schema')) {
-								siteScheme = 'dark';
-							}
-						}
-						if (siteScheme && siteScheme !== body.getAttribute('data-scheme')) {
-							this.changeScheme(siteScheme, false);
-						}
-					},
-					changeScheme: function (siteScheme, cookie) {
-						body.classList.add('scheme-toggled');
-						body.setAttribute('data-scheme', siteScheme);
-						if (cookie) {
-							localStorage.setItem('_color_schema', siteScheme);
-						}
-						setTimeout(() => {
-							body.classList.remove('scheme-toggled');
-						}, 100);
-					},
-				};
-			})();
+      (function () {
+        const body = document.querySelector('html[data-scheme]');
 
-			cscoDarkMode.init();
+        cscoDarkMode = {
+          init: function (e) {
+            this.initMode(e);
+            window.matchMedia('(prefers-color-scheme: dark)').addListener((e) => {
+              this.initMode(e);
+            });
 
-			document.addEventListener('shopify:section:load', function () {
-				setTimeout(() => {
-					cscoDarkMode.init();
-				}, 100);
-			});
-		</script>
-	</head>
+            window.addEventListener('load', () => {
+              document.querySelectorAll('.header__toggle-scheme').forEach((el) => {
+                el.addEventListener('click', (e) => {
+                  e.preventDefault();
+                  if ('auto' === body.getAttribute('data-scheme')) {
+                    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                      cscoDarkMode.changeScheme('light', true);
+                    } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+                      cscoDarkMode.changeScheme('dark', true);
+                    }
+                  } else {
+                    if ('dark' === body.getAttribute('data-scheme')) {
+                      cscoDarkMode.changeScheme('light', true);
+                    } else {
+                      cscoDarkMode.changeScheme('dark', true);
+                    }
+                  }
+                });
+              });
+            });
+          },
+          initMode: function (e) {
+            let siteScheme = false;
+            switch (
+              '{{ settings.color_scheme }}' // Field. User’s system preference.
+            ) {
+              case 'dark':
+                siteScheme = 'dark';
+                break;
+              case 'light':
+                siteScheme = 'light';
+                break;
+              case 'system':
+                siteScheme = 'auto';
+                break;
+            }
+            if ('{{ settings.dark_mode_toggle }}') {
+              // Field. Enable dark/light mode toggle.
+              if ('light' === localStorage.getItem('_color_schema')) {
+                siteScheme = 'light';
+              }
+              if ('dark' === localStorage.getItem('_color_schema')) {
+                siteScheme = 'dark';
+              }
+            }
+            if (siteScheme && siteScheme !== body.getAttribute('data-scheme')) {
+              this.changeScheme(siteScheme, false);
+            }
+          },
+          changeScheme: function (siteScheme, cookie) {
+            body.classList.add('scheme-toggled');
+            body.setAttribute('data-scheme', siteScheme);
+            if (cookie) {
+              localStorage.setItem('_color_schema', siteScheme);
+            }
+            setTimeout(() => {
+              body.classList.remove('scheme-toggled');
+            }, 100);
+          },
+        };
+      })();
 
-	<body class="body-template-{{ template.name }} body-template-{{ template | replace: '.', '-' }} template-{{ template.name }} template-{{ template | replace: '.', '-' }}">
-		<a class="skip-to-content-link button visually-hidden button--simple" href="#MainContent">
-			{{ 'accessibility.skip_to_text' | t }}
-		</a>
+      cscoDarkMode.init();
 
-		{% sections 'header-group' %}
-		{% sections 'overlay-group' %}
-		{% if settings.show_breadcrumbs %}
-			{% render 'breadcrumbs' %}
-		{% endif %}
-		<main
-			id="MainContent"
-			class="content-for-layout focus-none"
-			role="main"
-			tabindex="-1"
-		>
-			{{ content_for_layout }}
-		</main>
-		{% sections 'footer-group' %}
+      document.addEventListener('shopify:section:load', function () {
+        setTimeout(() => {
+          cscoDarkMode.init();
+        }, 100);
+      });
+    </script>
+  </head>
 
-		{% if settings.show_back_to_top %}
-			{% render 'scroll-top' %}
-		{% endif %}
-		{% if settings.enable_search_modal %}
-			{% render 'search-modal' %}
-		{% endif %}
-		{%- if request.page_type != 'cart' and settings.cart_type == 'drawer' -%}
-			{%- render 'cart-drawer' -%}
-		{%- endif -%}
+  <body class="body-template-{{ template.name }} body-template-{{ template | replace: '.', '-' }} template-{{ template.name }} template-{{ template | replace: '.', '-' }}">
+    <a class="skip-to-content-link button visually-hidden button--simple" href="#MainContent">
+      {{ 'accessibility.skip_to_text' | t }}
+    </a>
 
-		<ul hidden>
-			<li id="a11y-refresh-page-message">
-				{{ 'accessibility.refresh_page' | t }}
-			</li>
-		</ul>
+    {% sections 'header-group' %}
+    {% sections 'overlay-group' %}
+    {% if settings.show_breadcrumbs %}
+      {% render 'breadcrumbs' %}
+    {% endif %}
+    <main
+      id="MainContent"
+      class="content-for-layout focus-none"
+      role="main"
+      tabindex="-1"
+    >
+      {{ content_for_layout }}
+    </main>
+    {% sections 'footer-group' %}
 
-		<script>
-			{% capture content %}{% include 'quickview' %}{% endcapture %}
-			let content = {{ content | json }};
-		</script>
+    {% if settings.show_back_to_top %}
+      {% render 'scroll-top' %}
+    {% endif %}
+    {% if settings.enable_search_modal %}
+      {% render 'search-modal' %}
+    {% endif %}
+    {%- if request.page_type != 'cart' and settings.cart_type == 'drawer' -%}
+      {%- render 'cart-drawer' -%}
+    {%- endif -%}
 
-		<script>
+    <ul hidden>
+      <li id="a11y-refresh-page-message">
+        {{ 'accessibility.refresh_page' | t }}
+      </li>
+    </ul>
+
+    <script>
+      {% capture content %}{% include 'quickview' %}{% endcapture %}
+      let content = {{ content | json }};
+    </script>
+
+    <script>
 			window.routes = {
 				cart_add_url: '{{ routes.cart_add_url }}',
 				cart_change_url: '{{ routes.cart_change_url }}',
@@ -265,14 +259,14 @@
 				quickviewText: `{{ settings.quickview }}`,
 				quickviewMore: `{{ 'general.card.view__more' | t }}`
 			}
-		</script>
+    </script>
 
-		{%- if settings.predictive_search_enabled -%}
-			<script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
-			<script
-				src="{{ 'predictive-search.js' | asset_url }}"
-				defer="defer"
-			></script>
-		{%- endif -%}
-	</body>
+    {%- if settings.predictive_search_enabled -%}
+      <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
+      <script
+        src="{{ 'predictive-search.js' | asset_url }}"
+        defer="defer"
+      ></script>
+    {%- endif -%}
+  </body>
 </html>
