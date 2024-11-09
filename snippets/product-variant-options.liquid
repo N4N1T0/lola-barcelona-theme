@@ -139,21 +139,25 @@
       for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}-{{ product.id }}"
       class="color-swatch"
       title="{{ value }}"
-      style="--swatch-color: {{ color_value_custom | remove: '-' }}; --swatch-bg: {{ swatch_bg }};--disable-color:{{ disable_color }};--checkbox-bg: {{ checkbox_bg }}; border-radius: {{ settings.swatch_border_radius }}%; margin-right: 10px;"
+      style="--swatch-color: {{ color_value_custom | remove: '-' }}; --swatch-bg: {{ swatch_bg }};--disable-color:{{ disable_color }};--checkbox-bg: {{ checkbox_bg }}; border-radius: {{ settings.swatch_border_radius }}%; margin-right: 5px;"
     >
       <span class="visually-hidden">{{- value -}}</span>
       {% comment %}
-        <span class="color-swatch__disabled-icon">
-                           				{% render 'icon-color-deactivate' %}
-        </span>
+        {% comment %}
+          <span class="color-swatch__disabled-icon">
+                             				{% render 'icon-color-deactivate' %}
+          </span>
+        {% endcomment %}
       {% endcomment %}
       {% for variant in product.variants %}
         {% if variant.option1 == value %}
           <img
-            src="{{ variant.featured_image | image_url }}"
-            alt=""
-            width="80"
-            height="80"
+            src="{{ variant.image | image_url }}"
+            alt="{{ variant.title }}"
+            title="{{ variant.title }}"
+            width="60"
+            height="70"
+            className="color-swatch__image"
           >
         {% endif %}
       {% endfor %}
@@ -198,3 +202,5 @@
     {% endif %}
   {% endif %}
 {%- endfor -%}
+
+<script></script>
