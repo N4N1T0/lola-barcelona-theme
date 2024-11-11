@@ -151,17 +151,32 @@
       {% endcomment %}
       {% for variant in product.variants %}
         {% if variant.option1 == value %}
-          <img
-            src="{{ variant.image | image_url }}"
-            alt="{{ variant.title }}"
-            title="{{ variant.title }}"
-            width="60"
-            height="70"
-            className="color-swatch__image"
+          <div
+            class="color-swatch__swatch"
+            style="position: relative; width: 30px; height: 30px; cursor: pointer; border-radius: 50%; overflow: hidden"
           >
+            <img
+              src="
+                https://cdn.starapps.studio/v2/apps/vsk/lolabarcelona/swatches/Color/{{ variant.title
+                  | replace: ' ', '%2520'
+                  | replace: 'á', '%25C3%25A1'
+                  | replace: 'é', '%25C3%25A9'
+                  | replace: 'í', '%25C3%25AD'
+                  | replace: 'ó', '%25C3%25B3'
+                  | replace: 'ú', '%25C3%25BA'
+                  | replace: 'ñ', '%25C3%25B1'
+                }}.media
+              "
+              alt="{{ variant.title }}"
+              title="{{ variant.title }}"
+              width="30"
+              height="30"
+              style="border-radius: 50%"
+            >
+          </div>
         {% endif %}
       {% endfor %}
-      {% comment %} <span class="product_color-name">{{ value }}</span> {% endcomment %}
+      <span class="product_color-name">{{ value }}</span>
     </label>
   {% else %}
     {%- if block.settings.picker_type == 'button' -%}
