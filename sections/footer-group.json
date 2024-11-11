@@ -7,71 +7,70 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
-    "type": "footer",
-    "name": "t:sections.footer.settings.footer-group.label",
-    "sections": {
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "logo_info",
-            "settings": {
-              "letter_text": "<p>Todos nuestros productos son veganos, libres de crueldad animal y fabricados en Barcelona. </p>",
-              "logo_width": 100
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Seguridad y Privacidad",
-              "menu": "seguridad-y-privacidad"
-            }
-          },
-          "footer-2": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Atención al cliente",
-              "menu": "atencion-al-cliente"
-            }
-          },
-          "footer-5": {
-            "type": "subscribe",
-            "settings": {
-              "heading": "<p>Suscríbete al newsletter</p>",
-              "newsletter_text": "<p>Subcríbete a nuestro newsletter para recibir noticias, promociones y consejos. Al subscribirte, ¡recibirás un 10% de descuento para tu primer pedido!</p>",
-              "newsletter_sub": "",
-              "button_label": "Suscribirse",
-              "button_style": "secondary",
-              "button_arrow": false
-            }
+{
+  "type": "footer",
+  "name": "t:sections.footer.settings.footer-group.label",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "logo_info",
+          "settings": {
+            "letter_text": "<p>Todos nuestros productos son veganos, libres de crueldad animal y fabricados en Barcelona. </p>",
+            "logo_width": 100
           }
         },
-        "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2",
-          "footer-5"
-        ],
-        "settings": {
-          "color_scheme": "",
-          "enable_language_selector": true,
-          "language_heading": "Heading",
-          "enable_country_selector": true,
-          "country_heading": "",
-          "enable_follow_on_shop": false,
-          "payment_enable": false,
-          "payment_heading": "Heading",
-          "heading": "Heading",
-          "margin_top": "no-indent",
-          "padding_top": "m",
-          "padding_bottom": "m",
-          "fix_paddings": true
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Seguridad y Privacidad",
+            "menu": "seguridad-y-privacidad"
+          }
+        },
+        "footer-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Atención al cliente",
+            "menu": "atencion-al-cliente"
+          }
+        },
+        "footer-5": {
+          "type": "subscribe",
+          "settings": {
+            "heading": "<p>Suscríbete al newsletter</p>",
+            "newsletter_text": "<p>Subcríbete a nuestro newsletter para recibir noticias, promociones y consejos. Al subscribirte, ¡recibirás un 10% de descuento para tu primer pedido!</p>",
+            "newsletter_sub": "",
+            "button_label": "Suscribirse",
+            "button_style": "secondary",
+            "button_arrow": false
+          }
         }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2",
+        "footer-5"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_language_selector": true,
+        "language_heading": "Redes Sociales",
+        "enable_country_selector": true,
+        "country_heading": "",
+        "enable_follow_on_shop": false,
+        "payment_enable": false,
+        "payment_heading": "Heading",
+        "heading": "Heading",
+        "margin_top": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "fix_paddings": true
       }
-    },
-    "order": [
-      "footer"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
