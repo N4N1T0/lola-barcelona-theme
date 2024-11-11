@@ -509,7 +509,7 @@
         "heading": "Únete a nuestra Newsletter",
         "text": "<p>Ya somos más de 10.000 Lolitas. ¡Y tu, a que esperas?</p>",
         "newsletter_text": "<p>*Aceptas las políticas de privacidad.</p>",
-        "button_style": "primary",
+        "button_style": "secondary",
         "button_arrow": true,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
