@@ -1403,7 +1403,7 @@ details > * {
   font-size: calc(var(--font-subtitle-scale) * 1rem);
   margin-bottom: 0.8rem;
 }
-.section-template--23729839767896__main-padding{
+.section-template--23729839767896__main-padding {
   max-width: 102rem;
   width: 100%;
   padding-right: var(--main-padding);
@@ -4644,4 +4644,7 @@ details[open] > .header__account-modal {
 }
 .products-slider .swiper:not(.swiper-initialized) ~ .swiper-button {
   display: none;
+}
+.shopify-email-marketing-confirmation__container {
+  margin-top: 50px !important;
 }
