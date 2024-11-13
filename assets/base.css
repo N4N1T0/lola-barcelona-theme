@@ -161,7 +161,6 @@ input[type="checkbox"]:focus-visible + label,
   }
 }
 .spaced-section {
-  position: relative;
   background-color: rgb(var(--color-background));
 }
 
@@ -1403,7 +1402,7 @@ details > * {
   font-size: calc(var(--font-subtitle-scale) * 1rem);
   margin-bottom: 0.8rem;
 }
-.section-template--23729839767896__main-padding{
+.section-template--23729839767896__main-padding {
   max-width: 102rem;
   width: 100%;
   padding-right: var(--main-padding);

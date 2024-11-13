@@ -92,10 +92,7 @@
 }
 
 .success__modal {
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  background: white;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -113,6 +110,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 70vh;
+  height: 70vh;
+  background: white;
+  position: relative;
+  padding: 0 20px;
+  z-index: 800;
 }
 .success__modal h3 {
   width: fit-content;
@@ -133,4 +136,14 @@
 
 .success__modal.hidden {
   display: none;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 799;
 }
