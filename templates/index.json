@@ -489,7 +489,7 @@
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": true,
-        "show_collection_name": true,
+        "show_collection_name": false,
         "letter_spacing": -0.3,
         "button_label": "Comprar",
         "button_link": "shopify://collections/rostro",
