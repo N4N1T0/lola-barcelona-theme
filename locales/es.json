@@ -186,7 +186,7 @@
         "multiples_of": "Incrementos de {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> en el carrito",
         "in_stock": "{{ quantity }} en stock",
-        "out_of_stock": "Agotado"
+        "out_of_stock": "Sold out"
       },
       "pickup_availability": {
         "view_store_info": "Ver información de la tienda",
@@ -205,7 +205,7 @@
       },
       "reviews": "Reseñas",
       "share": "Comparte este producto",
-      "sold_out": "Agotado",
+      "sold_out": "Sold out",
       "unavailable": "Indisponible",
       "value_unavailable": "{{ option_value }} - No disponible",
       "variant_sold_out_or_unavailable": "Variante agotada o no disponible",
