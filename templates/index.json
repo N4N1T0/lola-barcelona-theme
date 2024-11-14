@@ -455,7 +455,7 @@
           "type": "marker",
           "settings": {
             "position_x": 20,
-            "position_y": 30,
+            "position_y": 15,
             "product": "lengthening-mascara"
           }
         },
@@ -482,7 +482,7 @@
         "marker_JFN4U7"
       ],
       "settings": {
-        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
+        "image": "shopify://shop_images/clean_look.png",
         "overlay_opacity": 30,
         "heading": "Colección Clean Look",
         "description": "<p>Maquillaje natural para un rostro natural.</p>",
