@@ -75,6 +75,12 @@
             "about_heading": "",
             "about_heading_content": ""
           }
+        },
+        "yotpo_product_reviews_ugc_star_rating_Y8bRBF": {
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -85,7 +91,8 @@
         "icon-with-text",
         "icon_with_text_VFf6Mx",
         "description",
-        "about"
+        "about",
+        "yotpo_product_reviews_ugc_star_rating_Y8bRBF"
       ],
       "settings": {
         "image_gallery_collage": "thumbnail_carousel",
