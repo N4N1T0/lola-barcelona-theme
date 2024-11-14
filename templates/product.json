@@ -65,15 +65,15 @@
           "type": "description",
           "settings": {
             "description_heading": "Descripción",
-            "default_open": false,
-            "description_variants": "collapsible"
+            "default_open": true,
+            "description_variants": "fixed"
           }
         },
         "about": {
           "type": "about",
           "settings": {
-            "about_heading": "Some title",
-            "about_heading_content": "<p>Some description</p>"
+            "about_heading": "",
+            "about_heading_content": ""
           }
         }
       },
@@ -88,11 +88,11 @@
         "about"
       ],
       "settings": {
-        "image_gallery_collage": "thumbnail",
+        "image_gallery_collage": "thumbnail_carousel",
         "desktop_alignment": "left",
         "mobile_alignment": "after",
         "image_fit": "cover",
-        "enable_autoheight": true,
+        "enable_autoheight": false,
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
       }
@@ -121,10 +121,35 @@
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
+    },
+    "173160130867e53141": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1731600622114dd35b": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_p8y8Dk": {
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_p8y8Dk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "173160130867e53141",
+    "1731600622114dd35b"
   ]
 }
