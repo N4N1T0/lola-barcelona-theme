@@ -161,7 +161,6 @@ input[type="checkbox"]:focus-visible + label,
   }
 }
 .spaced-section {
-  position: relative;
   background-color: rgb(var(--color-background));
 }
 

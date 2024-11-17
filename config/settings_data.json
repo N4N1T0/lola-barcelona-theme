@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "current": {
     "color_scheme": "light",
     "dark_mode_toggle": false,
@@ -23,14 +23,15 @@
     "type_footer_menu_font": "futura_n4",
     "type_popups_heading_font": "futura_n5",
     "type_popups_text_font": "itc_caslon_no_224_n4",
+    "social_facebook_link": "https://www.facebook.com/lolabarcelonacosmetics/",
+    "social_instagram_link": "https://www.instagram.com/lola_bcn/",
+    "social_tiktok_link": "https://www.tiktok.com/@lola_bcn",
+    "favicon": "shopify://shop_images/LOGO_LOLA_NUEVO.png",
     "quickview_announcement": "",
     "sections": {
       "collection-carousel": {
         "type": "collection-carousel",
-        "settings": {
-          "button_text": "Shop Now",
-          "button_link": "/collections/all"
-        }
+        "settings": {}
       }
     },
     "content_for_index": [],

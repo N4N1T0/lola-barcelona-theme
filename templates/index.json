@@ -15,7 +15,7 @@
         "slideshow_item_XtdbGN": {
           "type": "slideshow_item",
           "settings": {
-            "image": "shopify://shop_images/lola_banner_black_friday.jpg",
+            "image": "shopify://shop_images/lola_banner_black_friday_1__1731428416615.jpg",
             "imagemobile": "shopify://shop_images/hero-mobile-lolabarcelona.jpg",
             "color_scheme": "background-1",
             "heading": "",
@@ -455,7 +455,7 @@
           "type": "marker",
           "settings": {
             "position_x": 20,
-            "position_y": 30,
+            "position_y": 15,
             "product": "lengthening-mascara"
           }
         },
@@ -482,14 +482,14 @@
         "marker_JFN4U7"
       ],
       "settings": {
-        "image": "shopify://shop_images/lola_barcrlona12329.jpg",
+        "image": "shopify://shop_images/clean_look.png",
         "overlay_opacity": 30,
         "heading": "Colección Clean Look",
         "description": "<p>Maquillaje natural para un rostro natural.</p>",
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": true,
-        "show_collection_name": true,
+        "show_collection_name": false,
         "letter_spacing": -0.3,
         "button_label": "Comprar",
         "button_link": "shopify://collections/rostro",
@@ -509,7 +509,7 @@
         "heading": "Únete a nuestra Newsletter",
         "text": "<p>Ya somos más de 10.000 Lolitas. ¡Y tu, a que esperas?</p>",
         "newsletter_text": "<p>*Aceptas las políticas de privacidad.</p>",
-        "button_style": "primary",
+        "button_style": "secondary",
         "button_arrow": true,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",

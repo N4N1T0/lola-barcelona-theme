@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "overlay_opacity": 20,
@@ -19,7 +20,7 @@
         "show_word": false,
         "show_collection_description": false,
         "image_size": "medium",
-        "show_collection_image": true,
+        "show_collection_image": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
         "padding_top": "m",
@@ -29,7 +30,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 12,
+        "products_per_page": 23,
         "show_two_cards": false,
         "show_secondary_image": true,
         "show_sku": false,

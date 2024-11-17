@@ -90,3 +90,60 @@
 .newsletter .newsletter__text {
   margin-bottom: 0;
 }
+
+.success__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 800;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.384);
+}
+.contenedor__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70vh;
+  height: 70vh;
+  background: white;
+  position: relative;
+  padding: 0 20px;
+  z-index: 800;
+}
+.success__modal h3 {
+  width: fit-content;
+  font-size: 24px;
+}
+.success__modal .success__icon {
+  width: 60px;
+  height: 60px;
+}
+
+.close__modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.success__modal.hidden {
+  display: none;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 799;
+}
