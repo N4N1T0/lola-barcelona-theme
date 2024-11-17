@@ -56,6 +56,9 @@
   {% liquid
     assign color_trigger = settings.trigger_swatch | handle | strip
     assign name_option = option.name | handle | strip
+    if name_option == 'tono' or name_option == 'Tono'
+      assign name_option = 'color'
+    endif
   %}
 
   {% if settings.type_color_swatch == 'custom' and color_trigger == name_option %}
@@ -155,24 +158,45 @@
             class="color-swatch__swatch"
             style="position: relative; width: 30px; height: 30px; cursor: pointer; border-radius: 50%; overflow: hidden"
           >
-            <img
-              src="
-                https://cdn.starapps.studio/v2/apps/vsk/lolabarcelona/swatches/Color/{{ variant.title
-                  | replace: ' ', '%2520'
-                  | replace: 'á', '%25C3%25A1'
-                  | replace: 'é', '%25C3%25A9'
-                  | replace: 'í', '%25C3%25AD'
-                  | replace: 'ó', '%25C3%25B3'
-                  | replace: 'ú', '%25C3%25BA'
-                  | replace: 'ñ', '%25C3%25B1'
-                }}.media
-              "
-              alt="{{ variant.title }}"
-              title="{{ variant.title }}"
-              width="30"
-              height="30"
-              style="border-radius: 50%"
-            >
+            {% if option.name == 'tono' or option.name == 'Tono' %}
+              <img
+                src="
+                  https://cdn.starapps.studio/v2/apps/vsk/lolabarcelona/swatches/Tono/100/{{ variant.title
+                    | replace: ' ', '%2520'
+                    | replace: 'á', '%25C3%25A1'
+                    | replace: 'é', '%25C3%25A9'
+                    | replace: 'í', '%25C3%25AD'
+                    | replace: 'ó', '%25C3%25B3'
+                    | replace: 'ú', '%25C3%25BA'
+                    | replace: 'ñ', '%25C3%25B1'
+                  }}.webp
+                "
+                alt="{{ variant.title }}"
+                title="{{ variant.title }}"
+                width="30"
+                height="30"
+                style="border-radius: 50%"
+              >
+            {% else %}
+              <img
+                src="
+                  https://cdn.starapps.studio/v2/apps/vsk/lolabarcelona/swatches/Color/{{ variant.title
+                    | replace: ' ', '%2520'
+                    | replace: 'á', '%25C3%25A1'
+                    | replace: 'é', '%25C3%25A9'
+                    | replace: 'í', '%25C3%25AD'
+                    | replace: 'ó', '%25C3%25B3'
+                    | replace: 'ú', '%25C3%25BA'
+                    | replace: 'ñ', '%25C3%25B1'
+                  }}.media
+                "
+                alt="{{ variant.title }}"
+                title="{{ variant.title }}"
+                width="30"
+                height="30"
+                style="border-radius: 50%"
+              >
+            {% endif %}
           </div>
         {% endif %}
       {% endfor %}
