@@ -56,7 +56,7 @@
   {% liquid
     assign color_trigger = settings.trigger_swatch | handle | strip
     assign name_option = option.name | handle | strip
-    if name_option == 'tono' or name_option == 'Tono'
+    if name_option == 'tono' or name_option == 'Tono' or name_option == 'elige-tu-aceite'
       assign name_option = 'color'
     endif
   %}
@@ -177,7 +177,7 @@
                 height="30"
                 style="border-radius: 50%"
               >
-            {% else %}
+            {% elsif option.name == 'color' or option.name == 'Color' %}
               <img
                 src="
                   https://cdn.starapps.studio/v2/apps/vsk/lolabarcelona/swatches/Color/{{ variant.title
@@ -196,6 +196,12 @@
                 height="30"
                 style="border-radius: 50%"
               >
+            {% else %}
+              {{
+                variant.featured_media.preview_image
+                | image_url: width: 30
+                | image_tag: loading: 'eager', width: 30, height: 30, style: 'object-fit: cover;'
+              }}
             {% endif %}
           </div>
         {% endif %}
