@@ -8,7 +8,8 @@
   {% render 'product-variant-options',
   product: product,
   option: option,
-  block: block
+  block: block,
+  with_names: true
   %}
 {% endcomment %}
 
@@ -206,7 +207,9 @@
           </div>
         {% endif %}
       {% endfor %}
-      <span class="product_color-name">{{ value }}</span>
+      {% if with_names != false %}
+        <span class="product_color-name">{{ value }}</span>
+      {% endif %}
     </label>
   {% else %}
     {%- if block.settings.picker_type == 'button' -%}
