@@ -4,30 +4,10 @@
   <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-<link
-  rel="preload"
-  href="{{ 'component-card.css' | asset_url }}"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
-<link
-  rel="preload"
-  href="{{ 'main-product.css' | asset_url }}"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
-<link
-  rel="preload"
-  href="{{ 'component-price.css' | asset_url }}"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
-<link
-  rel="preload"
-  href="{{ 'component-rte.css' | asset_url }}"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
+{{ 'component-card.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'main-product.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-rte.css' | asset_url | stylesheet_tag: preload: true }}
 
 <noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
@@ -41,23 +21,9 @@
 {%- endif -%}
 
 {%- if settings.quickview_show -%}
-  <link
-    rel="preload"
-    href="{{ 'section-main-product.css' | asset_url }}"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  >
-  <link
-    rel="stylesheet"
-    href="{{ 'component-deferred-media.css' | asset_url }}"
-    media="all"
-  >
-  <link
-    rel="preload"
-    href="{{ 'quick-add.css' | asset_url }}"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  >
+  {{ 'section-main-product.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
 
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -71,7 +37,7 @@
   {% render 'section-padding' %}
 {%- endstyle -%}
 
-{%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+{% comment %} {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%} {% endcomment %}
 
 <div class="container section-{{ section.id }}-padding">
   <div

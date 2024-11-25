@@ -67,7 +67,7 @@
 										<p>{{ line_item.product.title }}</p>
 									{%- endif -%}
 
-									{%- assign property_size = line_item.properties | size -%}
+									{% comment %} {%- assign property_size = line_item.properties | size -%} {% endcomment %}
 									<div class="properties">
 										{%- unless line_item.product.has_only_default_variant -%}
 											<span>

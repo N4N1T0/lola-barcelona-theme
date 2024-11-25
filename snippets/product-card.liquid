@@ -13,23 +13,9 @@
 {% endcomment %}
 
 {%- if settings.quickview_button_type != 'none' -%}
-  <link
-    rel="preload"
-    href="{{ 'section-main-product.css' | asset_url }}"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  >
-  <link
-    rel="stylesheet"
-    href="{{ 'component-deferred-media.css' | asset_url }}"
-    media="all"
-  >
-  <link
-    rel="preload"
-    href="{{ 'quick-add.css' | asset_url }}"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  >
+  {{ 'section-main-product.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag: preload: true }}
   {%- assign first_3d_model = product_card_product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}

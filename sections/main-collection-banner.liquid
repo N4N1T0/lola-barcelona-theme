@@ -1,14 +1,9 @@
 {{ 'section-main-collection-banner.css' | asset_url | stylesheet_tag }}
-<link
-  rel="preload"
-  href="{{ 'collections.css' | asset_url }}"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
+{{ 'collections.css' | asset_url | stylesheet_tag: preload: true }}
 
+{% comment %} assign color_scheme = section.settings.color_scheme {% endcomment %}
 {% liquid
   assign show_img = section.settings.show_collection_image
-  assign color_scheme = section.settings.color_scheme
   assign image_size = section.settings.image_size
 
   if show_img

@@ -66,12 +66,14 @@
   	<path d="M2.88539 9.38504L8.42932 3.61524" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
 </svg>
-{% liquid
+{% comment %}
   if section.settings.enable_country_selector and localization.available_countries.size > 1
     assign country_selector = true
   else
     assign country_selector = false
   endif
+{% endcomment %}
+{% liquid
   if section.settings.enable_language_selector and localization.available_languages.size > 1
     assign language_selector = true
   else
@@ -270,7 +272,7 @@
                           {%- if customer -%}
                             <div class="menu-drawer__utility-account">
                               <div class="menu-drawer__utility-account-header">
-                                <span class="menu-drawer__utility-name">{{ customer.name | capitalize_words }}</span>
+                                <span class="menu-drawer__utility-name">{{ customer.name | capitalize }}</span>
                                 <a
                                   class="buttons_radius menu-drawer__utility-logout"
                                   href="{{ routes.account_logout_url }}"
@@ -1033,7 +1035,7 @@
      "name": {{ shop.name | json }},
      {% if section.settings.logo %}
   {% assign image_size = section.settings.logo.width | append: 'x' %}
-       "logo": {{ section.settings.logo | img_url: image_size | prepend: "https:" | json }},
+       "logo": {{ section.settings.logo | image_url: image_size | prepend: "https:" | json }},
      {% endif %}
      "sameAs": [
        {{ settings.social_twitter_link | json }},

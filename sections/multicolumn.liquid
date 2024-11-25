@@ -31,33 +31,33 @@
 								{% liquid
 									case section.settings.img_size
 										when 'small'
-											assign img-size = 'small'
+											assign img_size = 'small'
 										when 'medium'
-											assign img-size = 'medium'
+											assign img_size = 'medium'
 										when 'large'
-											assign img-size = 'large'
+											assign img_size = 'large'
 									endcase
 								%}
 								{% liquid
 									case section.settings.img_ratio
 										when 'landscape'
-											assign img-ratio = 'landscape'
+											assign img_ratio = 'landscape'
 										when 'portrait'
-											assign img-ratio = 'portrait'
+											assign img_ratio = 'portrait'
 										when 'square'
-											assign img-ratio = 'square'
+											assign img_ratio = 'square'
 										when 'adapt'
-											assign img-ratio = 'adapt'
+											assign img_ratio = 'adapt'
 									endcase
 								%}
 								{%- if block.settings.image != blank
 									or block.settings.image_2 != blank
 								-%}
 									<div class="multicolumn-card__image-wrapper ">
-										<div class="multicolumn-card__image-block multicolumn-card__image-size-{{ img-size }}">
+										<div class="multicolumn-card__image-block multicolumn-card__image-size-{{ img_size }}">
 											<div
-												class="multicolumn-card__image-item multicolumn-card__image-ratio-{{ img-ratio }}"
-												{%- if img-ratio == 'adapt' -%}
+												class="multicolumn-card__image-item multicolumn-card__image-ratio-{{ img_ratio }}"
+												{%- if img_ratio == 'adapt' -%}
 													{%- if block.settings.image != blank -%}
 														style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%"
 														{% assign image_height = block.settings.image.width

@@ -42,7 +42,7 @@
     {%- if section.blocks.size > 0 -%}
       <div class="container">
         <div class="footer__blocks-wrapper">
-          {% assign section__size = section.blocks | size %}
+          {% assign section_size = section.blocks | size %}
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
@@ -217,7 +217,7 @@
                       {% if block.settings.button_label != blank %}
                         <button
                           type="submit"
-                          class="buttons_radius {% if section__size == 7 %}footer-newsletter__button-full {% endif %}footer-newsletter__button button button--{{ block.settings.button_style }}"
+                          class="buttons_radius {% if section_size == 7 %}footer-newsletter__button-full {% endif %}footer-newsletter__button button button--{{ block.settings.button_style }}"
                           name="commit"
                         >
                           {{ block.settings.button_label }}

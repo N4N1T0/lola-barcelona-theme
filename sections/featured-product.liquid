@@ -58,8 +58,8 @@
               <div class="product__media-list__container--large{% if product.media.size == 1 %} product__media-list__container--large-one{% endif %}">
                 {% liquid
                   assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
-                  assign media_count = product.media.size
                 %}
+                {% comment %} assign media_count = product.media.size {% endcomment %}
 
                 {% if product.selected_or_first_available_variant.featured_media != null %}
                   {% assign featured_media = product.selected_or_first_available_variant.featured_media %}
@@ -145,50 +145,50 @@
                       </ul>
                     {%- endif -%}
                   {%- when 'description' -%}
-                    {% assign default_open = block.settings.default_open %}
                     {% comment %}
-                      {% if product.description != blank %}
-                      	{% if block.settings.description_variants == 'collapsible'
-                      	%}
-                      		<div class="product-about">
-                      			<div class="product-about__outer">
-                      				<div class="product-about__right">
-                      					<div class="product-about__wrapper no-js-hidden">
-                      						<div
-                      							class="product-about__accordion-item"
-                      							{{ block.shopify_attributes }}
-                      						>
-                      							<h2 class="h6 product-about__accordion-title{% if default_open %} active{% endif %}">
-                      								<span>
-                      									{{- block.settings.description_heading -}}
-                      								</span>
-                      								<div class="product-about__more-link-wrapper">
-                      									<div class="product-about__more-link">
-                      										{% render 'icon-arrow' %}
-                      									</div>
-                      								</div>
-                      							</h2>
-                      							<div
-                      								class="product-about__accordion-description product-about__accordion-content main-product-description"
-                      								{% if default_open %}
-                      									style="display: block"
-                      								{% else %}
-                      									style="display: none"
-                      								{% endif %}
-                      							>
-                      								{{ product.description }}
-                      							</div>
-                      						</div>
-                      					</div>
-                      				</div>
-                      			</div>
-                      		</div>
-                      	{% elsif block.settings.description_variants == 'fixed' %}
-                      		<div class="product__description-fixed main-product-description">
-                      			{{ product.description }}
-                      		</div>
-                      	{% endif %}
-                      {% endif %}
+                      {% assign default_open = block.settings.default_open %}
+                        {% if product.description != blank %}
+                        	{% if block.settings.description_variants == 'collapsible'
+                        	%}
+                        		<div class="product-about">
+                        			<div class="product-about__outer">
+                        				<div class="product-about__right">
+                        					<div class="product-about__wrapper no-js-hidden">
+                        						<div
+                        							class="product-about__accordion-item"
+                        							{{ block.shopify_attributes }}
+                        						>
+                        							<h2 class="h6 product-about__accordion-title{% if default_open %} active{% endif %}">
+                        								<span>
+                        									{{- block.settings.description_heading -}}
+                        								</span>
+                        								<div class="product-about__more-link-wrapper">
+                        									<div class="product-about__more-link">
+                        										{% render 'icon-arrow' %}
+                        									</div>
+                        								</div>
+                        							</h2>
+                        							<div
+                        								class="product-about__accordion-description product-about__accordion-content main-product-description"
+                        								{% if default_open %}
+                        									style="display: block"
+                        								{% else %}
+                        									style="display: none"
+                        								{% endif %}
+                        							>
+                        								{{ product.description }}
+                        							</div>
+                        						</div>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>
+                        	{% elsif block.settings.description_variants == 'fixed' %}
+                        		<div class="product__description-fixed main-product-description">
+                        			{{ product.description }}
+                        		</div>
+                        	{% endif %}
+                        {% endif %}
                     {% endcomment %}
                     {% comment %}
                       {%- when 'about' -%}
@@ -279,12 +279,13 @@
                         if block.settings.show_gift_card_recipient and product.gift_card?
                           assign gift_card_recipient_feature_active = true
                         endif
-
+                      -%}
+                      {% comment %}
                         assign show_dynamic_checkout = false
                         if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
                           assign show_dynamic_checkout = true
                         endif
-                      -%}
+                      {% endcomment %}
 
                       <product-form
                         class="product-form"
@@ -508,7 +509,7 @@
                           {%- if block.settings.show_share_pinterest -%}
                             <li class="share-buttons__item">
                               <a
-                                href="https://pinterest.com/pin/create/bookmarklet/?media={{ product.featured_media | img_url: '1100x1100' }}&url={{ shop.url | append: product.url }}&description={{ product.title | escape }}"
+                                href="https://pinterest.com/pin/create/bookmarklet/?media={{ product.featured_media | image_url: '1100x1100' }}&url={{ shop.url | append: product.url }}&description={{ product.title | escape }}"
                                 class="share-buttons__button link-hover-line-outer pinterest-btn"
                                 target="_blank"
                                 aria-label="pinterest"

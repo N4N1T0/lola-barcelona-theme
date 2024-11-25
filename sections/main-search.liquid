@@ -24,15 +24,15 @@
 <div class="template-search {% if search.performed == true and search.results_count == 0 and terms != blank %} template-search--empty {% endif %} section-{{ section.id }}-padding">
   <div class="container">
     <div class="template-search__header">
-			{% if settings.show_breadcrumbs %}
-				<nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
-					<a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home' | t }}" class="breadcrumb__link">
-						{{ 'general.breadcrumbs.home' | t }}
-					</a>
-					<div class="breadcrumb__delimiter">{% render 'icon-breadcrumbs' %}</div>
-					<span>{{ page_title }}</span>
-				</nav>
-			{% endif %}
+      {% if settings.show_breadcrumbs %}
+        <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
+          <a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home' | t }}" class="breadcrumb__link">
+            {{ 'general.breadcrumbs.home' | t }}
+          </a>
+          <div class="breadcrumb__delimiter">{% render 'icon-breadcrumbs' %}</div>
+          <span>{{ page_title }}</span>
+        </nav>
+      {% endif %}
       <div class="page-header">
         <div class="page-header__inner">
           {%- if search.performed -%}
@@ -158,9 +158,9 @@
               enable_filtering: section.settings.enable_filtering,
               enable_sorting: section.settings.enable_sorting,
               filter_type: section.settings.filter_type,
-							image_filter_ratio: section.settings.image_filter_ratio,
-							image_filter_fit: section.settings.image_filter_fit,
-							image_filter_columns: section.settings.image_filter_columns
+              image_filter_ratio: section.settings.image_filter_ratio,
+              image_filter_fit: section.settings.image_filter_fit,
+              image_filter_columns: section.settings.image_filter_columns
             %}
           {%- endif -%}
         {%- endif -%}
@@ -238,8 +238,10 @@
                   <ul class="collection-results collection-results--products" role="list">
                     {%- for item in search_products -%}
                       <li class="collection-product-card template-search__item">
-                        {%- capture product_settings -%}
-												{%- if section.settings.show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
+                        {% comment %}
+                          {%- capture product_settings -%}
+                          {%- if section.settings.show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
+                        {% endcomment %}
                         {% render 'product-card',
                           product_card_product: item,
                           media_size: section.settings.image_ratio,
@@ -508,7 +510,7 @@
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
     },
-		{
+    {
       "type": "header",
       "content": "t:sections.main-collection-product-grid.settings.image_filter.content"
     },
@@ -516,7 +518,7 @@
       "type": "select",
       "id": "image_filter_ratio",
       "options": [
-				{
+        {
           "value": "3/2",
           "label": "t:sections.all.image.ratio.options__1.label"
         },
@@ -529,7 +531,7 @@
           "label": "t:sections.all.image.ratio.options__3.label"
         }
       ],
-			"default": "4/5",
+      "default": "4/5",
       "label": "t:sections.all.image.ratio.label"
     },
     {

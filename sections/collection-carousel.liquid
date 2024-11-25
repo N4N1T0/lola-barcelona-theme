@@ -171,7 +171,6 @@
             </div>
             <div class="collection-carousel-btn">
               {%- if section.settings.collection.title != blank -%}
-                {% assign btn_label = 'collection.collection_button_label' | t %}
                 {% render 'button',
                   btn_link: button_link,
                   btn_label: button_text,
@@ -179,7 +178,6 @@
                   enable_arrow: section.settings.button_arrow
                 %}
               {% else %}
-                {% assign btn_label = 'collection.collection_title' | t %}
                 {% render 'button', btn_style: section.settings.button_style, btn_label: button_text %}
               {%- endif -%}
             </div>

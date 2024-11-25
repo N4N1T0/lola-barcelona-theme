@@ -257,7 +257,7 @@
                       {%- if block.settings.show_share_pinterest -%}
                         <li class="share-buttons__item">
                           <a
-                            href="https://pinterest.com/pin/create/bookmarklet/?media={{ product.featured_media | img_url: '1100x1100' }}&url={{ shop.url | append: product.url }}&description={{ product.title | escape }}"
+                            href="https://pinterest.com/pin/create/bookmarklet/?media={{ product.featured_media | image_url: '1100x1100' }}&url={{ shop.url | append: product.url }}&description={{ product.title | escape }}"
                             class="share-buttons__button link-hover-line-outer pinterest-btn"
                             target="_blank"
                             aria-label="pinterest"
@@ -294,12 +294,13 @@
                     if block.settings.show_gift_card_recipient and product.gift_card?
                       assign gift_card_recipient_feature_active = true
                     endif
-
+                  -%}
+                  {% comment %}
                     assign show_dynamic_checkout = false
                     if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
-                      assign show_dynamic_checkout = true
                     endif
-                  -%}
+                    assign show_dynamic_checkout = true
+                  {% endcomment %}
 
                   <product-form class="product-form" data-hide-errors="{{ gift_card_recipient_feature_active }}">
                     <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -527,13 +528,15 @@
                     </p>
                     {% for recommendation in recommendations.products limit: 3 %}
                       <div class="card-wrapper">
-                        {%- liquid
-                          assign featured_media_aspect_ratio = recommendation.featured_media.aspect_ratio
+                        {% comment %}
+                          {%- liquid
+                            assign featured_media_aspect_ratio = recommendation.featured_media.aspect_ratio
 
-                          if recommendation.featured_media.aspect_ratio == null
-                            assign featured_media_aspect_ratio = 1
-                          endif
-                        -%}
+                            if recommendation.featured_media.aspect_ratio == null
+                              assign featured_media_aspect_ratio = 1
+                            endif
+                          -%}
+                        {% endcomment %}
 
                         {% if recommendation.media[1] != null and section.settings.show_secondary_image %}
                           {% assign image_height = recommendation.media[1].width
@@ -608,13 +611,15 @@
                     </p>
                     {% for recommendation in recommendations.products limit: 3 %}
                       <div class="card-wrapper">
-                        {%- liquid
-                          assign featured_media_aspect_ratio = recommendation.featured_media.aspect_ratio
+                        {% comment %}
+                          {%- liquid
+                            assign featured_media_aspect_ratio = recommendation.featured_media.aspect_ratio
 
-                          if recommendation.featured_media.aspect_ratio == null
-                            assign featured_media_aspect_ratio = 1
-                          endif
-                        -%}
+                            if recommendation.featured_media.aspect_ratio == null
+                              assign featured_media_aspect_ratio = 1
+                            endif
+                          -%}
+                        {% endcomment %}
 
                         {% if recommendation.media[1] != null and section.settings.show_secondary_image %}
                           {% assign image_height = recommendation.media[1].width
@@ -872,8 +877,8 @@
                   <div class="swiper-wrapper">
                     {%- liquid
                       assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
-                      assign media_count = product.media.size
                     -%}
+                    {% comment %} assign media_count = product.media.size {% endcomment %}
 
                     {%- if product.selected_or_first_available_variant.featured_media != null -%}
                       {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
@@ -953,8 +958,8 @@
             <div class="{% if section.settings.image_gallery_collage == "stacked" %}product__media-list__container--large{% if product.media.size == 1 %} product__media-list__container--large-one{% endif %}{% endif %}">
               {% liquid
                 assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
-                assign media_count = product.media.size
               %}
+              {% comment %} assign media_count = product.media.size {% endcomment %}
 
               {% if product.selected_or_first_available_variant.featured_media != null %}
                 {% assign featured_media = product.selected_or_first_available_variant.featured_media %}
@@ -1136,7 +1141,7 @@
                   {% else %}
                     {{
                       media
-                      | external_video_url: autoplay: true, loop: loop
+                      | external_video_url: autoplay: true, loop: true
                       | external_video_tag: class: video_class, loading: 'lazy'
                     }}
                   {% endif %}
@@ -1245,7 +1250,7 @@
 
     showActiveMedia() {
       this.querySelectorAll(
-        `[data-media-id]:not([data-media-id="${this.openedBy.getAttribute('data-media-id')}"])`,
+        `[data-media-id]:not([data-media-id="${this.openedBy.getAttribute('data-media-id')}"])`
       ).forEach((element) => {
         element.classList.remove('active');
       });

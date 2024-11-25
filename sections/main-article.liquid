@@ -408,7 +408,7 @@
                   {%- if block.settings.show_share_pinterest -%}
                     <li class="share-buttons-simple__item">
                       <a
-                        href="https://pinterest.com/pin/create/bookmarklet/?media={{ article.image | img_url: '1100x1100' }}&url={{ shop.url | append: article.url }}&description={{ article.title | escape }}"
+                        href="https://pinterest.com/pin/create/bookmarklet/?media={{ article.image | image_url: '1100x1100' }}&url={{ shop.url | append: article.url }}&description={{ article.title | escape }}"
                         class="share-buttons-simple__button pinterest-btn"
                         target="_blank"
                         aria-label="pinterest"
@@ -441,7 +441,7 @@
     <div class="article-template__comment-wrapper background-secondary">
       <div id="comments" class="container">
         {%- if article.comments_count > 0 -%}
-          {%- assign anchorId = '#Comments-' | append: article.id -%}
+          {%- assign anchor_id = '#Comments-' | append: article.id -%}
 
           <h2 id="Comments-{{ article.id }}" tabindex="-1">
             {{ 'blogs.article.comments' | t: count: article.comments_count }}
@@ -477,7 +477,7 @@
                   </footer>
                 </article>
               {%- endfor -%}
-              {% render 'pagination', paginate: paginate, anchor: anchorId %}
+              {% render 'pagination', paginate: paginate, anchor: anchor_id %}
             </div>
           {% endpaginate %}
         {%- endif -%}
@@ -652,7 +652,7 @@
     {% if article.image %}
   			{% assign image_size = article.image.width | append: 'x' %}
       "image": [
-        {{ article | img_url: image_size | prepend: "https:" | json }}
+        {{ article | image_url: image_size | prepend: "https:" | json }}
       ],
     {% endif %}
     "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
@@ -668,7 +668,7 @@
         "logo": {
           "@type": "ImageObject",
           "height": {{ settings.share_image.height | json }},
-          "url": {{ settings.share_image | img_url: image_size | prepend: "https:" | json }},
+          "url": {{ settings.share_image | image_url: image_size | prepend: "https:" | json }},
           "width": {{ settings.share_image.width | json }}
         },
       {% endif %}
