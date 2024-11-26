@@ -904,7 +904,7 @@ h6,
   letter-spacing: calc(var(--font-heading-letter-spacing) * 0.1);
   color: rgb(var(--color-foreground-title));
   line-height: var(--font-heading-line-height);
-  text-transform: var(--font-heading-text-transform);
+  text-transform: none;
   word-wrap: break-word;
   max-width: 100%;
   margin: 0 0 1.6rem;
