@@ -34,28 +34,16 @@
             "show_gift_card_recipient": false
           }
         },
-        "icon-with-text": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "icon_17",
-            "heading_1": "Heading",
-            "icon_2": "icon_1",
-            "heading_2": "Heading",
-            "icon_3": "icon_3",
-            "heading_3": "Heading"
-          }
-        },
         "icon_with_text_VFf6Mx": {
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
             "icon_1": "icon_1",
             "image_1": "shopify://shop_images/Lola_pictos_Comptagotes.png",
-            "heading_1": "Formulación propia",
+            "heading_1": "Formulación 100% propia",
             "icon_2": "icon_1",
             "image_2": "shopify://shop_images/Lola_pictos_vegan.png",
-            "heading_2": "Vegano",
+            "heading_2": "Producto Vegano",
             "icon_3": "icon_3",
             "image_3": "shopify://shop_images/Lola_pictos_Barcelona.png",
             "heading_3": "Hecho en Barcelona"
@@ -88,7 +76,6 @@
         "price",
         "variant_picker",
         "buy_buttons",
-        "icon-with-text",
         "icon_with_text_VFf6Mx",
         "description",
         "about",
