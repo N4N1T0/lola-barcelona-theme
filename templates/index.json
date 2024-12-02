@@ -16,7 +16,7 @@
           "type": "slideshow_item",
           "settings": {
             "image": "shopify://shop_images/hyaluronic_lipstic_banner.png",
-            "imagemobile": "shopify://shop_images/hyaluronic_lipstic_banner_mobile.png",
+            "imagemobile": "shopify://shop_images/hyaluronic_lipstick_banner_mobile.svg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
