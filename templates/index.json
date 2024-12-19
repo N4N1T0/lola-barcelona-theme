@@ -15,13 +15,13 @@
         "slideshow_item_XtdbGN": {
           "type": "slideshow_item",
           "settings": {
-            "image": "shopify://shop_images/hyaluronic_lipstick_banner.png",
-            "imagemobile": "shopify://shop_images/hyaluronic_lipstick_banner_mobile.svg",
+            "image": "shopify://shop_images/lola_banner_xmas_1.jpg",
+            "imagemobile": "shopify://shop_images/lola_banner_xmas_mov.jpg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
             "button_label": "",
-            "button_link": "https://www.lola-barcelona.com/products/hyaluronic-lipstick",
+            "button_link": "",
             "button_style": "primary",
             "button_arrow": true,
             "overlay_opacity": 20
