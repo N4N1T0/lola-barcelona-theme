@@ -16,7 +16,7 @@
           "type": "slideshow_item",
           "settings": {
             "image": "shopify://shop_images/lola_rebajas_banner_desk.jpg",
-            "imagemobile": "shopify://shop_images/lola_rebajas_banner_mov.png",
+            "imagemobile": "shopify://shop_images/lola_rebajas_banner_mov.svg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
