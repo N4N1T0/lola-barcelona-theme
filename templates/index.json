@@ -502,8 +502,8 @@
       "settings": {
         "image": "shopify://shop_images/tratamiento_unas.png",
         "overlay_opacity": 30,
-        "heading": "Colección Clean Look",
-        "description": "<p>Maquillaje natural para un rostro natural.</p>",
+        "heading": "Tratamiento de uñas",
+        "description": "<p>Descubre nuestros exclusivos tratamientos para uñas diseñados para realzar la belleza natural y mantenerlas saludables. </p>",
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": true,
