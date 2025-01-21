@@ -454,35 +454,53 @@
         "marker_3jU9R9": {
           "type": "marker",
           "settings": {
-            "position_x": 20,
+            "position_x": 35,
             "position_y": 15,
-            "product": "lengthening-mascara"
+            "product": "quick-dry-top-coat-secante"
           }
         },
         "marker_hTfxtG": {
           "type": "marker",
           "settings": {
-            "position_x": 73,
-            "position_y": 61,
-            "product": "velvet-touch-creamy-blush"
+            "position_x": 62,
+            "position_y": 38,
+            "product": "base-coat"
           }
         },
         "marker_JFN4U7": {
           "type": "marker",
           "settings": {
             "position_x": 58,
-            "position_y": 99,
-            "product": "matte-liquid-lipstick-sandy"
+            "position_y": 87,
+            "product": "top-coat"
+          }
+        },
+        "marker_hiLtUc": {
+          "type": "marker",
+          "settings": {
+            "position_x": 28,
+            "position_y": 66,
+            "product": "ridge-filler-cotton"
+          }
+        },
+        "marker_xQPjXn": {
+          "type": "marker",
+          "settings": {
+            "position_x": 46,
+            "position_y": 45,
+            "product": "tratamiento-para-unas-top-coat-radiance"
           }
         }
       },
       "block_order": [
         "marker_3jU9R9",
         "marker_hTfxtG",
-        "marker_JFN4U7"
+        "marker_JFN4U7",
+        "marker_hiLtUc",
+        "marker_xQPjXn"
       ],
       "settings": {
-        "image": "shopify://shop_images/clean_look.png",
+        "image": "shopify://shop_images/tratamiento_unas.png",
         "overlay_opacity": 30,
         "heading": "Colección Clean Look",
         "description": "<p>Maquillaje natural para un rostro natural.</p>",
