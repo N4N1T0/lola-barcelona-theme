@@ -93,27 +93,14 @@
     },
     "image_with_text_DCitq9": {
       "type": "image-with-text",
-      "blocks": {
-        "column_PW9gnd": {
-          "type": "column",
-          "settings": {
-            "icon_item": "none",
-            "subheading": "<strong>¿En qué se diferencian los tres tonos? </strong>",
-            "text": "<p><strong>Belle</strong>, el único tono transparente, es un bálsamo floral con <strong>Flor de Tiare</strong> (propiedades nutritivas, suavizantes, y protectoras solares) y <strong>Orquídea</strong> (hidrata y suaviza tus labios). <br/></p><p>El bálsamo <strong>Corail</strong>, con un tono coralino precioso, tiene una fórmula frutal rica en antioxidantes y propiedades regeneradoras. Contiene <strong>Aceite de Pepita de Uva</strong> (con un alto contenido en ácidos grasos y antioxidantes), <strong>Aceite de Mango</strong> (aporta hidratación profunda y protección a los labios) y <strong>Aceite de Luffa</strong>, que ayuda a la suavidad de la piel. </p><p>El tercer y último tono es <strong>Kiss</strong>, un bálsamo vegetal, o más bien un cóctel hidratante  y antiedad que te ayudará a conseguir esos labios sanos y suaves que buscas. Su fórmula contiene<strong> Aceite de Chía</strong> (propiedades hidratantes y suavizantes), <strong>Camelina Gold</strong> (propiedades antiedad e hidratantes) y el <strong>Cannabis</strong> (propiedades calmantes, hidratantes y antioxidantes). </p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_PW9gnd"
-      ],
       "settings": {
         "color_scheme": "",
         "video": "shopify://files/videos/LOLA BCN REEL 5- GLOWBALM.mov",
         "image_size": "adapt",
         "layout": "image_first",
         "icon_size": "small",
-        "heading": "",
-        "text": "",
+        "heading": "<strong>¿En qué se diferencian los tres tonos? </strong>",
+        "text": "<p><strong>Belle</strong>, el único tono transparente, es un bálsamo floral con <strong>Flor de Tiare</strong> (propiedades nutritivas, suavizantes, y protectoras solares) y <strong>Orquídea</strong> (hidrata y suaviza tus labios). <br/></p><p>El bálsamo <strong>Corail</strong>, con un tono coralino precioso, tiene una fórmula frutal rica en antioxidantes y propiedades regeneradoras. Contiene <strong>Aceite de Pepita de Uva</strong> (con un alto contenido en ácidos grasos y antioxidantes), <strong>Aceite de Mango</strong> (aporta hidratación profunda y protección a los labios) y <strong>Aceite de Luffa</strong>, que ayuda a la suavidad de la piel. </p><p>El tercer y último tono es <strong>Kiss</strong>, un bálsamo vegetal, o más bien un cóctel hidratante  y antiedad que te ayudará a conseguir esos labios sanos y suaves que buscas. Su fórmula contiene<strong> Aceite de Chía</strong> (propiedades hidratantes y suavizantes), <strong>Camelina Gold</strong> (propiedades antiedad e hidratantes) y el <strong>Cannabis</strong> (propiedades calmantes, hidratantes y antioxidantes). </p>",
         "big_text": false,
         "desktop_content_position": "flex-start",
         "desktop_content_alignment": "left",
