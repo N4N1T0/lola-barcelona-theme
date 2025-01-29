@@ -93,6 +93,7 @@
     },
     "image_with_text_DCitq9": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "video": "shopify://files/videos/LOLA BCN REEL 5- GLOWBALM.mov",
