@@ -119,6 +119,40 @@
         "margin_bottom": "xs"
       }
     },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "image_size": "auto",
+        "color_scheme": "",
+        "overlay_opacity": 20,
+        "collection": "pintalabios",
+        "image": "shopify://shop_images/lola_san_valentin_promo.png",
+        "show_image": true,
+        "icon_item": "none",
+        "icon_size": "small",
+        "button_style": "primary",
+        "button_arrow": true,
+        "cta_text": "Ver más",
+        "cta_url": "shopify://collections/pintalabios",
+        "slide_per_view": "3",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
     "popular-products": {
       "type": "popular-products",
       "custom_css": [],
@@ -353,40 +387,6 @@
         "show_desc": false,
         "margin_top": "xs",
         "margin_bottom": "xs"
-      }
-    },
-    "collection-carousel": {
-      "type": "collection-carousel",
-      "settings": {
-        "image_size": "auto",
-        "color_scheme": "",
-        "overlay_opacity": 20,
-        "collection": "pintalabios",
-        "image": "shopify://shop_images/lola_san_valentin_promo.png",
-        "show_image": true,
-        "icon_item": "none",
-        "icon_size": "small",
-        "button_style": "primary",
-        "button_arrow": true,
-        "cta_text": "Ver más",
-        "cta_url": "shopify://collections/pintalabios",
-        "slide_per_view": "3",
-        "autoplay": true,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "image_ratio": "portrait",
-        "show_collection_name": false,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
       }
     },
     "multicolumn_4UbWWB": {
