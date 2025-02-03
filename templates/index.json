@@ -16,7 +16,7 @@
           "type": "slideshow_item",
           "settings": {
             "image": "shopify://shop_images/lola_san_valentin_promo_labiales.png",
-            "imagemobile": "shopify://shop_images/lola_san_valentin_promo_labiales.png",
+            "imagemobile": "shopify://shop_images/lola_san_valentin_promo_labiales_mov.png",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
@@ -31,7 +31,7 @@
           "type": "slideshow_item",
           "settings": {
             "image": "shopify://shop_images/lola_san_valentin_promo_collar_1.png",
-            "imagemobile": "shopify://shop_images/lola_san_valentin_promo_collar_1.png",
+            "imagemobile": "shopify://shop_images/lola_san_valentin_promo_collar_mov.png",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
