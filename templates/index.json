@@ -267,8 +267,8 @@
       ],
       "settings": {
         "color_scheme": "background-2",
-        "image": "shopify://shop_images/lola_barcelona-12489_1.jpg",
-        "image_size": "large",
+        "image": "shopify://shop_images/Look_2.png",
+        "image_size": "adapt",
         "layout": "image_first",
         "icon_size": "medium",
         "heading": "La Ciencia Detrás de la Belleza",
