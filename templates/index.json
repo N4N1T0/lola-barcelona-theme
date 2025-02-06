@@ -119,40 +119,6 @@
         "margin_bottom": "xs"
       }
     },
-    "collection-carousel": {
-      "type": "collection-carousel",
-      "settings": {
-        "image_size": "auto",
-        "color_scheme": "",
-        "overlay_opacity": 20,
-        "collection": "pintalabios",
-        "image": "shopify://shop_images/lola_san_valentin_promo.png",
-        "show_image": true,
-        "icon_item": "none",
-        "icon_size": "small",
-        "button_style": "primary",
-        "button_arrow": true,
-        "cta_text": "Ver más",
-        "cta_url": "shopify://collections/pintalabios",
-        "slide_per_view": "3",
-        "autoplay": true,
-        "stop_autoplay": true,
-        "show_arrows": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "image_ratio": "portrait",
-        "show_collection_name": false,
-        "show_secondary_image": true,
-        "show_sku": false,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "show_desc": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
-      }
-    },
     "popular-products": {
       "type": "popular-products",
       "custom_css": [],
@@ -185,6 +151,71 @@
         "show_desc": false,
         "margin_top": "xs",
         "margin_bottom": "xs"
+      }
+    },
+    "split_screen_slideshow_MKJYAC": {
+      "type": "split-screen-slideshow",
+      "blocks": {
+        "split_screen_slid_QJCKRP": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "",
+            "heading": "",
+            "text": "<p>Utilizamos principios activos de la cosmética para mejorar la textura, hidratación y luminosidad de tu piel.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_arrow": true,
+            "video": "shopify://files/videos/LOLA BCN REEL 2.mov"
+          }
+        },
+        "split_screen_slid_YghNMR": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "",
+            "heading": "",
+            "text": "<p>Somos un laboratorio de Barcelona dedicados a crear maquillaje de alta calidad.</p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_arrow": true,
+            "video": "shopify://files/videos/LOLA BCN REEL 1 (1).mov"
+          }
+        },
+        "split_screen_slid_JDiyPH": {
+          "type": "split_screen_slid",
+          "settings": {
+            "color_scheme": "",
+            "heading": "",
+            "text": "<p>Productos veganos y \"pet friendly\", garantizando que cada elección que haces contribuye a un mundo más ético.</p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_arrow": true,
+            "video": "shopify://files/videos/Lola Barcelona Blush.mov"
+          }
+        }
+      },
+      "block_order": [
+        "split_screen_slid_QJCKRP",
+        "split_screen_slid_YghNMR",
+        "split_screen_slid_JDiyPH"
+      ],
+      "settings": {
+        "section_layout": "full",
+        "text_animation": false,
+        "image_size": "large",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_bullets": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "parallax": false,
+        "slide_effects": "slide",
+        "additional_text": "<p>La Ciencia Detrás de la belleza</p>",
+        "enable_additional_text": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     },
     "image_with_text_yp8E79": {
@@ -387,6 +418,40 @@
         "show_desc": false,
         "margin_top": "xs",
         "margin_bottom": "xs"
+      }
+    },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "image_size": "auto",
+        "color_scheme": "",
+        "overlay_opacity": 20,
+        "collection": "pintalabios",
+        "image": "shopify://shop_images/lola_san_valentin_promo.png",
+        "show_image": true,
+        "icon_item": "none",
+        "icon_size": "small",
+        "button_style": "primary",
+        "button_arrow": true,
+        "cta_text": "Ver más",
+        "cta_url": "shopify://collections/pintalabios",
+        "slide_per_view": "3",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
       }
     },
     "multicolumn_4UbWWB": {
@@ -747,6 +812,7 @@
     "slideshow",
     "collection_grid_A7Jbr4",
     "popular-products",
+    "split_screen_slideshow_MKJYAC",
     "image_with_text_yp8E79",
     "testimonials_gYARwU",
     "popular_products_jAEiEc",
