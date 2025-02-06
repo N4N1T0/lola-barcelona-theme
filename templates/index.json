@@ -160,7 +160,7 @@
           "type": "split_screen_slid",
           "settings": {
             "color_scheme": "",
-            "heading": "La  Ciencia detrás de la belleza",
+            "heading": "La  Ciencia detrás de la Belleza",
             "text": "<p>Utilizamos principios activos de la cosmética para mejorar la textura, hidratación y luminosidad de tu piel.</p>",
             "button_label": "Ver vídeo",
             "button_link": "https://www.instagram.com/reel/DBlckHeq6Ei/",
@@ -201,6 +201,7 @@
         "split_screen_slid_YghNMR",
         "split_screen_slid_JDiyPH"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "full",
         "text_animation": false,
@@ -270,7 +271,7 @@
         "image_size": "large",
         "layout": "image_first",
         "icon_size": "medium",
-        "heading": "La Ciencia Detrás de la belleza",
+        "heading": "La Ciencia Detrás de la Belleza",
         "text": "",
         "big_text": false,
         "desktop_content_position": "flex-start",
