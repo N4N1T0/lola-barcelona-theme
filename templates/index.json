@@ -71,6 +71,7 @@
       "blocks": {
         "categories_mGjhEt": {
           "type": "categories",
+          "disabled": true,
           "settings": {
             "collection": "pintalabios",
             "collection_image": "shopify://shop_images/lola-barcelona-12101.jpg",
@@ -160,10 +161,10 @@
           "type": "split_screen_slid",
           "settings": {
             "color_scheme": "",
-            "heading": "",
+            "heading": "La  Ciencia detrás de la belleza",
             "text": "<p>Utilizamos principios activos de la cosmética para mejorar la textura, hidratación y luminosidad de tu piel.</p>",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Ver vídeo",
+            "button_link": "https://www.instagram.com/reel/DBlckHeq6Ei/",
             "button_style": "secondary",
             "button_arrow": true,
             "video": "shopify://files/videos/LOLA BCN REEL 2.mov"
@@ -173,10 +174,10 @@
           "type": "split_screen_slid",
           "settings": {
             "color_scheme": "",
-            "heading": "",
+            "heading": "La  Ciencia detrás de la belleza",
             "text": "<p>Somos un laboratorio de Barcelona dedicados a crear maquillaje de alta calidad.</p>",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Ver vídeo",
+            "button_link": "https://www.instagram.com/reel/DBgwEtXqxxy/",
             "button_style": "secondary",
             "button_arrow": true,
             "video": "shopify://files/videos/LOLA BCN REEL 1 (1).mov"
@@ -186,10 +187,10 @@
           "type": "split_screen_slid",
           "settings": {
             "color_scheme": "",
-            "heading": "",
+            "heading": "La  Ciencia detrás de la belleza",
             "text": "<p>Productos veganos y \"pet friendly\", garantizando que cada elección que haces contribuye a un mundo más ético.</p>",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Ver vídeo",
+            "button_link": "https://www.instagram.com/reel/DBbYVjSqQc9/",
             "button_style": "secondary",
             "button_arrow": true,
             "video": "shopify://files/videos/Lola Barcelona Blush.mov"
