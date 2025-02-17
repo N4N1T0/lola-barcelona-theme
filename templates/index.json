@@ -15,8 +15,8 @@
         "slideshow_item_8NN9CW": {
           "type": "slideshow_item",
           "settings": {
-            "image": "shopify://shop_images/lola_san_valentin_promo_collar_1.png",
-            "imagemobile": "shopify://shop_images/lola_san_valentin_promo_collar_mov.png",
+            "image": "shopify://shop_images/hyaluronic_lipstick_banner.png",
+            "imagemobile": "shopify://shop_images/hyaluronic_lipstick_banner_mobile.svg",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
@@ -26,26 +26,10 @@
             "button_arrow": true,
             "overlay_opacity": 20
           }
-        },
-        "slideshow_item_XtdbGN": {
-          "type": "slideshow_item",
-          "settings": {
-            "image": "shopify://shop_images/lola_san_valentin_promo_labiales.png",
-            "imagemobile": "shopify://shop_images/lola_san_valentin_promo_labiales_mov.png",
-            "color_scheme": "background-1",
-            "heading": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify://collections/its-time-to-celebrate",
-            "button_style": "primary",
-            "button_arrow": true,
-            "overlay_opacity": 20
-          }
         }
       },
       "block_order": [
-        "slideshow_item_8NN9CW",
-        "slideshow_item_XtdbGN"
+        "slideshow_item_8NN9CW"
       ],
       "settings": {
         "section_layout": "full",
