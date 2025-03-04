@@ -14,6 +14,7 @@
       "blocks": {
         "slideshow_item_8NN9CW": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hyaluronic_lipstick_banner.png",
             "imagemobile": "shopify://shop_images/hyaluronic_lipstick_banner_mobile.svg",
@@ -26,10 +27,26 @@
             "button_arrow": true,
             "overlay_opacity": 20
           }
+        },
+        "slideshow_item_faTpdg": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify://shop_images/lola_8M_desk.jpg",
+            "imagemobile": "shopify://shop_images/lola_8M_mov.png",
+            "color_scheme": "background-1",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_arrow": true,
+            "overlay_opacity": 20
+          }
         }
       },
       "block_order": [
-        "slideshow_item_8NN9CW"
+        "slideshow_item_8NN9CW",
+        "slideshow_item_faTpdg"
       ],
       "settings": {
         "section_layout": "full",
