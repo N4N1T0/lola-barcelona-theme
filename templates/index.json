@@ -14,7 +14,6 @@
       "blocks": {
         "slideshow_item_8NN9CW": {
           "type": "slideshow_item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hyaluronic_lipstick_banner.png",
             "imagemobile": "shopify://shop_images/hyaluronic_lipstick_banner_mobile.svg",
@@ -30,6 +29,7 @@
         },
         "slideshow_item_faTpdg": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/lola_8M_desk.jpg",
             "imagemobile": "shopify://shop_images/lola_somos_poderosas_2.jpg",
