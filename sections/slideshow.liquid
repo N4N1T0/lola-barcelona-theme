@@ -89,6 +89,10 @@
           }
         {% endstyle %}
         <div class="slideshow-swiper__slide swiper-slide">
+          {% if block.settings.button_link != blank %}
+            <a href="{{ block.settings.button_link }}" class="slideshow-slide__link-wrapper" style="display: block;">
+          {% endif %}
+        
           <div
             class="slideshow-slide background color-{{ slide_color }}"
             data-id="{{ block.id }}"
@@ -167,7 +171,11 @@
               </div>
             </div>
           </div>
+          {% if block.settings.button_link != blank %}
+            </a>
+          {% endif %}
         </div>
+        
       {% endfor %}
     </div>
     {% if section.settings.show_bullets or section.settings.enable_additional_text %}
