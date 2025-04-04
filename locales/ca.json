@@ -1657,6 +1657,142 @@
         "express_payment_gateway_label": "Express",
         "billing_address_title": "Adreça de facturació"
       }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "open_a_store": {
+            "caption": "Comença una prova gratuïta de 3 dies i continua per $1/mes durant els 3 mesos següents.",
+            "link_text": "Registra't ara"
+          },
+          "editions": {
+            "header": "Coneix Shopify Editions",
+            "caption": "Amb més de 100 actualitzacions de productes, pots ser més productiu, creatiu i poderós en el comerç del que mai vas imaginar.",
+            "link_text": "Explorar el més recent de Editions"
+          },
+          "store_owner": {
+            "header": "¿ Ets el propietari de la botiga?",
+            "caption": "Tens problemes per accedir a la botiga?Prova la funció %{forgot_your_store_link}. Si vols reactivar la teva botiga contacta amb %{shopify_support_link}.",
+            "shopify_support_link_text": "atenció al client de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Error en restablir la contrasenya",
+        "no_account_found": "No s'ha trobat cap compte amb aquesta adreça electrònica.",
+        "invalid_credentials": "Correu electrònic o contrasenya incorrectes.",
+        "denylisted_reset_password": "No es pot accedir al vostre compte perquè la contrasenya actual no és segura. Rebràs un correu electrònic per actualitzar la teva contrasenya.",
+        "signup_disabled": "S'ha desactivat la creació del compte de client.",
+        "subscribe_error": "Error de subscripció",
+        "unsubscribe_error": "Error en cancel·lar la subscripció"
+      },
+      "address": {
+        "updated": "Adreça actualitzada amb èxit.",
+        "error_updating": "Error en actualitzar l'adreça.",
+        "created": "Adreça creada amb èxit",
+        "error_creating": "Error en crear ladreça.",
+        "deleted": "Adreça eliminada amb èxit.",
+        "error_deleting": "Error en eliminar la direcció."
+      },
+      "order": {
+        "not_available": "Aquesta comanda no està disponible.",
+        "financial_status": {
+          "authorized": "Autoritzada",
+          "pending": "Pendent",
+          "voided": "Anul·lada",
+          "partially_paid": "Pagada parcialment",
+          "partially_refunded": "Reemborsada parcialment",
+          "refunded": "Reemborsada",
+          "expired": "Vençut"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Conclosa",
+          "unfulfilled": "No realitzada",
+          "restocked": "Recanvi"
+        },
+        "transaction_status": {
+          "success": "Èxit",
+          "pending": "Pendent",
+          "failure": "Fallada"
+        },
+        "cancel_reason": {
+          "declined": "Pagament rebutjat",
+          "inventory": "Articles no disponibles",
+          "fraud": "Comanda fraudulent",
+          "customer": "El client va canviar/cancel·lar comanda",
+          "other": "Un altre",
+          "many": "Un altre",
+          "staff": "Error d'un empleat"
+        },
+        "cash_on_delivery": "Pagament contra lliurament"
+      },
+      "cart": {
+        "only_n_items_available": "Només podeu afegir %{count} %{name} a la cistella.",
+        "too_many_items_in_cart": "No podeu afegir més %{name} a la cistella.",
+        "all_items_in_cart": "La teva cistella conté: %{count} %{name}.",
+        "empty_update": "No es pot actualitzar un carret buit",
+        "missing_parameters": "Identificació o paràmetre lineal no vàlids",
+        "generic_error": "Error a la cistella",
+        "too_many_line_items_error": "El carretó no pot contenir més de %{max} articles.",
+        "link_expired": "L'enllaç ha caducat",
+        "link_no_longer_exists": "L'enllaç ja no existeix.",
+        "stock_problems_html": "Un o més articles ja no estan disponibles. Hem actualitzat la teva <a href=\"%{link}\">cistella</a> .",
+        "changed": "El carretó s'ha modificat",
+        "items_changed": "S'han canviat un o més articles.",
+        "product_sold_out": "L'article '%{name}' ja està esgotat.",
+        "variant_not_found": "No s'ha trobat la variant",
+        "variant_requires_selling_plan": "La variant només es pot comprar amb un pla de vendes.",
+        "shipping_address_not_required": "Aquest carretó no requereix enviament",
+        "shipping_address_invalid": "Hi va haver un problema en calcular les tarifes d'enviament. Continua amb el pagament per seleccionar una tarifa d'enviament abans de completar la comanda.",
+        "selling_plan_not_applicable": "No es pot aplicar el pla de venda a la variant",
+        "selling_plan_not_available_for_company_locations": "Només s'admeten compres úniques per a les comandes B2B.",
+        "digital_product_not_available_for_company_locations": "Aquest article no es pot afegir a una comanda B2B",
+        "product_not_available": "El producte no està disponible",
+        "less_than_minimum": "Aquest article té un mínim de %{min}.",
+        "more_than_maximum": "Aquest article té un màxim de %{max}.",
+        "not_respect_step": "Només podeu afegir aquest article en increments de %{step}.",
+        "bundle_requires_components": "El producte %{name} del paquet no es pot afegir a la cistella.",
+        "gift_card_with_components_not_supported": "El producte %{name} del paquet no es pot afegir a la cistella.",
+        "view_lines_limit_reached": "Les línies han de ser menys de %{limit}.",
+        "merchandise_line_transformers": {
+          "run_error": "S'ha produït un error a la cistella."
+        },
+        "gift_card_price_must_be_greater_than_zero": "El producte %{name} del paquet no es pot afegir a la cistella.",
+        "cart_too_large": "El carretó és massa gran.",
+        "gift_card_recipient_validation_error": "La targeta de regal especificada no és vàlida",
+        "invalid_input": "El paràmetre %{parameter} no és vàlid.",
+        "buyer_cannot_purchase_for_company_locations": "No es pot comprar per a aquesta sucursal",
+        "only_one_added_to_cart": "A causa de la disponibilitat, només es va afegir un article a la cistella.",
+        "only_n_added_to_cart": "A causa de la disponibilitat, només s'han afegit %{quantity} articles a la cistella.",
+        "maximum_available_quantity_reached": "El teu carretó ja té la quantitat màxima d'aquest article."
+      },
+      "storefront": {
+        "invalid_password": "Contrasenya incorrecta, si us plau torna a intentar-ho."
+      },
+      "tags": {
+        "add_articles": "Refinar cerca als articles que també tenen l'etiqueta %{tag}",
+        "add_products": "Refinar selecció als productes que coincideixen amb l'etiqueta %{tag}",
+        "remove_articles": "Ampliar cerca als articles que no estan etiquetats amb %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "S'ha afegit %{delta}",
+          "increment_item": "S'ha afegit %{delta}",
+          "decrement_item": "S'ha eliminat %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "Es va tornar %{delta} de %{total}",
+          "decrement_return_line_item": "Es va eliminar %{delta} de la devolució"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "Productes",
+      "shopping_cart": "El teu carret",
+      "account": "Compte",
+      "create_account": "Crear compte",
+      "reset_account": "Restablir compte",
+      "addresses": "Adreces"
     }
   },
   "templates": {
