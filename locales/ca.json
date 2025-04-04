@@ -2206,7 +2206,36 @@
       "add_button_accessibility_label": "Afegir adreça",
       "back_button": "Enrere",
       "back_button_accessibility_label": "Tornar a l'edició de l'adreça {{address}}",
-      "no_addresses_banner": "No s'hi van afegir adreces."
+      "no_addresses_banner": "No s'hi van afegir adreces.",
+      "add_button": "Afegir adreça",
+      "address_deleted_notification": "Adreça eliminada",
+      "cancel_adding_address_accessibility_label": "Cancel·la addició de direcció",
+      "cancel_deletion_button": "Cancel·la",
+      "cancel_deletion_button_accessibility_label": "Cancel·lar eliminació de {{address}}",
+      "default_address": {
+        "title": "Adreça predeterminada",
+        "title_accessibility_label": "Adreça predeterminada: {{address}}"
+      },
+      "delete_button_accessibility_label": "Eliminar {{address}}",
+      "delete_confirmation_button": "Eliminar adreça",
+      "delete_confirmation_button_accessibility_label": "Eliminar {{address}}",
+      "delete_confirmation_message": "Eliminar adreça? Les comandes existents no es veuran afectades.",
+      "edit_button": "Edita",
+      "edit_button_accessibility_label": "Editar {{address}}",
+      "edit_section_accessibility_label": "Editar {{address}}",
+      "loading_accessibility_message": "Carregant direcció",
+      "loading_addresses_accessibility_message": "Carregant adreces",
+      "loading_billing_accessibility_message": "Carregant adreces de facturació",
+      "loading_finished_accessibility_message": "Es va carregar una nova pàgina d'adreces",
+      "loading_shipping_accessibility_message": "Carregant direcció d'enviament",
+      "pagination": {
+        "load_more": "Carregar més",
+        "load_more_accessibility_label": "Carregar més adreces"
+      },
+      "save_new_address_accessibility_label": "Desar direcció",
+      "title": "Adreces",
+      "delete_confirmation_title": "Esborrar direcció?",
+      "delete_confirmation_description": "Les comandes existents no es veuran afectades."
     },
     "address_form": {
       "auto_complete_close_accessibility_label": "Tanca els suggeriments.",
@@ -2762,7 +2791,109 @@
       "laser": "Làser",
       "storecredit": "Crèdit a la botiga"
     },
-    "enable_javascript": "Per veure el compte, activa JavaScript a la configuració del navegador o inicia sessió amb un altre navegador."
+    "enable_javascript": "Per veure el compte, activa JavaScript a la configuració del navegador o inicia sessió amb un altre navegador.",
+    "order_details": {
+      "returns": {
+        "return_and_refund_modal_header": "Política de reemborsament",
+        "ineligible_return_message": "Cap article d'aquesta comanda no compleix els requisits de devolució.",
+        "ineligible_return_message_when_returned": "Cap altre article d'aquesta comanda no compleix els requisits de devolució."
+      },
+      "request_return_failed": "S'ha produït un error en processar la sol·licitud. Torneu-ho a provar.",
+      "mobile_summary_toggle_button": {
+        "open": "Mostra resum de la comanda",
+        "closed": "Amagar resum de la comanda"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Mostrar detalls",
+        "expand_events_accessibility_label": "Mostra els detalls de l'enviament de la comanda",
+        "hide_events_label": "Amagar detalls",
+        "hide_events_accessibility_label": "Amagar els detalls de l'enviament de la comanda"
+      },
+      "show_order_summary": "Mostra el resum de la comanda",
+      "hide_order_summary": "Amagar el resum de la comanda",
+      "no_data_provided_accessibility_label": "{{fieldName}} buit",
+      "marketing_section_title": "Notícies i ofertes",
+      "marketing_description": "Rebràs correus electrònics de màrqueting. Pots donar-te de baixa en qualsevol moment.",
+      "marketing_checkbox_label": "Enviar-me novetats i ofertes per correu electrònic",
+      "marketing_checkmark_label": "Estàs subscrit per rebre notícies i ofertes per correu electrònic",
+      "image_gallery": {
+        "product_name_and_quantity": "La quantitat de {{productName}} és {{quantity}}",
+        "next": "Mostrar articles següents",
+        "previous": "Mostrar articles anteriors",
+        "load_more_items": {
+          "one": "Carregar {{count}} articles més",
+          "other": "Carregar {{count}} articles més",
+          "many": "Carregar {{count}} articles més"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descàrrega Shop per fer seguiment del paquet",
+        "track_order_with_shop": "Fer seguiment de la comanda amb Shop",
+        "title_header": "Escaneja amb el telèfon",
+        "real_time_delivery_updates": "Shop us enviarà informació en temps real sobre el lliurament quan s'hagi enviat la vostra comanda."
+      },
+      "shop_pay": {
+        "order_completed_with": "Comanda completada amb",
+        "learn_more": "Més informació"
+      },
+      "edit_summary": {
+        "added": "Agregat",
+        "added_with_quantity": "S'afegir {{quantity}} .",
+        "removed": "Eliminat",
+        "removed_with_quantity": "Es va eliminar {{quantity}} .",
+        "updated_at": "La teva comanda es va actualitzar el {{date}}",
+        "returned": "Tornat",
+        "returned_with_quantities": "Es retornar {{delta}} de {{total}} .",
+        "removed_with_quantities": "S'eliminà {{delta}} de {{total}} .",
+        "return_line_item_removed": "Es va eliminar de la devolució.",
+        "return_line_item_removed_with_quantities": "S'eliminà {{delta}} de la devolució."
+      },
+      "pickup": {
+        "pickup": "Retir",
+        "pickup_location": "Lloc de retir",
+        "pickup_point": "Punt de retir"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagat amb Quotes de Shop Pay",
+        "description": "Estigues al dia del teu calendari de pagaments amb els recordatoris de l'aplicació Shop.",
+        "payment_reminders_button": "Rebre recordatoris de pagaments",
+        "desktop_qr_code_content": {
+          "title": "Escanejar per rebre recordatoris",
+          "description": "Rep recordatoris de les teves quotes amb Shop."
+        }
+      },
+      "order_details": "Detalls de la comanda",
+      "contact_information": "Informació de contacte",
+      "login_to_view_all_order_details": "Inicia sessió per veure tota la informació de la comanda.",
+      "log_in": "Inicia sessió",
+      "paid_amount": "Pagat",
+      "remaining_amount": "Restant",
+      "order_details_skeleton_accessibility_label": "Inicia sessió per veure tota la informació de la comanda.",
+      "logged_in_account_no_permission_to_order": "Vas iniciar sessió com {{email}} . Aquest compte no disposa dels permisos necessaris per gestionar aquesta comanda.",
+      "log_in_to_a_different_account": "Inicia sessió en un compte diferent",
+      "duties": "Aranzels",
+      "ok_duties_tooltip": "Aquesta comanda s'enviarà des d'un altre país, per la qual cosa es van afegir aranzels al total de la teva comanda.",
+      "error_duties_tooltip": "Aquesta comanda s'enviarà des d'un altre país, per la qual cosa és possible que es cobrin aranzels i impostos al moment del lliurament.",
+      "zero_duties_tooltip": "Aquesta comanda s'enviarà des d'un altre país.",
+      "group_title_label": "Part de: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Càrrec per reposició",
+        "return_shipping_fee": "Enviament de devolució"
+      },
+      "vat_invoices": {
+        "title": "Factures amb IVA"
+      },
+      "taxes_included": "Inclou {{amount}} d'impostos",
+      "duties_and_taxes_included": "El total inclou impostos i aranzels. No s'apliquen càrrecs addicionals pel lliurament.",
+      "grouped_view_components": {
+        "expand_line_items": "Mostra {{count}} articles",
+        "collapse_line_items": "Amagar {{count}} articles",
+        "line_item_summary_list_accessibility_label": "Articles al paquet de {{productTitle}}"
+      },
+      "cash_rounding": "Arredoniment en efectiu",
+      "adjusted_payment": "Pagament amb ajustament",
+      "adjusted_total": "Total després de l'ajust"
+    }
   },
   "gift_cards": {
     "issued": {
