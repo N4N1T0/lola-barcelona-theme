@@ -1818,7 +1818,13 @@
         "one": "{{ count }} producte",
         "other": "{{ count }} productes"
       },
-      "search_for": "Cerqueu \" {{ terms }} \""
+      "search_for": "Cerqueu \" {{ terms }} \"",
+      "no_results": "No s'han trobat resultats per a “ {{ terms }} ”. Reviseu l'ortografia o utilitzeu una paraula o frase diferent.",
+      "page": "Pàgina",
+      "results_with_count": {
+        "one": "{{ count }} resultat trobat per a \" {{ terms }} \"",
+        "other": "{{ count }} resultats trobats per a \" {{ terms }} \""
+      }
     },
     "cart": {
       "cart": "Carretó"
@@ -2608,6 +2614,129 @@
       "clear_all": "Netejar tot",
       "empty": "Encara no hi ha productes en aquesta col·lecció.",
       "empty_results": "No s'han trobat productes"
+    }
+  },
+  "accessibility": {
+    "link": "Enllaç",
+    "cart_link": "Cistella oberta"
+  },
+  "blogs": {
+    "article": {
+      "title": "Títol de l'article",
+      "description": "Descripció de l'article",
+      "author": "Autor de l'article",
+      "read_more_title": "Llegir més: {{ title }}",
+      "read_article": "Llegeix l'article",
+      "comments": {
+        "one": "{{ count }} comentari",
+        "other": "{{ count }} comentaris"
+      },
+      "moderated": "Tingueu en compte que els comentaris s'han d'aprovar abans de publicar-se.",
+      "comment_form_title": "Deixa un comentari",
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "message": "Comentari",
+      "post": "Publicar comentari",
+      "back_to_blog": "tornar al bloc",
+      "share": "Comparteix aquest article",
+      "success": "¡¡ El teu comentari va ser publicat amb èxit! Gràcies!",
+      "success_moderated": "El teu comentari va ser publicat amb èxit. Ho publicarem en una estona, ja que el nostre bloc està moderat."
+    }
+  },
+  "onboarding": {
+    "product_title": "Títol de producte d'exemple",
+    "collection_title": "El nom de la teva col·lecció."
+  },
+  "collection": {
+    "collection_title": "Nom de la col·lecció",
+    "collection_desc": "Descripció de la col·lecció",
+    "collection_button_label": "Col·lecció de la botiga",
+    "collection_button_label_name": "Comerç"
+  },
+  "products": {
+    "product": {
+      "back": "Recull",
+      "add_to_cart": "afegir a la cistella",
+      "on_sale": "Venda",
+      "choose_product_options": "Trieu opcions per {{ product_name }}",
+      "product_variants": "Variants de producte",
+      "buy_with": "Compra'l amb:",
+      "media": {
+        "open_featured_media": "Obrir mitjans destacats a la vista de galeria",
+        "open_media": "Obrir mitjans {{ index }} a la vista de galeria",
+        "play_video": "Reprodueix el vídeo"
+      },
+      "modal_1": "Informació d'enviament",
+      "modal_2": "Com triar la mida",
+      "quantity": {
+        "input_label": "Quantitat",
+        "increase": "Augmentar quantitat per {{ product }}",
+        "decrease": "Disminuir quantitat per {{ product }}",
+        "minimum_of": "Mínim de {{ quantity }}",
+        "maximum_of": "Màxim de {{ quantity }}",
+        "multiples_of": "Increments de {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> a la cistella",
+        "in_stock": "{{ quantity }} en estoc",
+        "out_of_stock": "Esgotat"
+      },
+      "pickup_availability": {
+        "view_store_info": "Veure informació de la botiga",
+        "check_other_stores": "Consulteu disponibilitat a altres botigues.",
+        "pick_up_available": "Recollida disponible",
+        "pick_up_available_at_html": "Recollida disponible a <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "La recollida no està disponible actualment a <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "No s'ha pogut carregar la disponibilitat de recollida",
+        "refresh": "Actualitzar"
+      },
+      "price": {
+        "from_price_html": "Des de {{ price }}",
+        "regular_price": "Preu regular",
+        "sale_price": "Preu de venda",
+        "unit_price": "Preu unitari"
+      },
+      "reviews": "Ressenyes",
+      "share": "Comparteix aquest producte",
+      "value_unavailable": "{{ option_value }} - No disponible",
+      "variant_sold_out_or_unavailable": "Variant esgotada o no disponible",
+      "vendor": "Proveïdor de productes",
+      "product_heading": "Nom pel teu producte",
+      "product_description": "Descripció del producte",
+      "video_exit_message": "{{ title }} obre el vídeo en pantalla completa a la mateixa finestra.",
+      "include_taxes": "Impost inclòs.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;&lt;span%20class='notranslate'&gt;{&lt;span%20class='notranslate'&gt;{%20link%20}}&lt;/span&gt;&lt;/span&gt;\">Enviament</a> calculat en finalitzar la compra.",
+      "xr_button": "Veure al teu espai",
+      "xr_button_label": "Veure al teu espai, carrega l'element a la finestra de realitat augmentada",
+      "colors": "Colors"
+    },
+    "load_more": {
+      "label": "Càrrega més"
+    },
+    "modal": {
+      "label": "Galeria mitjana"
+    },
+    "facets": {
+      "all": "Tot",
+      "clear": "És clar",
+      "clear_all": "Netejar tot",
+      "filter_and_sort": "Filtrar i ordenar",
+      "hide_filters": "Amagar filtres",
+      "show_filters": "Filtres",
+      "filters_selected": {
+        "one": "{{ count }} seleccionat",
+        "other": "{{ count }} seleccionat"
+      },
+      "max_price": "El preu més alt és {{ price }}",
+      "product_count": {
+        "one": "Mostrant {{ product_count }} de {{ count }} producte",
+        "other": "Mostrant {{ product_count }} de {{ count }} productes"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} producte",
+        "other": "{{ count }} productes"
+      },
+      "sort_button": "Classificar",
+      "sort_by_label": "Ordenar per:",
+      "clear_filter": "Filtre clar"
     }
   }
 }
