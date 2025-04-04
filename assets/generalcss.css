@@ -64,5 +64,5 @@
 } */
 
 .yotpo-reviews-tab-floating-tab {
-  display: none;
+  display: none !important;
 }
