@@ -42,7 +42,7 @@
         "image_fit": "cover",
         "enable_filtering": false,
         "filter_type": "vertical",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "image_filter_ratio": "1/1",
         "image_filter_fit": "cover",
         "image_filter_columns": 2,

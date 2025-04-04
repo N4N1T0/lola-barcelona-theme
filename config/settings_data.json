@@ -28,6 +28,8 @@
     "social_tiktok_link": "https://www.tiktok.com/@lola_bcn",
     "favicon": "shopify://shop_images/LOGO_LOLA_NUEVO.png",
     "quickview_announcement": "",
+    "quickview_button_type": "quick-buy",
+    "pagination_type": "infinite_scroll",
     "sections": {
       "collection-carousel": {
         "type": "collection-carousel",
@@ -35,6 +37,20 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "14339172867238703359": {
+        "type": "shopify://apps/yotpo-product-photo-reviews/blocks/reviews_tab/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "disabled": false,
+        "settings": {
+          "product": ""
+        }
+      },
+      "7570552984445421165": {
+        "type": "shopify://apps/yotpo-product-photo-reviews/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -252,20 +268,6 @@
           "color_border": "#ffffff",
           "color_accent": "#f2f4f4"
         }
-      }
-    },
-    "blocks": {
-      "14339172867238703359": {
-        "type": "shopify://apps/yotpo-product-photo-reviews/blocks/reviews_tab/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-        "disabled": false,
-        "settings": {
-          "product": ""
-        }
-      },
-      "7570552984445421165": {
-        "type": "shopify://apps/yotpo-product-photo-reviews/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
