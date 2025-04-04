@@ -109,11 +109,15 @@
         "categories_AaKw7x",
         "categories_nxp8AV"
       ],
+      "custom_css": [
+        ".collection-card__desc {background: #00000040; padding: 10px 20px;}",
+        ".collection-card__text {bottom: 40px; position: absolute;}"
+      ],
       "settings": {
         "columns": 3,
         "image_ratio": "portrait",
         "card_type": "text-overlay",
-        "text_bg_opacity": 30,
+        "text_bg_opacity": 56,
         "show_collection_desc": true,
         "show_collection_tags": false,
         "margin_top": "xs",

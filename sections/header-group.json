@@ -38,10 +38,10 @@
       "settings": {
         "height": 130,
         "logo": "shopify://shop_images/LOGO_LOLA_WEB.png",
-        "logo_width": 95,
+        "logo_width": 100,
         "menu": "main-menu",
         "color_scheme": "",
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "sticky_header_type": "on-scroll-up",
         "enable_search": true

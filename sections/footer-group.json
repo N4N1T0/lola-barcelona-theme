@@ -56,8 +56,8 @@
       "settings": {
         "color_scheme": "",
         "enable_language_selector": true,
-        "language_heading": "Redes Sociales",
-        "enable_country_selector": true,
+        "language_heading": "",
+        "enable_country_selector": false,
         "country_heading": "",
         "enable_follow_on_shop": false,
         "payment_enable": true,
