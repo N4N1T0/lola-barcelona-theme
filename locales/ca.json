@@ -661,7 +661,50 @@
         "selector_tab_list": "Llista",
         "could_not_resolve_address": "No s'ha trobat l'adreça. Torneu-ho a provar o feu servir una altra adreça.",
         "no_pickup_points_near_you": "No s'ha trobat cap punt de retirada a prop de l'adreça seleccionada",
-        "no_pickup_points_near_location": "No s'ha trobat cap punt de retirada a prop de la vostra ubicació"
+        "no_pickup_points_near_location": "No s'ha trobat cap punt de retirada a prop de la vostra ubicació",
+        "no_pickup_points_found": "No s'han trobat punts de retirada",
+        "paginator": {
+          "next_accessibility_label": "Pàgina següent",
+          "previous_accessibility_label": "Pàgina anterior",
+          "header": {
+            "one": "Mostrant %{first} - %{last} de %{count} punt",
+            "other": "Mostrant %{first} - %{last} de %{count} punts",
+            "many": "Mostrant %{first} - %{last} de %{count} punts"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} de %{count} punt",
+            "other": "%{pickup_point_index} de %{count} punts",
+            "many": "%{pickup_point_index} de %{count} punts"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} de %{count} punt",
+            "other": "%{first} - %{last} de %{count} punts",
+            "many": "%{first} - %{last} de %{count} punts"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} punt de retirada a prop de la vostra ubicació",
+          "other": "%{count} punts de retirada a prop de la vostra ubicació",
+          "many": "%{count} punts de retirada a prop de la vostra ubicació"
+        },
+        "change": "Canviar ubicació",
+        "waiting_on_pickup_point_location_notice": "Buscant punts de retir…",
+        "geolocation": {
+          "shared_location_button": "Usar la meva ubicació",
+          "errors": {
+            "unsuported_by_browser": "El navegador no admet la geolocalització. Intenta-ho de nou o fes servir un altre navegador.",
+            "permission_not_allowed": "Permet compartir la vostra ubicació.",
+            "permission_denied": "No s'ha pogut obtenir la vostra ubicació. Torneu-ho a provar."
+          }
+        },
+        "no_business_hours": "No hi ha horari comercial disponible.",
+        "open_twenty_four_hours": "Obert 24 hores, 7 dies a la setmana",
+        "address_label": "Direcció",
+        "pickup_unavailable_banner_title": {
+          "one": "El teu article no està disponible als punts de retir",
+          "other": "Els teus articles no estan disponibles als punts de retir",
+          "many": "Els teus articles no estan disponibles als punts de retir"
+        }
       },
       "review": {
         "review_title": "Revisar i pagar",
@@ -774,7 +817,8 @@
       "wallets": {
         "errors": {
           "outdated": {
-            "payment_terms": "Les condicions de pagament van canviar. Revisa la teva comanda"
+            "payment_terms": "Les condicions de pagament van canviar. Revisa la teva comanda",
+            "shipping_method": "Les opcions de comanda han canviat. Revisa la selecció."
           },
           "invalid": {
             "shipping_address": "Introduïu una adreça d'enviament vàlida",
@@ -818,7 +862,26 @@
           "unavailable_terminal": {
             "instructions": "{{walletName}} no està disponible actualment per a la teva comanda. Per continuar amb la compra, tria un altre mètode de pagament."
           },
-          "discount_code": "Aquest codi de descompte no es pot aplicar. Revisa el teu codi i torna-ho a intentar."
+          "discount_code": "Aquest codi de descompte no es pot aplicar. Revisa el teu codi i torna-ho a intentar.",
+          "unavailable": {
+            "title": "{{walletName}} no està disponible",
+            "description": "{{walletName}} no estava disponible. Fes servir una forma de pagament diferent o intenta-ho més tard.",
+            "instructions": "S'ha produït un error amb {{walletName}} . Torna a la botiga per tornar-ho a intentar o paga d'una altra manera.",
+            "unavailable_for_country": "{{walletName}} no està disponible a {{countryName}} . Seleccioneu una forma de pagament diferent per completar la vostra compra."
+          },
+          "generic": "Hi va haver un problema amb {{walletName}} . Intenta-ho de nou o utilitza una altra forma de pagament.",
+          "terminal": "Hi va haver un problema amb {{walletName}} . Si us plau, utilitza una altra forma de pagament.",
+          "detour": {
+            "stock_problems": "Alguns articles ja no estan disponibles. Tanca {{walletName}} i intenta-ho de nou.",
+            "price_change": "Els preus d'alguns articles han canviat. Tanca {{walletName}} per revisar la teva comanda i intenta-ho de nou.",
+            "queue": "Se us ha ubicat en una llista d'espera per procedir amb el pagament {{walletName}} per continuar.",
+            "currency_change": "No podeu utilitzar una adreça diferent amb {{walletName}} . Utilitza l'adreça original o intenta-ho amb una altra forma de pagament."
+          },
+          "unsupported": {
+            "address": "El comerciant no pot fer lliuraments a l'adreça d'enviament seleccionada.",
+            "postal_code": "Aquesta sucursal no s'admet",
+            "wallet_is_unavailable": "{{walletName}} no es pot utilitzar amb aquesta adreça. Trieu una adreça diferent o tanqueu {{walletName}} per completar la vostra compra."
+          }
         },
         "redirection_notice": "Després de fer clic a \" {{buttonLabel}} \", se't redirigirà a {{walletName}} per completar la teva compra de manera segura.",
         "return_to_checkout": "Tornar a la pantalla de pagament",
@@ -826,7 +889,14 @@
           "continue_purchase_in_window": "Continua la teva compra a la finestra de {{walletName}}",
           "and_return_to_checkout": "i tornar a la pàgina de pagament",
           "cancel": "Cancel·la"
-        }
+        },
+        "return_to_store": "Tornar a la botiga",
+        "redirect_hint": "Has d'accedir iniciant sessió a {{walletName}} .",
+        "logged_in": "Connectat a {{email}}",
+        "shipping_line_label": "Enviament",
+        "payment_in_progress_title": "Pagament en curs",
+        "payment_in_progress_body": "El pagament s'està processant. La comanda es completarà de seguida.",
+        "call_to_action": "Pagar amb {{walletName}}"
       },
       "markets": {
         "invalid_market_manager_error": "Reviseu la vostra informació de contacte abans de completar el pagament."
@@ -930,6 +1000,94 @@
         "cart_updated": "Es va actualitzar el carretó.",
         "change_address_only": "Canvia la direcció de lliurament per continuar.",
         "change_address_or_remove": "Canvieu l'adreça de lliurament o %{remove_action}."
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Hi va haver un problema amb la nostra pantalla de pagament",
+          "message": "Actualitza aquesta pàgina o torna a intentar-ho en uns minuts",
+          "action": {
+            "cta": "Actualitzar la pàgina"
+          },
+          "request_id": "Identificació de sol·licitud: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Tornar a la cistella",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} per modificar les quantitats",
+        "subscription_changed": "Una de les vostres subscripcions ha canviat.",
+        "company_location_changed": "Es va actualitzar el carretó. Revisa la teva comanda abans de fer-ho.",
+        "violations_title": "Falta {{violation}} o té un valor no vàlid",
+        "individual_violations_title": {
+          "DeliveryViolations": "Direcció d'enviament",
+          "PaymentViolations": "Adreça de facturació",
+          "OtherViolations": "Informació sobre comandes",
+          "UnhandledViolations": "Informació de la comanda"
+        },
+        "all_violations_content": "Truqui'ns o {{emailLink}} per actualitzar aquesta informació i completar la comanda:",
+        "all_violations_email_link": "envieu-nos un correu electrònic",
+        "editable_shipping_address_violations_message_title": "Afegeix aquesta informació per completar la teva comanda:",
+        "editable_shipping_address_violations_message_footer": "Per modificar permanentment l'adreça per a aquesta sucursal, {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "contacta amb nosaltres",
+        "company_location_changed_product_removed": "El carretó es va modificar perquè alguns productes no estan disponibles en aquesta sucursal. Reviseu la comanda abans d'enviar-la.",
+        "shipping_address_incomplete_title": "L'adreça d'enviament és incompleta",
+        "calculating_shipping": "Encara s'està calculant l'enviament. Torneu-ho a intentar en uns segons. No t'has cobrat.",
+        "calculating_taxes": "Encara s'estan calculant els impostos. Torneu-ho a intentar en uns segons. No t'has cobrat.",
+        "generic_processing_error": {
+          "title": "Hi ha hagut un problema en processar la comanda",
+          "body": "No t'has cobrat. Intenta-ho de nou o utilitza una altra forma de pagament."
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Revisar els",
+          "link_label": "termes i condicions de {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Tens alguna pregunta? Xateja amb nosaltres"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Hi ha %{count} botiga amb existències a prop de %{address}.",
+          "other": "Hi ha %{count} botigues amb existències a prop de %{address}.",
+          "many": "Hi ha %{count} botigues amb existències a prop de %{address}."
+        },
+        "toggle_location": "Canviar lloc",
+        "cancel": "Cancel·la",
+        "your_location": "la teva ubicació",
+        "search_button": "Buscar botigues",
+        "no_stores_found": "No es van trobar botigues",
+        "could_not_resolve_address": "No s'ha trobat l'adreça. Intenta-ho de nou o fes servir una altra adreça",
+        "paginator": {
+          "accessibility_label": "Paginació de retir a la botiga",
+          "previous": "Pàgina anterior",
+          "next": "Pàgina següent",
+          "label": {
+            "one": "%{first} - %{last} de %{count} botiga",
+            "other": "%{first} - %{last} de %{count} botigues",
+            "many": "%{first} - %{last} de %{count} botigues"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Mostra %{count} sucursal més",
+          "other": "Mostra %{count} sucursals més",
+          "many": "Mostra %{count} sucursals més"
+        },
+        "location_address_search_label": "Direcció",
+        "all_stores_far_away": {
+          "title": "Les botigues més properes són a més de %{distance} de distància",
+          "description": "Seleccioneu una botiga o %{ship_to_address_link} al vostre lloc.",
+          "ship_to_address_link": "enviar a l'adreça"
+        }
+      },
+      "captcha": {
+        "title": "Completar el CAPTCHA per continuar",
+        "errors": {
+          "not_solved": "Completar el CAPTCHA per continuar"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "La teva comanda no es va poder processar perquè el codi de descompte ja no està disponible. Revisa el total de la teva comanda i torna-ho a intentar."
       }
     }
   },
@@ -1062,6 +1220,128 @@
       "price": "Preu",
       "quantity": "Quantitat",
       "fulfilled_at_html": "Complit {{ date }}"
+    }
+  },
+  "customer_accounts": {
+    "addresses": {
+      "edit_modal_title": {
+        "default": "Editar direcció",
+        "billing": "Edita adreça de facturació",
+        "shipping": "Edita adreça d'enviament"
+      },
+      "add_address_banner": "Afegir les adreces que vols utilitzar a la pantalla de pagament",
+      "billing_address_dropdown_placeholder": "Adreça de facturació",
+      "add_button_text": "Afegir",
+      "add_button_accessibility_label": "Afegir adreça",
+      "back_button": "Enrere",
+      "back_button_accessibility_label": "Tornar a l'edició de l'adreça {{address}}",
+      "no_addresses_banner": "No s'hi van afegir adreces."
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Tanca els suggeriments.",
+      "auto_complete_title": "Suggeriments",
+      "billing_address": "Usar com a adreça de facturació",
+      "cancel": "Cancel·la",
+      "cancel_accessibility_label": "Cancel·lar l'edició de l'adreça {{address}}",
+      "creation_success_notification": "Adreça agregada",
+      "default_address": "Aquesta és la meva adreça predeterminada.",
+      "default_address_creation_success_notification": "Adreça predeterminada agregada",
+      "default_address_update_success_notification": "Adreça predeterminada actualitzada",
+      "loading_add_form_accessibility_message": "Carregant formulari de nova adreça",
+      "loading_edit_form_accessibility_message": "Carregant formulari d'edició d'adreça",
+      "loading_finished_accessibility_message": "Formulari de direcció carregat",
+      "save": "Desa",
+      "save_accessibility_label": "Desar l'adreça {{address}}",
+      "section_title_accessibility_label": "Afegir adreça",
+      "update_success_notification": "Adreça actualitzada",
+      "attention": "Atenció",
+      "attention_help_text": "Nom d'una persona o departament",
+      "loading_form_accessibility_message": "Carregant formulari d'adreça",
+      "attention_company": "Empresa/A l'atenció de"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nom de l'empresa"
+      },
+      "locations": {
+        "contact_email": "Correu electrònic",
+        "contact_list_title": "Gent",
+        "contact_name": "Nom",
+        "contact_phone_number": "Número de telèfon",
+        "location_picker_label": "Nom de la sucursal",
+        "net_payment_terms_description": "{{name}} : pagaments que vencen a {{numberOfDays}}",
+        "payment_details_title": "Detalls del pagament",
+        "payment_terms": "Condicions del pagament",
+        "permissions_label": "Els seus permisos",
+        "shipping_address_required": "Afegeix una adreça de facturació a aquesta sucursal per començar a fer comandes.",
+        "tax_details_title": "Informació fiscal",
+        "tax_id": "Identificació fiscal",
+        "tax_exemptions": "Exempcions d'impostos",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} més",
+        "tax_exemptions_modal_close": "Tancar",
+        "taxes_none": "Cap",
+        "tax_exemptions_modal_button_accessibility_label": "Veure totes les exempcions fiscals",
+        "pagination": {
+          "load_more": "Carregar més",
+          "load_more_accessibility_label": "Carregar més sucursals"
+        },
+        "own_role_contact_name": "Tu",
+        "staff_and_permissions_title": "Empleats i permisos",
+        "location_picker_accessibility_label": "Nom de la sucursal: {{locationName}}",
+        "deposit_percentage": "Dipòsit del {{percentage}}"
+      },
+      "location_selection": {
+        "description": "Si ja teniu articles a la cistella, el canvi de sucursal pot afectar els preus i les quantitats del carret.",
+        "list_accessibility_label": "Llista de sucursals",
+        "list_item_without_address_accessibility_label": "{{name}} : sense adreça",
+        "list_loading_accessibility_message": "Carregant llista de sucursals",
+        "list_loading_address_accessibility_message": "Carregant adreça per {{locationName}}",
+        "list_loading_finished_accessibility_message": "Es va carregar la llista de sucursals.",
+        "loading_store_accessibility_message": "Anar a la botiga",
+        "selection_cancel_button": "Cancel·la",
+        "selection_confirmation_button": "Triar sucursal",
+        "title": "Per a què sucursal compres?",
+        "continue_to_store": "Continuar a la botiga",
+        "no_location_title": "Només comandes personals",
+        "no_location_description": "Ja no tens permís per a realitzar comandes per {{company}} . Encara pots fer comandes personals.",
+        "no_locations_found": "No s'ha trobat cap sucursal",
+        "clear_search": "Esborrar cerca",
+        "try_new_search": "Intentar una nova cerca"
+      },
+      "addresses": {
+        "add_billing_address_button": "Afegir adreça de facturació",
+        "add_billing_address_section_accessibility_label": "Afegir adreça de facturació",
+        "add_shipping_address_button": "Afegir adreça d'enviament",
+        "add_shipping_address_section_accessibility_label": "Afegir adreça d'enviament",
+        "billing_address_card_title": "Adreça de facturació",
+        "cancel_adding_billing_address_accessibility_label": "Cancel·la addició de direcció de facturació",
+        "cancel_adding_shipping_address_accessibility_label": "Cancel·la addició de direcció d'enviament",
+        "save_new_billing_address_accessibility_label": "Desar adreça de facturació",
+        "save_new_shipping_address_accessibility_label": "Desa la direcció d'enviament",
+        "shipping_address_card_title": "Direcció d'enviament"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Amagar tot",
+          "show_all": "Mostra-ho tot",
+          "hide_all_accessibility_label": "Amagar totes les comandes de la revisió",
+          "show_all_accessibility_label": "Mostrar totes les comandes de la revisió",
+          "title": "Pendent",
+          "pagination": {
+            "nav_accessibility_label": "Botons de navegació de comandes en revisió"
+          },
+          "show_all_orders_in_review": "Mostrar totes les comandes a la revisió",
+          "show_less_orders_in_review": "Mostrar menys comandes a la revisió",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "No tens cap comanda pendent",
+            "pending_orders": {
+              "one": "Tens {{count}} comanda pendent",
+              "other": "Tens {{count}} comandes pendents",
+              "many": "Tens {{count}} comandes pendents"
+            }
+          }
+        }
+      }
     }
   }
 }
