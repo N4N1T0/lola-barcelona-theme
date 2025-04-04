@@ -48,6 +48,9 @@
         "slideshow_item_8NN9CW",
         "slideshow_item_faTpdg"
       ],
+      "custom_css": [
+        ".slideshow-slide__link-wrapper {text-decoration: none; color: inherit; width: 100%; height: 100%;}"
+      ],
       "settings": {
         "section_layout": "full",
         "section_alignment": "left",
