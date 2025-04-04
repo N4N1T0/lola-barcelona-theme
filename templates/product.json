@@ -69,11 +69,18 @@
           "settings": {
             "product": "{{product}}"
           }
+        },
+        "a9b8e00e-492c-4b97-ac3e-3c9112446138": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "a9b8e00e-492c-4b97-ac3e-3c9112446138",
         "variant_picker",
         "buy_buttons",
         "icon_with_text_VFf6Mx",
