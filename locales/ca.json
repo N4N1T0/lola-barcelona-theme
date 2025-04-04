@@ -2613,12 +2613,47 @@
       "clear": "És clar",
       "clear_all": "Netejar tot",
       "empty": "Encara no hi ha productes en aquesta col·lecció.",
-      "empty_results": "No s'han trobat productes"
+      "empty_results": "No s'han trobat productes",
+      "filter_and_sort": "Filtrar i ordenar",
+      "filter_by_label": "Filtrat per",
+      "filters_selected": {
+        "one": "{{ count }} seleccionat",
+        "other": "{{ count }} seleccionat"
+      },
+      "max_price": "Fins a {{ price }}",
+      "product_count": {
+        "one": "Mostrant {{ product_count }} de {{ count }} producte",
+        "other": "Mostrant {{ product_count }} de {{ count }} productes"
+      },
+      "sort_button": "Classificar",
+      "sort_by_label": "Ordenar per",
+      "title": "Recull",
+      "use_fewer_filters_html": "Tornar a la llista de col·leccions <a class=\"&lt;span class='notranslate'&gt;&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;&lt;span%20class='notranslate'&gt;{&lt;span%20class='notranslate'&gt;{%20link%20}}&lt;/span&gt;&lt;/span&gt;\">col·leccions</a>",
+      "results_use_fewer_filters_html": "Utilitzeu menys filtres o <a class=\"&lt;span class='notranslate'&gt;&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;&lt;span%20class='notranslate'&gt;{&lt;span%20class='notranslate'&gt;{%20link%20}}&lt;/span&gt;&lt;/span&gt;\">elimineu tots</a>"
+    },
+    "video": {
+      "load_video": "Carregant vídeo"
     }
   },
   "accessibility": {
     "link": "Enllaç",
-    "cart_link": "Cistella oberta"
+    "cart_link": "Cistella oberta",
+    "skip_to_text": "saltar al contingut",
+    "skip_to_product_info": "Saltar a informació del producte",
+    "close": "A prop",
+    "unit_price_separator": "per",
+    "vendor": "Proveïdor:",
+    "refresh_page": "Quan seleccioneu una selecció, s'actualitza la pàgina completa.",
+    "link_messages": {
+      "new_window": "S'obre en una finestra nova.",
+      "external": "Obre un lloc web extern."
+    },
+    "next_slide": "Llisca cap a la dreta",
+    "previous_slide": "Llisca cap a l'esquerra",
+    "loading": "Carregant...",
+    "toggle": "Botó de menú de pantalla completa",
+    "product_link": "Enllaç de producte",
+    "article_link": "Enllaç de l'article"
   },
   "blogs": {
     "article": {
@@ -2738,5 +2773,105 @@
       "sort_by_label": "Ordenar per:",
       "clear_filter": "Filtre clar"
     }
+  },
+  "recipient": {
+    "form": {
+      "email_label_optional_for_no_js_behavior": "Correu electrònic del destinatari (opcional)",
+      "email": "Correu electrònic",
+      "name_label": "Nom del destinatari (opcional)",
+      "name": "Nom",
+      "message_label": "missatge (opcional)",
+      "message": "Missatge",
+      "max_characters": "{{ max_chars }} caràcters com a màxim",
+      "checkbox": "vull enviar això com a regal",
+      "email_label": "Receptor d'e-mail"
+    }
+  },
+  "general": {
+    "search": {
+      "pages": "pagines",
+      "search": "Cerca",
+      "placeholder": "La teva petició",
+      "header_placeholder": "Busqueu productes, categories i més",
+      "products": "Productes",
+      "collections": "Col·leccions",
+      "articles": "Articles"
+    },
+    "card": {
+      "view__all": "Veure-ho tot",
+      "shop__now": "Compra ara",
+      "quick__view": "Vista ràpida",
+      "quick__add": "Afegir ràpid",
+      "collection_name": "Nom de la col·lecció",
+      "view__more": "Veure tots els detalls"
+    },
+    "cart": {
+      "view": "Veure carret",
+      "item_added": "La meva cistella",
+      "empty_cart": "No tens productes a la cistella de la compra."
+    },
+    "share": {
+      "share_url": "Enllaç",
+      "share_article": "Compartir article",
+      "success_message": "Enllaç copiat al porta-retalls!",
+      "links": {
+        "twitter": "Gorgeu"
+      }
+    },
+    "blog": {
+      "author": "Per",
+      "update": "Actualitzat a",
+      "publish": "Publicat a"
+    },
+    "dark_mode": {
+      "dark": "Mode fosc",
+      "light": "Mode de llum"
+    },
+    "countdown": {
+      "days": "Dies",
+      "hours": "Hores",
+      "minutes": "Minuts",
+      "seconds": "Segons"
+    },
+    "breadcrumbs": {
+      "collections": "Col·leccions"
+    },
+    "password_page": {
+      "login_form_heading": "Introduïu a la botiga usant contrasenya:",
+      "login_password_button": "Ingressar usant contrasenya",
+      "login_form_password_label": "Contrasenya",
+      "login_form_password_placeholder": "La teva contrasenya",
+      "login_form_error": "Contrasenya incorrecta!",
+      "login_form_submit": "Ingressar",
+      "modal": "Modalitat de contrasenya",
+      "admin_link_html": "Ets el propietari de la botiga? <a href=\"/admin\" class=\"link underlined-link\">Entre aquí</a>",
+      "powered_by_shopify_html": "Aquesta botiga funcionarà amb {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Compartir a Facebook",
+        "share_on_twitter": "Tuitejar a Twitter",
+        "share_on_pinterest": "Pin a Pinterest"
+      },
+      "links": {
+        "twitter": "Gorgeu"
+      }
+    },
+    "continue_shopping": "Seguir comprant",
+    "pagination": {
+      "label": "Paginació",
+      "page": "Pàgina {{ number }}",
+      "next": "Següent pàgina",
+      "previous": "Pàgina anterior"
+    }
+  },
+  "date_formats": {
+    "month_year": "%PER"
+  },
+  "newsletter": {
+    "label": "Correu electrònic",
+    "success": "Gràcies per subscriure't! Confirma el teu correu revisant la safata d'entrada (o SPAM).",
+    "button_label": "Subscriure",
+    "button_label_request": "Enviar petició"
   }
 }
