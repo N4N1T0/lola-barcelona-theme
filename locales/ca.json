@@ -2019,7 +2019,103 @@
       "account": "Compte",
       "create_account": "Crear compte",
       "reset_account": "Restablir compte",
-      "addresses": "Adreces"
+      "addresses": "Adreces",
+      "order": "Comanda%{name}",
+      "search": "Cerca",
+      "collections": "Col·leccions",
+      "not_found": "404 No trobat",
+      "challenge": "Desafiament",
+      "checkpoint": "Punt de control",
+      "search_results": {
+        "one": "Cerca: %{count} resultat trobat per a \"%{terms}\"",
+        "other": "Cerca: %{count} resultats trobats per a \"%{terms}\"",
+        "many": "Cerca: %{count} resultats trobats per a \"%{terms}\""
+      }
+    },
+    "cart": {
+      "discounts_with_count": "s'han aplicat %{count} descomptes"
+    },
+    "challenge": {
+      "message": "Per continuar, indica'ns que no ets un robot.",
+      "error": "La teva resposta no va ser la correcta, si us plau intenta de nou."
+    },
+    "checkpoint": {
+      "message": "Resol el Captcha per continuar",
+      "error": "La validació de Captcha va fallar"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Gràcies per subscriure't a la nostra llista de distribució.",
+        "disclaimer": "Pots donar-te de baixa en qualsevol moment.",
+        "unsubscribe": "Donar-se de baixa"
+      },
+      "unsubscribed": {
+        "confirmation": "Heu cancel·lat la vostra subscripció a la nostra llista de distribució.",
+        "disclaimer": "No us enviarem més notícies de màrqueting. Podeu subscriure't novament en qualsevol moment.",
+        "preview": "Estàs revisant la vista prèvia del que veuran els clients quan es donen de baixa."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>T'has subscrit al seguiment de correus oberts.</b>",
+          "visibility": "Les taxes de correus oberts s'informaran de manera anònima Només veurem si has obert un correu electrònic com a part d'una taxa agregada de correus oberts.",
+          "opt_out_html": "Pots <a style=\"text-decoration:underline;\" href=\"%{link}\">donar-te de baixa</a> del seguiment de correus oberts si no vols compartir aquesta informació.",
+          "preview_bar": "Estàs revisant la vista prèvia del que veuran els clients quan se subscriguin al seguiment de correus oberts."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>T'has donat de baixa del seguiment de correus oberts.</b>",
+          "visibility": "No veurem si has obert els nostres correus electrònics.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Accepteu</a> el seguiment de correus oberts.",
+          "preview_bar": "Estàs revisant la vista prèvia del que veuran els clients quan es donin de baixa del seguiment de correus oberts."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ja no fem seguiment de correus oberts.</b>",
+          "privacy_policy": "Després d'enviar aquest correu electrònic, hem actualitzat la nostra política de privadesa i ja no fem seguiment d'obertures."
+        },
+        "track": {
+          "status_html": "<b>El seguiment de correus oberts se n'informa.</b>",
+          "visibility": "Només veurem si has obert el correu electrònic com a part de la taxa total de correus oberts."
+        },
+        "updated_policy": {
+          "status_html": "<b>El seguiment de correus oberts se n'informa.</b>",
+          "visibility": "Hem actualitzat la nostra política i ara fem seguiment de correus oberts. Les taxes de correus oberts s'informaran de manera anònima. Només veurem si has obert un correu electrònic com a part de la taxa total de correus oberts.",
+          "opt_out_html": "Si no vols compartir aquesta informació, pots <a style=\"text-decoration:underline;\" href=\"%{link}\">donar-te de baixa</a> ."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalment està llest en 1 hora",
+        "two_hours": "Normalment està llest en 2 hores",
+        "four_hours": "Normalment està llest en 4 hores",
+        "twenty_four_hours": "Normalment està llest en 24 hores",
+        "two_to_four_days": "Normalment està llest en 2 a 4 dies",
+        "five_or_more_days": "Normalment està llest en 5 dies o més",
+        "zero_to_two_hours": "Normalment està llest en 2 hores",
+        "two_to_four_hours": "Normalment està llest en 4 hores",
+        "immediately": "A punt per retirar ara",
+        "next_day": "A punt per retirar l'endemà"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En existència",
+          "out_of_stock": "Esgotat"
+        }
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Rellevància",
+        "price_ascending": "Preu, menor a major",
+        "price_descending": "Preu, major a menor"
+      },
+      "error": "Hi ha hagut un problema en carregar els resultats de cerca. Actualitzeu la pàgina o torneu-ho a provar més tard."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Aquest article és una compra recurrent o diferida. En continuar, accepto la %{cancellationPolicyLink} i autoritzo a realitzar càrrecs en la meva forma de pagament segons els preus, la freqüència i les dates indicades en aquesta pàgina fins que es prepari la meva comanda o jo la cancel·li, si està permès.",
+      "buyer_consent_cart": "Un o més dels articles que hi ha a la cistella formen part d'una compra recurrent o diferida. En continuar, accepto la %{cancellationPolicyLink} i autoritzo a realitzar càrrecs en la meva forma de pagament segons els preus, la freqüència i les dates indicades en aquesta pàgina fins que es prepari la meva comanda o jo la cancel·li, si està permès.",
+      "cancellation_policy": "política de cancel·lació"
     }
   },
   "templates": {
@@ -2893,6 +2989,53 @@
       "cash_rounding": "Arredoniment en efectiu",
       "adjusted_payment": "Pagament amb ajustament",
       "adjusted_total": "Total després de l'ajust"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Amagar el menú Compte",
+        "label": "Compte",
+        "show_accessibility_label": "Mostra el menú Compte",
+        "nav_accessibility_label": "Navegació del compte",
+        "open_menu_accessibility_label": "Obrir la navegació del compte",
+        "close_menu_accessibility_label": "Tanca la navegació del compte",
+        "loading_message": "Carregant la navegació del compte"
+      },
+      "action_menu_accessibility_label": "Més accions",
+      "close_menu_accessibility_label": "Tancar la navegació principal",
+      "contact_email_subject": "Contactar des de la botiga online {{shopName}}",
+      "contact_link": "Informació de contacte",
+      "delete_confirmation": {
+        "cancel": "Cancel·la"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - Compte",
+      "go_to_store_link": "Anar a la botiga",
+      "loading_message": "Carregant",
+      "log_out_link": "Tancar sessió",
+      "logout_overlay_label": "Tancant sessió...",
+      "nav_label_accessibility_label": "Navegació principal",
+      "navigation_accessibility_message": "Vas navegar a {{sectionName}}",
+      "open_menu_accessibility_label": "Obrir navegació principal",
+      "orders_link_label": "Comandes",
+      "shop_logo_accessibility_label": "Logo de {{shopName}}",
+      "subscriptions_link_label": "Subscripcions",
+      "settings_link": "Configuració"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Carregant informació del compte",
+      "loading_finished_accessibility_message": "La informació del compte es va carregar.",
+      "profile_card": {
+        "cancel": "Cancel·la",
+        "cancel_accessibility_label": "Cancel·lar edició del perfil",
+        "edit": "Edita",
+        "email_help_text": "El correu electrònic utilitzat per iniciar sessió no es pot canviar.",
+        "first_name": "Nom",
+        "last_name": "Cognom",
+        "phone_number_help_text": "El número de telèfon utilitzat per iniciar sessió no es pot canviar.",
+        "save": "Desa",
+        "save_accessibility_label": "Desa perfil",
+        "no_name_provided_accessibility_label": "No s'ha afegit cap nom."
+      },
+      "profile_update_confirmation_message": "Perfil actualitzat"
     }
   },
   "gift_cards": {
