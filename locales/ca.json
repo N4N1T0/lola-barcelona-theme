@@ -1449,7 +1449,41 @@
       "product": "Producte",
       "price": "Preu",
       "quantity": "Quantitat",
-      "fulfilled_at_html": "Complit {{ date }}"
+      "fulfilled_at_html": "Complit {{ date }}",
+      "track_shipment": "Rastrejar enviament",
+      "tracking_url": "Enllaç de seguiment",
+      "tracking_number": "El número de rastreig"
+    },
+    "orders": {
+      "title": "Historial de comandes",
+      "order_number": "Ordre",
+      "order_number_link": "{{ number }}",
+      "date": "Data",
+      "payment_status": "Estat de pagament",
+      "fulfillment_status": "Estat de compliment",
+      "none": "Encara no has fet cap comanda"
+    },
+    "recover_password": {
+      "title": "Restablir la contrasenya",
+      "subtext": "Us enviarem un correu electrònic per restablir la vostra contrasenya.",
+      "success": "Li hem enviat un correu electrònic amb un enllaç per actualitzar la contrasenya."
+    },
+    "register": {
+      "breadcrumb": "Compte",
+      "title": "Crear un compte",
+      "first_name": "Nom de pila",
+      "last_name": "Cognom",
+      "email": "Correu electrònic",
+      "password": "Contrasenya",
+      "submit": "Crear un compte",
+      "have_account": "Ja tens un compte?"
+    },
+    "reset_password": {
+      "title": "Restablir la contrasenya del compte",
+      "subtext": "Introduïu una contrasenya nova per {{ email }}",
+      "password": "Contrasenya",
+      "password_confirm": "Confirmar Contrasenya",
+      "submit": "Restablir la contrasenya"
     }
   },
   "customer_accounts": {
@@ -1568,14 +1602,169 @@
               "one": "Tens {{count}} comanda pendent",
               "other": "Tens {{count}} comandes pendents",
               "many": "Tens {{count}} comandes pendents"
+            },
+            "more_than_pagination_length": "Tens més de {{count}} comandes pendents"
+          },
+          "pending_orders_count_more_than_pagination_length": "Més de {{count}}"
+        },
+        "order_list_column_headers_contact": "Contacte",
+        "removed_company_contact_tooltip": "Eliminat de l'empresa",
+        "order_list_column_headers_status": "Estat"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Data de confirmació del {{date}} de la comanda {{draftOrderName}}",
+        "loading": "Carregant detalls de la comanda",
+        "loading_finished_accessibility_message": "Els detalls de la comanda es van carregar.",
+        "payment_status": {
+          "draft": {
+            "description": "Els detalls del pagament es decideixen quan es confirma la comanda.",
+            "title": "Pagament encara no vençut",
+            "in_review": {
+              "description": "Els detalls del pagament es decideixen quan es confirma la comanda.",
+              "title": "Pagament encara no vençut"
+            },
+            "submitted": {
+              "description": "Efectua el pagament per confirmar aquesta comanda.",
+              "title": "Pagar per confirmar",
+              "deposit": {
+                "title": "Pendent de pagament",
+                "due_later": "El saldo està subjecte a les condicions de {{translatedName}} i venç el {{dueDate}} .",
+                "due_on_fulfillment": "El saldo s'ha d'abonar quan tots els articles d'aquesta comanda estiguin preparats.",
+                "due_on_receipt": "Rebràs una factura per la resta del saldo.",
+                "due_on_date": "La data de pagament del saldo és el {{dueDate}} ."
+              }
+            },
+            "deposit": {
+              "due_later": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. El saldo estarà a les condicions de {{translatedName}} .",
+              "due_on_fulfillment": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. El saldo s'ha de pagar quan es prepari la comanda.",
+              "due_on_receipt": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. La data límit de pagament del saldo se situa més endavant.",
+              "due_on_date": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. La data límit de pagament del saldo és el {{dueDate}} ."
             }
-          }
+          },
+          "paid": {
+            "description": "La comanda es va pagar íntegrament.",
+            "title": "Pagat",
+            "title_with_date": "Pagat el {{date}}"
+          },
+          "pay_now": "Pagar ara",
+          "title": "Estat del pagament",
+          "pending": {
+            "banner_overdue": {
+              "one": "El pagament va vèncer fa {{count}} dia.",
+              "other": "El pagament va vèncer fa {{count}} .",
+              "many": "El pagament va vèncer fa {{count}} ."
+            },
+            "banner_due": {
+              "one": "El pagament venç a {{count}} dia.",
+              "other": "El pagament venç a {{count}} dies.",
+              "many": "El pagament venç a {{count}} dies."
+            },
+            "banner_due_today": "El pagament venç avui.",
+            "title": "Pagament pendent",
+            "title_with_date": "El pagament venç el {{date}}",
+            "description_overdue": "El pagament porta retard.",
+            "description_partially_paid": "Es va pagar parcialment la comanda. Tens saldo restant.",
+            "description_authorized": "Es cobrarà segons la teva forma de pagament a la data de venciment, o pots pagar ara.",
+            "title_due_on_receipt": "Pagament no vençut",
+            "description_due_on_receipt": "Rebràs una factura quan el pagament venci.",
+            "title_due_on_fulfillment": "El pagament s'ha de fer en preparar la comanda",
+            "description_due_on_fulfillment": "El pagament s'ha de fer un cop preparats tots els articles de la comanda.",
+            "description_waiting_for_manual_payment": "Aquesta comanda té un pagament pendent. S'actualitzarà el saldo quan es rebi el pagament.",
+            "description_due_on_receipt_partially_paid": "Aquesta comanda es va pagar parcialment. Tens saldo restant. Rebràs una factura quan el pagament venci.",
+            "description_due_on_fulfillment_partially_paid": "Aquesta comanda es va pagar parcialment. Tens saldo restant. El pagament s'ha de fer un cop preparats tots els articles de la comanda."
+          },
+          "refund": {
+            "title": "Reemborsat",
+            "title_with_date": "Reemborsat el {{date}}",
+            "description_full_refund": "Vas rebre un reemborsament complet per aquesta comanda.",
+            "description_single_refund": "Vas rebre un reemborsament parcial per aquesta comanda.",
+            "description_multiple_refunds": "Vas rebre reemborsaments parcials per aquesta comanda."
+          },
+          "canceled": {
+            "title": "Pagament cancel·lat",
+            "description": "No se't va cobrar cap import."
+          },
+          "pay_now_accessibility_label": "Pagar ara la comanda {{orderName}}"
+        },
+        "subtitle": "Data d'enviament: {{date}}",
+        "title": "{{name}}",
+        "order_timeline": {
+          "expand_events_label": "Mostrar detalls",
+          "expand_events_accessibility_label": "Mostra els detalls de la comanda preliminar",
+          "hide_events_label": "Amagar detalls",
+          "hide_events_accessibility_label": "Amagar els detalls de la comanda preliminar"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Aquesta forma de pagament ja no estarà disponible per a futures compres des d'aquesta sucursal.",
+          "description_with_replacement": "En eliminar aquesta forma de pagament, els pagaments preautoritzats per a aquesta sucursal es veuran afectats. Reemplaça-la per una altra forma alternativa per rebre les properes comandes."
+        },
+        "payment_details": {
+          "order_label": "{{name}}",
+          "draft_label": "Comanda preliminar {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Afegir número d'ordre de compra",
+        "add_modal_title": "Afegir número d'ordre de compra",
+        "cancel": "Cancel·la",
+        "close_modal_accessibility_label": "Tancar finestra modal de número d'ordre de compra",
+        "discard_changes_modal_title": "Descartar els canvis?",
+        "edit_accessibility_label": "Edita número d'ordre de compra",
+        "edit_modal_title": "Edita número d'ordre de compra",
+        "empty_state": "Sense número d'ordre de compra",
+        "modal_po_number_input_label": "Número d'ordre de compra",
+        "modal_po_number_input_max_length_error": "Els números d'ordres de compra tenen un màxim de {{maxLength}} caràcters.",
+        "save": "Desa",
+        "title": "Núm. d'ordre de compra: {{poNumber}}"
       }
     },
     "errors": {
       "logout_everywhere": {
         "description": "S'ha produït un error durant el tancament de la sessió. Torneu-ho a provar."
+      },
+      "address_deletion_error": {
+        "description": "Hi ha hagut un problema en eliminar la direcció. Torneu-ho a provar o actualitzeu la pàgina."
+      },
+      "addresses_loading_issue": {
+        "description": "Error de connexió. Comproveu la connexió a internet i torneu-ho a provar."
+      },
+      "banner_title": {
+        "one": "Hi ha {{count}} error",
+        "other": "Hi ha {{count}} errors.",
+        "many": "Hi ha {{count}} errors."
+      },
+      "failed_address_creation": {
+        "description": "S'ha produït un problema en crear l'adreça. Intenta actualitzar aquesta pàgina o comprova la connexió a Internet."
+      },
+      "failed_address_update": {
+        "description": "S'ha produït un problema en actualitzar l'adreça. Intenta actualitzar aquesta pàgina o comprova la connexió a Internet."
+      },
+      "no_access_to_locations": {
+        "description": "No teniu accés a cap ubicació."
+      },
+      "not_found": {
+        "description": "Comproveu l'URL o torneu-ho a provar d'aquí a uns minuts.",
+        "title": "Hi ha hagut un problema en carregar aquesta pàgina."
+      },
+      "order_not_found": {
+        "description": "La comanda no existeix o no tens permís per veure-ho.",
+        "title": "No es troba la comanda"
+      },
+      "profile_update_error": {
+        "description": "Hi ha hagut un problema en actualitzar el perfil. Intenta actualitzar aquesta pàgina o comprova la connexió a Internet."
+      },
+      "load_orders_error": {
+        "title": "No es poden carregar les comandes",
+        "description": "Intenta-ho de nou o torna més tard."
+      },
+      "load_paypal_error": {
+        "description": "S'ha produït un problema en carregar PayPal. Torneu-ho a provar."
+      },
+      "load_extension_error": {
+        "description": "Actualitza aquesta pàgina o torna a intentar-ho en uns minuts.",
+        "refresh_button": "Actualitzar pàgina"
       }
     },
     "shop_policies": {
@@ -1846,5 +2035,26 @@
         }
       }
     }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Aquí tens la teva targeta de regal de {{ value }} per {{ shop }} !",
+      "subtext": "La teva targeta regal",
+      "gift_card_code": "Codi de targeta de regal",
+      "shop_link": "Seguir comprant",
+      "remaining_html": "Restant {{ balance }}",
+      "add_to_apple_wallet": "Afegir a Apple Wallet",
+      "qr_image_alt": "Codi QR: escaneu-lo per bescanviar la targeta de regal",
+      "copy_code": "Copiar codi",
+      "expired": "Va vèncer",
+      "copy_code_success": "Codi copiat amb èxit"
+    }
+  },
+  "popular": {
+    "new": "Nou"
+  },
+  "about": {
+    "more": "Més",
+    "less": "Menys"
   }
 }
