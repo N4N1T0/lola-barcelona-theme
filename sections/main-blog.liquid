@@ -76,75 +76,7 @@
 
 	<div class="main-blog">
 		{% comment %} Article slider start {% endcomment %}
-		<div class="article-slider-padding section-{{ section.id }}-padding">
-			<div
-				class="slideshow {{ slide_class }}"
-				data-id="shopify-section-{{ section.id }}"
-				data-autoplay="{{ autoplay }}"
-				data-stop-autoplay="{{ stop_autoplay }}"
-				data-speed="{{ slideshow_speed }}"
-				data-delay="{{ slideshow_delay }}"
-				data-parallax="{{ parallax }}"
-				data-effect="{{ slide_effects }}"
-				style="--bullet-duration : {{ slideshow_delay }}s"
-			>
-				{% if section.settings.section_layout == "container" %}
-					<div class="container">
-				{% endif %}
-				<div class="slideshow__swiper swiper background color-{{ section.settings.color_scheme }}">
-					<div class="slideshow__wrapper swiper-wrapper">
-						{% for article in blog.articles limit: 3 %}
-							{% liquid
-								if image_size == 'adapt'
-									assign adapt_height = 1 | divided_by: article.image.aspect_ratio | times: 100 | append: '%'
-									assign section_size = adapt_height
-								endif
-							%}
-							{% style %}
-								#article-{{ article.id }} .slideshow-slide {
-									--slide-height : {{ section_size }};
-								}
-								#article-{{ article.id }} .have-overlay {
-									--overlay-alpha : {{ section.settings.overlay_opacity }}%;
-								}
-							{% endstyle %}
-							{%- render 'article-slider-card',
-								article: article,
-								show_image: section.settings.show_image,
-								show_tags: section.settings.show_tags,
-								show_date: section.settings.show_date,
-								show_author: section.settings.show_author,
-								btn_style: section.settings.button_style,
-								enable_arrow: section.settings.button_arrow,
-								section_style: section_style
-							-%}
-						{% endfor %}
-					</div>
-					{% if section.settings.show_bullets or section.settings.enable_additional_text %}
-						<div class="slideshow-bottom slider-pagiantion-bullet color-{{ section.settings.color_scheme }}">
-							<div class="container">
-								<div class="slideshow-bottom__wrapper">
-									{% if section.settings.show_bullets %}
-											<div class="swiper-pagination__wrapper">
-												<div class="swiper-pagination swiper-pagination__button"></div>
-											</div>
-									{% endif %}
-									{% if section.settings.enable_additional_text %}
-												<div class="additional-text">
-													<div class="additional-text__desc small-font richtext__content">{{ section.settings.additional_text }}</div>
-													<div class="additional-text__icon">{% render 'icon-additional-text' %}{% render 'icon-additional-text' %}</div>
-												</div>
-									{% endif %}
-								</div>
-							</div>
-						</div>
-					{% endif %}
-				</div>
-				{% if section.settings.section_layout == "container" %}
-				</div>
-				{% endif %}
-			</div>
-		</div>
+
 		{% comment %} Article slider end {% endcomment %}
 		{%- paginate blog.articles by 12 -%}
 		<div class="container">
