@@ -67,9 +67,38 @@
         "padding_top": "m",
         "padding_bottom": "m"
       }
+    },
+    "popular_products_Y9cqMX": {
+      "type": "popular-products",
+      "settings": {
+        "collection": "top-ventas",
+        "product_list": [],
+        "heading": "",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "popular_products_Y9cqMX"
   ]
 }
