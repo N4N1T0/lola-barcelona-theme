@@ -58,7 +58,7 @@
         "article_footer"
       ],
       "custom_css": [
-        ".article-template__wrapper{max-width:1200px;}"
+        ".article-template {max-width: 1200px;}"
       ],
       "settings": {
         "margin_top": "s",
