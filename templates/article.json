@@ -58,7 +58,8 @@
         "article_footer"
       ],
       "custom_css": [
-        ".article-template {max-width: 1200px;}"
+        ".article-template {max-width: 1200px; margin: 0 auto;}",
+        ".article-template__title {font-size: 35px; background: #00000033; padding: 10px 20px;}"
       ],
       "settings": {
         "margin_top": "s",
