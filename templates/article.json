@@ -95,10 +95,35 @@
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
+    },
+    "blog_post_AQbwzD": {
+      "type": "blog-post",
+      "settings": {
+        "heading": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "blog": "blog",
+        "card_type": "default",
+        "show_image": true,
+        "show_tags": false,
+        "show_date": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": true,
+        "show_arrows": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "main",
-    "popular_products_Y9cqMX"
+    "popular_products_Y9cqMX",
+    "blog_post_AQbwzD"
   ]
 }
