@@ -34,6 +34,10 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-banner__desc {max-width: 100% !important;}",
+        ".container-title_banner-collection {margin-bottom: 0 !important;}"
+      ],
       "settings": {
         "color_scheme": "background-4",
         "overlay_opacity": 20,
