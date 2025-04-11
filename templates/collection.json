@@ -36,7 +36,9 @@
       "type": "main-collection-banner",
       "custom_css": [
         ".collection-banner__desc {max-width: 100% !important;}",
-        ".container-title_banner-collection {margin-bottom: 0 !important;}"
+        ".container-title_banner-collection {margin-bottom: 0 !important;}",
+        ".breadcrumb {display: flex; justify-content: center; align-items: center; flex-wrap: wrap; /* per evitar desbordaments */ gap: 6px; /* opcional, separació entre elements */ text-align: center;}",
+        ".collection-banner__wrapper {margin-top: 0; padding-top:0;}"
       ],
       "settings": {
         "color_scheme": "background-4",
