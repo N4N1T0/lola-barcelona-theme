@@ -56,6 +56,7 @@
     },
     "social-media-collage": {
       "type": "social-media-collage",
+      "disabled": true,
       "settings": {
         "columns": 6,
         "margin_top": "xs",
