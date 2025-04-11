@@ -42,7 +42,7 @@
         "color_scheme": "background-4",
         "overlay_opacity": 20,
         "section_layout": "full",
-        "add_word": "Veganos Online",
+        "add_word": "",
         "show_word": true,
         "show_collection_description": true,
         "image_products": "{{ collection.image }}",
