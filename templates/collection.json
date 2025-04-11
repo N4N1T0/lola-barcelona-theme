@@ -9,24 +9,6 @@
  */
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "overlay_opacity": 20,
-        "section_layout": "full",
-        "add_word": "Collection",
-        "show_word": false,
-        "show_collection_description": false,
-        "image_size": "medium",
-        "show_collection_image": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "m",
-        "padding_bottom": "m"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -50,6 +32,24 @@
         "padding_bottom": "m"
       }
     },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "color_scheme": "background-4",
+        "overlay_opacity": 20,
+        "section_layout": "full",
+        "add_word": "Veganos Online",
+        "show_word": true,
+        "show_collection_description": true,
+        "image_products": "{{ collection.image }}",
+        "image_size": "medium",
+        "show_collection_image": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
     "social-media-collage": {
       "type": "social-media-collage",
       "settings": {
@@ -57,11 +57,75 @@
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
+    },
+    "image_with_text_zhrYbz": {
+      "type": "image-with-text",
+      "blocks": {
+        "column_xaU3cg": {
+          "type": "column",
+          "settings": {
+            "icon_item": "icon_10",
+            "subheading": "Sin tóxicos",
+            "text": "<p>Formulaciones libres de parabenos, siliconas e ingredientes agresivos.</p>"
+          }
+        },
+        "column_apnbXH": {
+          "type": "column",
+          "settings": {
+            "icon_item": "icon_17",
+            "subheading": "100 % vegano y cruelty free",
+            "text": "<p>Ninguno de nuestros productos se testa en animales.</p>"
+          }
+        },
+        "column_RKkXq8": {
+          "type": "column",
+          "settings": {
+            "icon_item": "icon_26",
+            "subheading": "Hecho en Barcelona",
+            "text": "<p>Marca local con producción responsable e inspiración mediterránea.</p>"
+          }
+        },
+        "column_GXW9JL": {
+          "type": "column",
+          "settings": {
+            "icon_item": "icon_12",
+            "subheading": "Colores que conectan",
+            "text": "<p>Tonos pensados para expresarte: naturales, potentes y llenos de vida.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_xaU3cg",
+        "column_apnbXH",
+        "column_RKkXq8",
+        "column_GXW9JL"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/lola1.jpg",
+        "image_size": "medium",
+        "layout": "image_first",
+        "icon_size": "small",
+        "heading": "Cosmética vegana con carácter",
+        "text": "<p>Creamos maquillaje vegano, natural y de calidad profesional. Inspirados por la energía de Barcelona, cuidamos tu piel con fórmulas honestas, sostenibles y libres de crueldad animal. Cada colección está diseñada para resaltar tu belleza única con colores vibrantes y texturas que enamoran.</p>",
+        "big_text": false,
+        "desktop_content_position": "flex-start",
+        "desktop_content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
     }
   },
   "order": [
-    "banner",
     "product-grid",
-    "social-media-collage"
+    "banner",
+    "social-media-collage",
+    "image_with_text_zhrYbz"
   ]
 }
