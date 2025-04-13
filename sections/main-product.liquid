@@ -1240,7 +1240,7 @@
     </div>
     <form method="post" action="/cart/add" class="sticky-form">
       <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-      <button type="submit">Afegir al carretó</button>
+      <button type="submit">{{ 'products.product.add_to_cart' | t }}</button>
     </form>
   </div>
 </div>
