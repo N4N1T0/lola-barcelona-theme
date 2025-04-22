@@ -32,12 +32,24 @@
             "picker_type": "button"
           }
         },
+        "text_wmXKPd": {
+          "type": "text",
+          "settings": {
+            "text": "✅ Envío en 24-72h des de Barcelona. <br>✔️ Devolución y reembolso durante 15 días.<br>🔐 Pago 100% seguro con Visa, PayPal y ShopPay."
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_quantity": true,
             "show_gift_card_recipient": false
+          }
+        },
+        "text_JwRaaW": {
+          "type": "text",
+          "settings": {
+            "text": "⏳ ¡Mas de 150 unidades vendidas este mes! 🔥<br> ¡Vuelve a estar disponible después de agotarse!"
           }
         },
         "icon_with_text_VFf6Mx": {
@@ -76,13 +88,15 @@
         "price",
         "a9b8e00e-492c-4b97-ac3e-3c9112446138",
         "variant_picker",
+        "text_wmXKPd",
         "buy_buttons",
+        "text_JwRaaW",
         "icon_with_text_VFf6Mx",
         "description",
         "about"
       ],
       "custom_css": [
-        "@media screen and (max-width: 768px) {.product__media-list {Padding-top: 10px; }}"
+        "@media screen and (max-width: 768px) {.product__media-list {padding-top: 10px; }}"
       ],
       "settings": {
         "image_gallery_collage": "thumbnail_carousel",
