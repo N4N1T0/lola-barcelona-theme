@@ -49,6 +49,34 @@
         "type": "shopify://apps/yotpo-product-photo-reviews/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
         "settings": {}
+      },
+      "2361305494380943633": {
+        "type": "shopify://apps/discount-pop-up-mits/blocks/popup/4af6c0ec-92b5-4580-853d-dc1dc12b9128",
+        "disabled": false,
+        "settings": {
+          "popupName": "Default pop-up",
+          "size": "sm",
+          "fontSize": 14,
+          "darkMode": true,
+          "textColor": "#ffffff",
+          "buttonBgColor": "#ffffff",
+          "buttonTextColor": "#000000",
+          "bgColor": "#000000",
+          "backdropColor": "#1B692A",
+          "flat": true,
+          "fullScreenOnMobile": false,
+          "contentText": "<h1>ÚNETE AL CLUB DE LOLITAS</h1><h2>Regístrate y obten un 10% de descuento</h2><p>Disfruta de acceso anticipado, descuentos exclusivos, asesoramiento de expertos y mucho mas.</p>",
+          "formName": "Tu nombre",
+          "formEmail": "Tu email",
+          "formPhone": "Tu teléfono",
+          "gdprText": "Acepto la política de privacidad, suscribirme y recibir comunicaciones comerciales.",
+          "formSubmitButton": "UNIRME AHORA",
+          "discountCode": "",
+          "arrangeItems": "text,\nimage,\nform,\n\nform_name,\nform_email,\nform_phone,\nform_gdpr,\nform_submit,",
+          "displayWidget": "10000",
+          "afterClosing": "after3days",
+          "startShowing": true
+        }
       }
     },
     "color_schemes": {
