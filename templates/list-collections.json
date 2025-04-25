@@ -1,1 +1,32 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "",
+        "collection_per_page": 23,
+        "per_row": 3,
+        "sort": "alphabetical",
+        "image_ratio": "portrait",
+        "card_type": "image-overlay",
+        "text_bg_opacity": 100,
+        "show_collection_desc": false,
+        "show_collection_tags": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
