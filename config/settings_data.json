@@ -30,6 +30,7 @@
     "quickview_announcement": "",
     "quickview_button_type": "quick-buy",
     "pagination_type": "infinite_scroll",
+    "show_breadcrumbs": false,
     "sections": {
       "collection-carousel": {
         "type": "collection-carousel",
