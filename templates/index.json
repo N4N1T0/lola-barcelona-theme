@@ -14,10 +14,9 @@
       "blocks": {
         "slideshow_item_8NN9CW": {
           "type": "slideshow_item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/hyaluronic_lipstick_banner.png",
-            "imagemobile": "shopify://shop_images/hyaluronic_lipstick_banner_mobile.svg",
+            "image": "shopify://shop_images/lola_banner_dia_madre_desk.png",
+            "imagemobile": "shopify://shop_images/lola_banner_dia_madre_mov.png",
             "color_scheme": "background-1",
             "heading": "",
             "text": "",
@@ -30,6 +29,7 @@
         },
         "slideshow_item_faTpdg": {
           "type": "slideshow_item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/lola_retromatte_lipstick.jpg",
             "imagemobile": "shopify://shop_images/lola_retromatte_1080x1350_a81f2d42-9a17-458d-8d5d-14200f54110d.jpg",
