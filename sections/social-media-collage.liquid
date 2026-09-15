@@ -88,10 +88,7 @@
 											</div>
 										{% else %}
 											<div class="social-media-collage__author-icon">
-												{%-
-													render 'icon-social', "icon-youtube",
-													icon-social: block.settings.icon_social,
-												-%}
+												{%- render 'icon-social', icon-social: block.settings.icon_social -%}
 											</div>
 										{% endif %}
 										{% if block.settings.instagram_image != blank
@@ -753,3 +750,14 @@
 	]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%-\n\t\t\t\t\t\t\t\t\t\t\t\t\trender 'icon-social', \"icon-youtube\",\n\t\t\t\t\t\t\t\t\t\t\t\t\ticon-social:
+    block.settings.icon_social,\n\t\t\t\t\t\t\t\t\t\t\t\t-%}"
+  to: "{%- render 'icon-social', icon-social: block.settings.icon_social -%}"
+  position: 2885..2954
+{% endcomment %}
