@@ -13,7 +13,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 23,
-        "show_two_cards": false,
+        "show_two_cards": true,
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": false,
@@ -36,7 +36,7 @@
       "type": "main-collection-banner",
       "custom_css": [
         ".collection-banner__desc {max-width: 100% !important;}",
-        ".container-title_banner-collection {margin-top:20px; margin-bottom: 0 !important;}",
+        ".container-title_banner-collection {margin-top: 20px; margin-bottom: 0 !important;}",
         ".breadcrumb {display: flex; justify-content: center; align-items: center; flex-wrap: wrap; /* per evitar desbordaments */ gap: 6px; /* opcional, separació entre elements */ text-align: center;}",
         ".collection-banner__wrapper {margin-top: 0; padding-top: 0;}",
         ".h1_collection-banner_title {color: black;}",
