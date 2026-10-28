@@ -87,6 +87,12 @@
             "description_variants": "fixed"
           }
         },
+        "custom_liquid_LA3R34": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.lola-details {\n  margin-top: 24px;\n}\n.lola-details details {\n  border-top: 1px solid #ddd;\n}\n.lola-details details:last-child {\n  border-bottom: 1px solid #ddd;\n}\n.lola-details summary {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 18px 0;\n  font: inherit;\n  font-size: 16px;\n  font-weight: 400;\n  letter-spacing: 0.06em;\n  text-transform: uppercase;\n  cursor: pointer;\n  list-style: none;\n}\n.lola-details summary::-webkit-details-marker {\n  display: none;\n}\n.lola-details summary::after {\n  content: \"+\";\n  margin-left: 16px;\n}\n.lola-details details[open] summary::after {\n  content: \"−\";\n}\n.lola-details .content {\n  padding-bottom: 18px;\n  font-size: 17px;\n  line-height: 1.6;\n}\n.lola-details p {\n  margin: 0 0 12px;\n}\n.lola-details p:last-child {\n  margin-bottom: 0;\n}\n.lola-details strong {\n  font-weight: 700;\n}\n</style>\n\n<div class=\"lola-details\">\n  <details>\n    <summary>LA FÓRMULA</summary>\n    <div class=\"content\">\n      <p>Con aceite de jojoba orgánico y vitamina E.</p>\n\n      <p><strong>Addict</strong> contiene extracto de cereza, arándanos y fresa, aportando un ligero tinte rosado a tus labios y un potente efecto antioxidante.</p>\n\n      <p><strong>Blossom</strong> está formulado con extracto de lufa y orquídea para un efecto regenerador en tus labios.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>CÓMO USARLO</summary>\n    <div class=\"content\">\n      <p>Desliza el aplicador sobre los labios. Reaplica cuando lo necesites.</p>\n    </div>\n  </details>\n</div>"
+          }
+        },
         "about": {
           "type": "about",
           "settings": {
@@ -107,14 +113,15 @@
         "text_JwRaaW",
         "icon_with_text_VFf6Mx",
         "description",
+        "custom_liquid_LA3R34",
         "about"
       ],
       "custom_css": [
-        "@media screen and (max-width:768px){.product__media-list{padding-top:10px}}",
-        ".product__text{font-size:17px; line-height:1.6; margin:12px 0;}",
-        ".product__title{font-weight:400; font-size:28px; line-height:1.2; max-width:420px;}",
-        ".product__info-wrapper .product-parameters{margin-top:16px; padding-top:16px; border-top:0;}",
-        ".product-form{margin-top:20px; padding:0; border:0;}"
+        "@media screen and (max-width: 768px) {.product__media-list {padding-top: 10px; }}",
+        ".product__text {font-size: 17px; line-height: 1.6; margin: 12px 0;}",
+        ".product__title {font-weight: 400; font-size: 28px; line-height: 1.2; max-width: 420px;}",
+        ".product__info-wrapper .product-parameters {margin-top: 16px; padding-top: 16px; border-top: 0;}",
+        ".product-form {margin-top: 20px; padding: 0; border: 0;}"
       ],
       "settings": {
         "image_gallery_collage": "thumbnail_carousel",
