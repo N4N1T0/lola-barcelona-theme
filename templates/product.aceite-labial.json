@@ -32,12 +32,6 @@
             "picker_type": "button"
           }
         },
-        "text_wmXKPd": {
-          "type": "text",
-          "settings": {
-            "text": "✅ Envío en 24-72h des de Barcelona. <br>✔️ Devolución y reembolso durante 15 días.<br>🔐 Pago 100% seguro con Visa, PayPal y ShopPay."
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -48,27 +42,27 @@
         },
         "text_JwRaaW": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "⏳ ¡Mas de 150 unidades vendidas este mes! 🔥<br> ¡Vuelve a estar disponible después de agotarse!"
+            "text": "⏳ ¡Mas de 150 unidades vendidas este mes! 🔥 ¡Vuelve a estar disponible después de agotarse!"
           }
         },
         "icon_with_text_VFf6Mx": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
-            "icon_1": "icon_1",
-            "image_1": "shopify://shop_images/Lola_pictos_Comptagotes.png",
-            "heading_1": "Formulación propia",
-            "icon_2": "icon_1",
-            "image_2": "shopify://shop_images/Lola_pictos_vegan.png",
+            "icon_1": "none",
+            "heading_1": "Formulación Propia",
+            "icon_2": "none",
             "heading_2": "Producto Vegano",
-            "icon_3": "icon_3",
-            "image_3": "shopify://shop_images/Lola_pictos_Barcelona.png",
+            "icon_3": "none",
             "heading_3": "Hecho en Barcelona"
           }
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "description_heading": "Descripción",
             "default_open": true,
@@ -88,7 +82,6 @@
         "price",
         "a9b8e00e-492c-4b97-ac3e-3c9112446138",
         "variant_picker",
-        "text_wmXKPd",
         "buy_buttons",
         "text_JwRaaW",
         "icon_with_text_VFf6Mx",
@@ -106,6 +99,23 @@
         "enable_autoheight": false,
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
+      }
+    },
+    "390e1be20f39827e80e5": {
+      "type": "apps",
+      "blocks": {
+        "1d90e277-4e50-41b6-8e8f-480e397a015c": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "1d90e277-4e50-41b6-8e8f-480e397a015c"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "7e8462471a110150a183": {
@@ -176,23 +186,6 @@
     },
     "173160130867e53141": {
       "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "390e1be20f39827e80e5": {
-      "type": "apps",
-      "blocks": {
-        "1d90e277-4e50-41b6-8e8f-480e397a015c": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "1d90e277-4e50-41b6-8e8f-480e397a015c"
-      ],
       "settings": {
         "include_margins": true
       }
