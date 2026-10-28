@@ -110,7 +110,11 @@
         "about"
       ],
       "custom_css": [
-        "@media screen and (max-width: 768px) {.product__media-list {padding-top: 10px; }}"
+        "@media screen and (max-width:768px){.product__media-list{padding-top:10px}}",
+        ".product__text{font-size:17px; line-height:1.6; margin:12px 0;}",
+        ".product__title{font-weight:400; font-size:28px; line-height:1.2; max-width:420px;}",
+        ".product__info-wrapper .product-parameters{margin-top:16px; padding-top:16px; border-top:0;}",
+        ".product-form{margin-top:20px; padding:0; border:0;}"
       ],
       "settings": {
         "image_gallery_collage": "thumbnail_carousel",
