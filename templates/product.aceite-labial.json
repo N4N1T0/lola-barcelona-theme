@@ -15,7 +15,7 @@
         "custom_liquid_R4wAMx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n@media screen and (min-width: 1024px) {\n  #shopify-section-{{ section.id }} .js-media-list,\n  #shopify-section-{{ section.id }} .js-media-list > .swiper-wrapper,\n  #shopify-section-{{ section.id }} .js-media-list .product__media-item {\n    height: 560px !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__modal-opener,\n  #shopify-section-{{ section.id }} .js-media-list .product__media {\n    height: 100% !important;\n    padding: 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__media img {\n    object-fit: contain !important;\n  }\n}\n</style>"
+            "custom_liquid": "<style>\n@media screen and (min-width: 1024px) {\n  #shopify-section-{{ section.id }} .js-media-list,\n  #shopify-section-{{ section.id }} .js-media-list > .swiper-wrapper,\n  #shopify-section-{{ section.id }} .js-media-list .product__media-item {\n    height: 560px !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__modal-opener,\n  #shopify-section-{{ section.id }} .js-media-list .product__media {\n    height: 100% !important;\n    padding: 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__media img {\n    object-fit: contain !important;\n  }\n}\n\n@media screen and (max-width: 767px) {\n  #shopify-section-{{ section.id }} .product__title {\n    font-size: 23px;\n    line-height: 1.2;\n  }\n\n  #shopify-section-{{ section.id }} .product__text {\n    font-size: 14px;\n    line-height: 1.5;\n    margin: 10px 0;\n  }\n\n  #shopify-section-{{ section.id }} .lola-details summary {\n    font-size: 14px;\n    padding: 14px 0;\n  }\n\n  #shopify-section-{{ section.id }} .lola-details .content {\n    font-size: 15px;\n    line-height: 1.5;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list,\n  #shopify-section-{{ section.id }} .js-media-list > .swiper-wrapper,\n  #shopify-section-{{ section.id }} .js-media-list .product__media-item {\n    height: 340px !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__modal-opener,\n  #shopify-section-{{ section.id }} .js-media-list .product__media {\n    height: 100% !important;\n    padding: 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__media img {\n    object-fit: contain !important;\n  }\n\n  #shopify-section-{{ section.id }} .product__media-list-wrapper {\n    gap: 12px;\n  }\n\n  #shopify-section-{{ section.id }} .product__outer {\n    gap: 20px;\n  }\n}\n</style>"
           }
         },
         "text_znTki8": {
@@ -145,6 +145,7 @@
       "blocks": {
         "1d90e277-4e50-41b6-8e8f-480e397a015c": {
           "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
