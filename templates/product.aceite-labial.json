@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_R4wAMx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n@media screen and (min-width: 1024px) {\n  #shopify-section-{{ section.id }} .js-media-list,\n  #shopify-section-{{ section.id }} .js-media-list > .swiper-wrapper,\n  #shopify-section-{{ section.id }} .js-media-list .product__media-item {\n    height: 560px !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__modal-opener,\n  #shopify-section-{{ section.id }} .js-media-list .product__media {\n    height: 100% !important;\n    padding: 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__media img {\n    object-fit: contain !important;\n  }\n}\n</style>"
+          }
+        },
         "text_znTki8": {
           "type": "text",
           "settings": {
@@ -102,6 +108,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_R4wAMx",
         "text_znTki8",
         "title",
         "price",
