@@ -1,0 +1,209 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "a9b8e00e-492c-4b97-ac3e-3c9112446138": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "text_wmXKPd": {
+          "type": "text",
+          "settings": {
+            "text": "✅ Envío en 24-72h des de Barcelona. <br>✔️ Devolución y reembolso durante 15 días.<br>🔐 Pago 100% seguro con Visa, PayPal y ShopPay."
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_quantity": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "text_JwRaaW": {
+          "type": "text",
+          "settings": {
+            "text": "⏳ ¡Mas de 150 unidades vendidas este mes! 🔥<br> ¡Vuelve a estar disponible después de agotarse!"
+          }
+        },
+        "icon_with_text_VFf6Mx": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "icon_1",
+            "image_1": "shopify://shop_images/Lola_pictos_Comptagotes.png",
+            "heading_1": "Formulación propia",
+            "icon_2": "icon_1",
+            "image_2": "shopify://shop_images/Lola_pictos_vegan.png",
+            "heading_2": "Producto Vegano",
+            "icon_3": "icon_3",
+            "image_3": "shopify://shop_images/Lola_pictos_Barcelona.png",
+            "heading_3": "Hecho en Barcelona"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "description_heading": "Descripción",
+            "default_open": true,
+            "description_variants": "fixed"
+          }
+        },
+        "about": {
+          "type": "about",
+          "settings": {
+            "about_heading": "",
+            "about_heading_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "a9b8e00e-492c-4b97-ac3e-3c9112446138",
+        "variant_picker",
+        "text_wmXKPd",
+        "buy_buttons",
+        "text_JwRaaW",
+        "icon_with_text_VFf6Mx",
+        "description",
+        "about"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.product__media-list {padding-top: 10px; }}"
+      ],
+      "settings": {
+        "image_gallery_collage": "thumbnail_carousel",
+        "desktop_alignment": "left",
+        "mobile_alignment": "after",
+        "image_fit": "cover",
+        "enable_autoheight": false,
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "7e8462471a110150a183": {
+      "type": "apps",
+      "blocks": {
+        "90bf3334-9aa2-4fe5-a16c-5963646d51ba": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "90bf3334-9aa2-4fe5-a16c-5963646d51ba"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_DCitq9": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "video": "shopify://files/videos/LOLA BCN REEL 5- GLOWBALM.mov",
+        "image_size": "adapt",
+        "layout": "image_first",
+        "icon_size": "small",
+        "heading": "<strong>¿En qué se diferencian los tres tonos? </strong>",
+        "text": "<p><strong>Belle</strong>, el único tono transparente, es un bálsamo floral con <strong>Flor de Tiare</strong> (propiedades nutritivas, suavizantes, y protectoras solares) y <strong>Orquídea</strong> (hidrata y suaviza tus labios). <br/></p><p>El bálsamo <strong>Corail</strong>, con un tono coralino precioso, tiene una fórmula frutal rica en antioxidantes y propiedades regeneradoras. Contiene <strong>Aceite de Pepita de Uva</strong> (con un alto contenido en ácidos grasos y antioxidantes), <strong>Aceite de Mango</strong> (aporta hidratación profunda y protección a los labios) y <strong>Aceite de Luffa</strong>, que ayuda a la suavidad de la piel. </p><p>El tercer y último tono es <strong>Kiss</strong>, un bálsamo vegetal, o más bien un cóctel hidratante  y antiedad que te ayudará a conseguir esos labios sanos y suaves que buscas. Su fórmula contiene<strong> Aceite de Chía</strong> (propiedades hidratantes y suavizantes), <strong>Camelina Gold</strong> (propiedades antiedad e hidratantes) y el <strong>Cannabis</strong> (propiedades calmantes, hidratantes y antioxidantes). </p>",
+        "big_text": false,
+        "desktop_content_position": "flex-start",
+        "desktop_content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "TAMBIÉN TE PUEDE INTERESAR...",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "173160130867e53141": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "390e1be20f39827e80e5": {
+      "type": "apps",
+      "blocks": {
+        "1d90e277-4e50-41b6-8e8f-480e397a015c": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "1d90e277-4e50-41b6-8e8f-480e397a015c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "390e1be20f39827e80e5",
+    "7e8462471a110150a183",
+    "image_with_text_DCitq9",
+    "product-recommendations",
+    "173160130867e53141"
+  ]
+}
