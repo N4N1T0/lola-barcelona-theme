@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_znTki8": {
+          "type": "text",
+          "settings": {
+            "text": "ULTRA-SHINE"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -26,6 +32,12 @@
             "product": "{{product}}"
           }
         },
+        "text_4bQnFm": {
+          "type": "text",
+          "settings": {
+            "text": "Con aceite de jojoba orgánico y vitamina E. Nutre y suaviza los labios, dejando un acabado luminoso."
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -38,6 +50,12 @@
             "show_dynamic_checkout": true,
             "show_quantity": true,
             "show_gift_card_recipient": false
+          }
+        },
+        "text_h96aFU": {
+          "type": "text",
+          "settings": {
+            "text": "Fórmula Propia · Vegano · Hecho en Barcelona"
           }
         },
         "text_JwRaaW": {
@@ -78,11 +96,14 @@
         }
       },
       "block_order": [
+        "text_znTki8",
         "title",
         "price",
         "a9b8e00e-492c-4b97-ac3e-3c9112446138",
+        "text_4bQnFm",
         "variant_picker",
         "buy_buttons",
+        "text_h96aFU",
         "text_JwRaaW",
         "icon_with_text_VFf6Mx",
         "description",
@@ -123,6 +144,7 @@
       "blocks": {
         "90bf3334-9aa2-4fe5-a16c-5963646d51ba": {
           "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
@@ -161,6 +183,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "TAMBIÉN TE PUEDE INTERESAR...",
         "description": "",
