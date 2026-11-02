@@ -1,0 +1,252 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_R4wAMx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n@media screen and (min-width: 1024px) {\n  #shopify-section-{{ section.id }} .js-media-list,\n  #shopify-section-{{ section.id }} .js-media-list > .swiper-wrapper,\n  #shopify-section-{{ section.id }} .js-media-list .product__media-item {\n    height: 560px !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__modal-opener,\n  #shopify-section-{{ section.id }} .js-media-list .product__media {\n    height: 100% !important;\n    padding: 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__media img {\n    object-fit: contain !important;\n  }\n}\n\n@media screen and (max-width: 767px) {\n  #shopify-section-{{ section.id }} .product__title {\n    font-size: 23px;\n    line-height: 1.2;\n  }\n\n  #shopify-section-{{ section.id }} .product__text {\n    font-size: 14px;\n    line-height: 1.5;\n    margin: 10px 0;\n  }\n\n  #shopify-section-{{ section.id }} .lola-details summary {\n    font-size: 14px;\n    padding: 14px 0;\n  }\n\n  #shopify-section-{{ section.id }} .lola-details .content {\n    font-size: 15px;\n    line-height: 1.5;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list,\n  #shopify-section-{{ section.id }} .js-media-list > .swiper-wrapper,\n  #shopify-section-{{ section.id }} .js-media-list .product__media-item {\n    height: 340px !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__modal-opener,\n  #shopify-section-{{ section.id }} .js-media-list .product__media {\n    height: 100% !important;\n    padding: 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .js-media-list .product__media img {\n    object-fit: contain !important;\n  }\n\n  #shopify-section-{{ section.id }} .product__media-list-wrapper {\n    gap: 12px;\n  }\n\n  #shopify-section-{{ section.id }} .product__outer {\n    gap: 20px;\n  }\n}\n</style>\n<style>\n#shopify-section-{{ section.id }}\n.yotpo-widget-instance[data-yotpo-instance-id=\"919377\"] {\n  zoom: 0.8;\n}\n</style>"
+          }
+        },
+        "text_znTki8": {
+          "type": "text",
+          "settings": {
+            "text": "ULTRA-SHINE"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {}
+        },
+        "custom_liquid_bnRy39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h1 class=\"product__title\">\n  Aceite Labial Reparador\n</h1>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "a9b8e00e-492c-4b97-ac3e-3c9112446138": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "text_4bQnFm": {
+          "type": "text",
+          "settings": {
+            "text": "Con aceite de jojoba orgánico y vitamina E. Nutre y suaviza los labios, dejando un acabado luminoso."
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_quantity": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "text_h96aFU": {
+          "type": "text",
+          "settings": {
+            "text": "Fórmula Propia · Vegano · Hecho en Barcelona"
+          }
+        },
+        "text_JwRaaW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "⏳ ¡Mas de 150 unidades vendidas este mes! 🔥 ¡Vuelve a estar disponible después de agotarse!"
+          }
+        },
+        "icon_with_text_VFf6Mx": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "heading_1": "Formulación Propia",
+            "icon_2": "none",
+            "heading_2": "Producto Vegano",
+            "icon_3": "none",
+            "heading_3": "Hecho en Barcelona"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "description_heading": "Descripción",
+            "default_open": true,
+            "description_variants": "fixed"
+          }
+        },
+        "custom_liquid_LA3R34": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.lola-details {\n  margin-top: 24px;\n}\n.lola-details details {\n  border-top: 1px solid #ddd;\n}\n.lola-details details:last-child {\n  border-bottom: 1px solid #ddd;\n}\n.lola-details summary {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 18px 0;\n  font: inherit;\n  font-size: 16px;\n  font-weight: 400;\n  letter-spacing: 0.06em;\n  text-transform: uppercase;\n  cursor: pointer;\n  list-style: none;\n}\n.lola-details summary::-webkit-details-marker {\n  display: none;\n}\n.lola-details summary::after {\n  content: \"+\";\n  margin-left: 16px;\n}\n.lola-details details[open] summary::after {\n  content: \"−\";\n}\n.lola-details .content {\n  padding-bottom: 18px;\n  font-size: 17px;\n  line-height: 1.6;\n}\n.lola-details p {\n  margin: 0 0 12px;\n}\n.lola-details p:last-child {\n  margin-bottom: 0;\n}\n.lola-details strong {\n  font-weight: 700;\n}\n</style>\n\n<div class=\"lola-details\">\n  <details>\n    <summary>LA FÓRMULA</summary>\n    <div class=\"content\">\n\n      <p><strong>Addict</strong> contiene extracto de cereza, arándanos y fresa, aportando un ligero tinte rosado a tus labios y un potente efecto antioxidante.</p>\n\n      <p><strong>Blossom</strong> está formulado con extracto de lufa y orquídea para un efecto regenerador en tus labios.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>CÓMO USARLO</summary>\n    <div class=\"content\">\n      <p>Desliza el aplicador sobre los labios. Reaplica cuando lo necesites.</p>\n    </div>\n  </details>\n</div>\n<style>\n@media screen and (max-width: 767px) {\n  #shopify-section-{{ section.id }} .product__title {\n    font-size: 23px !important;\n    line-height: 1.2 !important;\n  }\n\n  #shopify-section-{{ section.id }} .product__text {\n    font-size: 14px !important;\n    line-height: 1.5 !important;\n    margin: 10px 0 !important;\n  }\n\n  #shopify-section-{{ section.id }} .lola-details summary {\n    font-size: 14px !important;\n  }\n\n  #shopify-section-{{ section.id }} .lola-details .content {\n    font-size: 15px !important;\n    line-height: 1.5 !important;\n  }\n}\n</style>\n<style>\n@media screen and (max-width: 767px) {\n  #shopify-section-{{ section.id }} .product-form__buttons-row {\n    display: grid !important;\n    grid-template-columns: 108px minmax(0, 1fr);\n    gap: 10px;\n    align-items: stretch;\n  }\n\n  #shopify-section-{{ section.id }} .product-parameters__variant--quantity {\n    width: 108px !important;\n    min-width: 0;\n  }\n\n  #shopify-section-{{ section.id }} .quantity {\n    width: 108px !important;\n    min-width: 0;\n    height: 48px;\n    min-height: 48px;\n  }\n\n  #shopify-section-{{ section.id }} .quantity__button {\n    width: 36px;\n    flex: 0 0 36px;\n    padding: 0;\n  }\n\n  #shopify-section-{{ section.id }} .quantity__input {\n    width: 36px;\n    min-width: 0;\n    padding: 0;\n    font-size: 16px;\n  }\n\n  #shopify-section-{{ section.id }} .product-form__submit {\n    width: 100%;\n    min-width: 0;\n    min-height: 48px;\n    padding: 8px;\n    font-size: 14px;\n  }\n\n  #shopify-section-{{ section.id }} .product-form__submit .icon-cart {\n    display: none;\n  }\n}\n</style>"
+          }
+        },
+        "about": {
+          "type": "about",
+          "settings": {
+            "about_heading": "",
+            "about_heading_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_R4wAMx",
+        "text_znTki8",
+        "title",
+        "custom_liquid_bnRy39",
+        "price",
+        "a9b8e00e-492c-4b97-ac3e-3c9112446138",
+        "text_4bQnFm",
+        "variant_picker",
+        "buy_buttons",
+        "text_h96aFU",
+        "text_JwRaaW",
+        "icon_with_text_VFf6Mx",
+        "description",
+        "custom_liquid_LA3R34",
+        "about"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.product__media-list {padding-top: 10px; }}",
+        ".product__text {font-size: 17px; line-height: 1.6; margin: 12px 0;}",
+        ".product__title {font-weight: 400; font-size: 28px; line-height: 1.2; max-width: 420px;}",
+        ".product__info-wrapper .product-parameters {margin-top: 16px; padding-top: 16px; border-top: 0;}",
+        ".product-form {margin-top: 20px; padding: 0; border: 0;}"
+      ],
+      "settings": {
+        "image_gallery_collage": "thumbnail_carousel",
+        "desktop_alignment": "left",
+        "mobile_alignment": "after",
+        "image_fit": "cover",
+        "enable_autoheight": false,
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "390e1be20f39827e80e5": {
+      "type": "apps",
+      "blocks": {
+        "1d90e277-4e50-41b6-8e8f-480e397a015c": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "1d90e277-4e50-41b6-8e8f-480e397a015c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "7e8462471a110150a183": {
+      "type": "apps",
+      "blocks": {
+        "90bf3334-9aa2-4fe5-a16c-5963646d51ba": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "90bf3334-9aa2-4fe5-a16c-5963646d51ba"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_DCitq9": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "video": "shopify://files/videos/LOLA BCN REEL 5- GLOWBALM.mov",
+        "image_size": "adapt",
+        "layout": "image_first",
+        "icon_size": "small",
+        "heading": "<strong>¿En qué se diferencian los tres tonos? </strong>",
+        "text": "<p><strong>Belle</strong>, el único tono transparente, es un bálsamo floral con <strong>Flor de Tiare</strong> (propiedades nutritivas, suavizantes, y protectoras solares) y <strong>Orquídea</strong> (hidrata y suaviza tus labios). <br/></p><p>El bálsamo <strong>Corail</strong>, con un tono coralino precioso, tiene una fórmula frutal rica en antioxidantes y propiedades regeneradoras. Contiene <strong>Aceite de Pepita de Uva</strong> (con un alto contenido en ácidos grasos y antioxidantes), <strong>Aceite de Mango</strong> (aporta hidratación profunda y protección a los labios) y <strong>Aceite de Luffa</strong>, que ayuda a la suavidad de la piel. </p><p>El tercer y último tono es <strong>Kiss</strong>, un bálsamo vegetal, o más bien un cóctel hidratante  y antiedad que te ayudará a conseguir esos labios sanos y suaves que buscas. Su fórmula contiene<strong> Aceite de Chía</strong> (propiedades hidratantes y suavizantes), <strong>Camelina Gold</strong> (propiedades antiedad e hidratantes) y el <strong>Cannabis</strong> (propiedades calmantes, hidratantes y antioxidantes). </p>",
+        "big_text": false,
+        "desktop_content_position": "flex-start",
+        "desktop_content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "TAMBIÉN TE PUEDE INTERESAR...",
+        "description": "",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "173160130867e53141": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "390e1be20f39827e80e5",
+    "7e8462471a110150a183",
+    "image_with_text_DCitq9",
+    "product-recommendations",
+    "173160130867e53141"
+  ]
+}
