@@ -21,7 +21,7 @@
         "text_znTki8": {
           "type": "text",
           "settings": {
-            "text": "ULTRA-SHINE"
+            "text": "CON LUZ Y ESPEJO"
           }
         },
         "title": {
@@ -32,7 +32,7 @@
         "custom_liquid_bnRy39": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h1 class=\"product__title\">\n  Aceite Labial Reparador\n</h1>"
+            "custom_liquid": "<h1 class=\"product__title\">\n  Light Up Gloss\n</h1>"
           }
         },
         "price": {
@@ -48,7 +48,7 @@
         "text_4bQnFm": {
           "type": "text",
           "settings": {
-            "text": "Con aceite de jojoba orgánico y vitamina E. Nutre y suaviza los labios, dejando un acabado luminoso."
+            "text": "Con aloe vera, aceite de rosa mosqueta y vitamina E. Aporta color y brillo mientras cuida tus labios. Con luz y espejo incorporados para retocarte donde quieras."
           }
         },
         "variant_picker": {
