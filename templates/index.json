@@ -296,7 +296,7 @@
         "layout": "image_first",
         "icon_size": "medium",
         "heading": "<strong>MADE IN BARCELONA</strong>.",
-        "text": "<p>Creamos y fabricamos nuestros productos en Barcelona. Color, cuidado y fórmulas pensadas para acompañarte cada día.</p>",
+        "text": "<p>Creamos y fabricamos nuestros productos en Barcelona.&nbsp;</p><p>Color, cuidado y fórmulas pensadas para acompañarte cada día.</p>",
         "big_text": false,
         "desktop_content_position": "center",
         "desktop_content_alignment": "left",
