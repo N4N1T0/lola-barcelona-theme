@@ -130,7 +130,7 @@
       ],
       "settings": {
         "columns": 3,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "card_type": "text-overlay",
         "text_bg_opacity": 56,
         "show_collection_desc": true,
@@ -244,15 +244,17 @@
       "blocks": {
         "column_E7J36i": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "icon_item": "icon_2",
             "custom_icon": "shopify://shop_images/Lola_pictos_Comptagotes.png",
             "subheading": "",
-            "text": "<p>Utilizamos principios activos de la cosmética para mejorar la textura, hidratación y luminosidad de tu piel.</p>"
+            "text": "<p>Utilizamos principios activos de la cosmética&nbsp;para mejorar la textura, hidratación y luminosidad de tu piel.</p>"
           }
         },
         "column_DVfePG": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "icon_item": "icon_5",
             "custom_icon": "shopify://shop_images/Lola_pictos_vegan.png",
@@ -262,6 +264,7 @@
         },
         "column_WXHjhH": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "icon_item": "icon_3",
             "custom_icon": "shopify://shop_images/Lola_pictos_Barcelona.png",
@@ -271,6 +274,7 @@
         },
         "column_pheWNR": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "icon_item": "icon_4",
             "custom_icon": "shopify://shop_images/Lola_pictos_Lupa.png",
@@ -291,10 +295,10 @@
         "image_size": "adapt",
         "layout": "image_first",
         "icon_size": "medium",
-        "heading": "La Ciencia Detrás",
-        "text": "<h2>de la Belleza</h2>",
+        "heading": "<strong>MADE IN BARCELONA</strong>.",
+        "text": "<p>Creamos y fabricamos nuestros productos en Barcelona. Color, cuidado y fórmulas pensadas para acompañarte cada día.</p>",
         "big_text": false,
-        "desktop_content_position": "flex-start",
+        "desktop_content_position": "center",
         "desktop_content_alignment": "left",
         "button_label": "",
         "button_link": "",
