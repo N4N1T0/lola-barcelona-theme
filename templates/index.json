@@ -628,6 +628,9 @@
     },
     "newsletter_pPKEQ7": {
       "type": "newsletter",
+      "custom_css": [
+        "h3 {font-size: 26px; line-height: 1.2;}"
+      ],
       "settings": {
         "color_scheme": "",
         "position": "center",
