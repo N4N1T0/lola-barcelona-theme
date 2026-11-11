@@ -17,7 +17,7 @@
         "slide": {
           "type": "slide",
           "settings": {
-            "text": "<p>Entregas 48-72h  GRATIS a partir de 30€ </p>",
+            "text": "<p>Entregas 48-72h &nbsp;GRATIS a partir de 30€&nbsp;</p>",
             "button_label": "",
             "button_link": "",
             "button_arrow": true
@@ -46,10 +46,18 @@
         "sticky_header_type": "on-scroll-up",
         "enable_search": true
       }
+    },
+    "custom_liquid_nRKJ43": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\nheader a[href=\"tel:+34676754061\"] {\n  display: none !important;\n}\n</style>"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_nRKJ43"
   ]
 }
