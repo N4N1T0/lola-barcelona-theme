@@ -378,6 +378,7 @@
         "testimonials_slide_GLTyNg",
         "testimonials_slide_tUGqYU"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "heading": "Testimonios que Inspiran",
@@ -431,6 +432,7 @@
     },
     "collection-carousel": {
       "type": "collection-carousel",
+      "disabled": true,
       "settings": {
         "image_size": "auto",
         "color_scheme": "",
@@ -695,77 +697,6 @@
         "fix_paddings": true
       }
     },
-    "social_media_collage_t8a9RF": {
-      "type": "social-media-collage",
-      "blocks": {
-        "social_media_desc_QpK4WU": {
-          "type": "social-media-desc",
-          "settings": {
-            "column_start": 1,
-            "column_end": 4,
-            "row_start": "unset",
-            "row_end": "unset",
-            "min_height": "large",
-            "image_id": "shopify://shop_images/Lola-barcelona-12790.jpg",
-            "overlay_opacity": 20,
-            "color_scheme": "background-6",
-            "heading": "Nuestra inspiración: capturar los momentos de la vida",
-            "button_label": "Nuestro Instagram",
-            "button_link": "https://www.instagram.com/lola_bcn/",
-            "button_style": "primary",
-            "button_arrow": false,
-            "icon_social": "instagram",
-            "gradient": "linear-gradient(132.88deg, rgba(17, 17, 18, 1) 8.28%, rgba(244, 1, 143, 1) 36.86%, rgba(252, 195, 0, 1) 96.43%)",
-            "instagram_name": "<p>@lola_bcn</p>",
-            "description": "<p>Maquillaje para mujeres extraordinarias</p>"
-          }
-        },
-        "social_media_image_FtnbLH": {
-          "type": "social-media-image",
-          "settings": {
-            "column_start": 4,
-            "column_end": 5,
-            "row_start": "unset",
-            "row_end": "unset",
-            "min_height": "large",
-            "video": "shopify://files/videos/video-output-B155E845-D2A4-4E0C-A5A8-E6206986613A.mov"
-          }
-        },
-        "social_media_image_Y7wHWb": {
-          "type": "social-media-image",
-          "settings": {
-            "column_start": 5,
-            "column_end": 6,
-            "row_start": "unset",
-            "row_end": "unset",
-            "min_height": "large",
-            "video": "shopify://files/videos/IMG_4047.MOV"
-          }
-        },
-        "social_media_image_3PzWWE": {
-          "type": "social-media-image",
-          "settings": {
-            "column_start": 6,
-            "column_end": 7,
-            "row_start": "unset",
-            "row_end": "unset",
-            "min_height": "large",
-            "video": "shopify://files/videos/¡Nuestro best seller!   El Lipgloss Light Up no solo hidrata, sino que también te da un acabado luminoso y jugoso. Además, ¡lleva luz LED y espejo integrado! Perfecto para retoques rápidos donde sea que estés.¡Cons.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "social_media_desc_QpK4WU",
-        "social_media_image_FtnbLH",
-        "social_media_image_Y7wHWb",
-        "social_media_image_3PzWWE"
-      ],
-      "settings": {
-        "columns": 6,
-        "margin_top": "xs",
-        "margin_bottom": "xs"
-      }
-    },
     "collapsible_content_TWcJm4": {
       "type": "collapsible-content",
       "blocks": {
@@ -830,7 +761,6 @@
     "product_markers_9jVGbR",
     "newsletter_pPKEQ7",
     "multicolumn_qN8QRt",
-    "social_media_collage_t8a9RF",
     "collapsible_content_TWcJm4"
   ]
 }
