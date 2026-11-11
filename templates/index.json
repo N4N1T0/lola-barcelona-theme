@@ -105,12 +105,23 @@
             "row_start": "unset",
             "row_end": "unset"
           }
+        },
+        "categories_pNDeUe": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
         }
       },
       "block_order": [
         "categories_mGjhEt",
         "categories_AaKw7x",
-        "categories_nxp8AV"
+        "categories_nxp8AV",
+        "categories_pNDeUe"
       ],
       "custom_css": [
         ".collection-card__desc {background: #00000040; padding: 10px 20px; display: none;}",
@@ -134,12 +145,12 @@
         "collection": "top-ventas",
         "product_list": [
           "aceite-labial-reparador",
-          "lip-glow-balsamo-labial",
           "lipgloss-light-up",
-          "ridge-filler-cotton"
+          "hyaluronic-lipstick",
+          "volupte-gloss"
         ],
-        "heading": "Best-sellers",
-        "description": "<p>Vegano / Made in Barcelona</p>",
+        "heading": "Best-Sellers",
+        "description": "",
         "autoplay": true,
         "stop_autoplay": true,
         "show_arrows": true,
@@ -149,9 +160,9 @@
         "button_link": "shopify://collections/top-ventas",
         "button_style": "primary",
         "button_arrow": true,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "image_fit": "cover",
-        "show_collection_name": true,
+        "show_collection_name": false,
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": false,
@@ -591,6 +602,7 @@
         "marker_hiLtUc",
         "marker_xQPjXn"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/tratamiento_unas.png",
         "overlay_opacity": 30,
