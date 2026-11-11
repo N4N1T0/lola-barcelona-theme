@@ -157,7 +157,7 @@
         "show_arrows": true,
         "slideshow_speed": 1.1,
         "slideshow_delay": 3,
-        "button_label": "VER TODO",
+        "button_label": "",
         "button_link": "https://www.lola-barcelona.com/collections/all",
         "button_style": "primary",
         "button_arrow": true,
