@@ -108,6 +108,7 @@
         },
         "categories_pNDeUe": {
           "type": "categories",
+          "disabled": true,
           "settings": {
             "collection": "",
             "column_start": 3,
@@ -156,8 +157,8 @@
         "show_arrows": true,
         "slideshow_speed": 1.1,
         "slideshow_delay": 3,
-        "button_label": "Comprar todo",
-        "button_link": "shopify://collections/top-ventas",
+        "button_label": "VER TODO",
+        "button_link": "https://www.lola-barcelona.com/collections/all",
         "button_style": "primary",
         "button_arrow": true,
         "image_ratio": "square",
