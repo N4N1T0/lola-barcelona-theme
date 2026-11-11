@@ -633,15 +633,15 @@
         "position": "center",
         "icon_item": "none",
         "icon_size": "medium",
-        "heading": "Un 10% para tu primer pedido!",
+        "heading": "Un 10% para tu primer pedido",
         "text": "<p>Suscríbete a nuestra newsletter.</p>",
         "newsletter_text": "<p>Al suscribirte, aceptas recibir nuestras novedades y ofertas. Consulta nuestra <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">política de privacidad</a>.</p>",
         "button_style": "primary",
         "button_arrow": true,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
-        "padding_top": "s",
-        "padding_bottom": "s"
+        "padding_top": "m",
+        "padding_bottom": "m"
       }
     },
     "multicolumn_qN8QRt": {
