@@ -750,8 +750,8 @@
       ],
       "settings": {
         "color_scheme": "",
-        "heading": "FAQ",
-        "description": "<p>Preguntas frecuentes</p>",
+        "heading": "Preguntas Frecuentes",
+        "description": "",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
