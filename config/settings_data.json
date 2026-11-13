@@ -51,6 +51,11 @@
         "disabled": false,
         "settings": {}
       },
+      "5332588544499791172": {
+        "type": "shopify://apps/hoppy-free-shipping/blocks/shipping_bar/66159626-1fb8-4d18-901f-af7b6a63adaa",
+        "disabled": false,
+        "settings": {}
+      },
       "2361305494380943633": {
         "type": "shopify://apps/pop-up-discount-mits/blocks/popup/4af6c0ec-92b5-4580-853d-dc1dc12b9128",
         "disabled": false,
@@ -75,15 +80,10 @@
           "discountCode": "",
           "arrangeItems": "text,\nimage,\nform,\n\nform_email,\nform_gdpr,\nform_submit,",
           "triggerType": "time",
-          "displayWidget": "10000",
-          "scrollDepth": 50,
+          "displayWidget": "5000",
+          "scrollDepth": 30,
           "afterClosing": "after3days"
         }
-      },
-      "5332588544499791172": {
-        "type": "shopify://apps/hoppy-free-shipping/blocks/shipping_bar/66159626-1fb8-4d18-901f-af7b6a63adaa",
-        "disabled": false,
-        "settings": {}
       }
     },
     "color_schemes": {
